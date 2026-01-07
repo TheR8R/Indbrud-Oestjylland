@@ -2,64 +2,33 @@
 
 An interactive map showing break-ins in Østjylland, Denmark, scraped from Østjyllands Politi's daily reports.
 
+🗺️ **[View the map](https://ther8r.github.io/Indbrud-Oestjylland/)**
+
 ## How It Works
 
-### 1. Scraping (`scraper.py`)
+### Scraper (`scraper.py`)
 
-The scraper fetches break-in data from Østjyllands Politi's daily reports (døgnrapporter).
+Fetches break-in data from Østjyllands Politi's daily reports (døgnrapporter).
 
-**Technology:** Python + Playwright (headless Chromium)
+**Technology:** Python, Playwright (headless Chromium), LocationIQ/Nominatim
 
 **Flow:**
-1. **Fetch listing page** - Navigates to `politi.dk/doegnrapporter` using Playwright (needed because the site uses Angular/JavaScript)
-2. **Extract report links** - Finds Østjylland report links matching the date pattern `/YYYY/MM/DD`
-3. **Scrape each report** - For each report page:
-   - Extracts the "Indbrud" (break-in) section
-   - Parses individual entries starting with "På" (address)
-   - Handles many inconsistent date/time formats from the police reports
-   - Correctly handles year boundaries (December incidents in January reports)
-4. **Geocode addresses** - Converts addresses to lat/lon coordinates using Nominatim (OpenStreetMap)
-   - Uses bounding box to prefer results within Østjylland region
-   - Handles Aarhus suburb variations (Risskov, Åbyhøj, etc.)
-   - Sanitizes malformed addresses
-   - Caches successful results in `geocode_cache.json`
-   - Logs failures to `geocode_failures.json` for manual review
-5. **Merge & save** - Merges new data with existing `docs/data.json`, avoiding duplicates
+1. Navigates to `politi.dk/doegnrapporter` using Playwright
+2. Extracts Østjylland report links
+3. Parses the "Indbrud" (break-in) section from each report
+4. Geocodes addresses to coordinates using LocationIQ (or Nominatim as fallback)
+5. Merges new data with existing `docs/data.json`
 
-**Output structure:**
-```json
-{
-  "2025-12-27": {
-    "Østjyllands Politi": {
-      "Aarhus N": [
-        {
-          "address": "Katrinebjergvej",
-          "time": "23/12 12.00 - 26/12 08.00",
-          "lat": 56.1234,
-          "lon": 10.5678,
-          "source_url": "https://politi.dk/..."
-        }
-      ]
-    }
-  }
-}
-```
+### Frontend (`docs/`)
 
-### 2. Frontend (`docs/index.html`)
+Static site hosted on GitHub Pages.
 
-A static page that displays break-ins on an interactive map.
-
-**Technology:** Vanilla JS + Leaflet + OpenStreetMap
+**Technology:** Vanilla JS, Leaflet, OpenStreetMap
 
 **Features:**
-- Marker clustering for overlapping pins
+- Interactive map with marker clustering
+- Date range slider to filter by time period
 - Popups with address, city, date, and time
-- Stats panel showing total count and date range
-- Instant loading (coordinates pre-geocoded by scraper)
-
-### 3. Automation (GitHub Actions)
-
-*Coming soon* - Daily scheduled scraping via GitHub Actions.
 
 ## Usage
 
@@ -76,14 +45,12 @@ playwright install chromium --with-deps
 # Default: 30 reports, 3 pages
 python scraper.py
 
-# Quick daily update
+# Quick update (latest reports only)
 python scraper.py -l 5 -p 1
 
-# Backfill more history
-python scraper.py -l 100 -p 11
-
-# Custom output file
-python scraper.py -o backfill.json
+# With LocationIQ geocoding
+export LOCATIONIQ_API_KEY=your_key_here
+python scraper.py
 
 # Debug mode (visible browser)
 python scraper.py --no-headless
@@ -105,23 +72,27 @@ python -m http.server 8000
 ```
 indbrud/
 ├── scraper.py              # Main scraper script
-├── geocode_cache.json      # Cached geocoding results (gitignored)
-├── geocode_failures.json   # Failed geocodes for review (gitignored)
+├── geocode_cache.json      # Cached geocoding results
+├── geocode_failures.json   # Failed geocodes for review
 ├── README.md
-└── docs/                   # GitHub Pages root
-    ├── index.html          # Map frontend
-    └── data.json           # Break-in data with coordinates
+├── .github/
+│   └── workflows/
+│       └── scrape.yml      # GitHub Actions (blocked by politi.dk)
+└── docs/                   # GitHub Pages
+    ├── index.html
+    ├── style.css
+    ├── app.js
+    └── data.json
 ```
 
 ## Limitations
 
-- **Østjylland only** - Other police regions don't include break-in details in their reports
-- **Geocoding failures** - Some addresses can't be geocoded due to typos in police reports or missing OpenStreetMap data
-- **Rate limited** - Nominatim allows 1 request/second, so initial geocoding is slow (cached afterward)
-- **Date range** - The police website only shows ~1 month of reports by default
+- **Manual updates only** - politi.dk blocks cloud server IPs (GitHub Actions, etc.), so the scraper must be run locally
+- **Østjylland only** - other police regions don't include break-in details in their reports
+- **Geocoding failures** - some addresses can't be geocoded due to typos or missing OpenStreetMap data
 
 ## Data Sources
 
-- **Police reports:** [politi.dk/doegnrapporter](https://politi.dk/doegnrapporter)
-- **Geocoding:** [Nominatim / OpenStreetMap](https://nominatim.openstreetmap.org/)
-- **Map tiles:** OpenStreetMap
+- [politi.dk/doegnrapporter](https://politi.dk/doegnrapporter) - Police reports
+- [LocationIQ](https://locationiq.com/) / [Nominatim](https://nominatim.openstreetmap.org/) - Geocoding
+- [OpenStreetMap](https://www.openstreetmap.org/) - Map tiles

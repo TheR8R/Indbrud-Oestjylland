@@ -594,5 +594,309 @@
   "Asser Rigs Vej, Randers, Denmark": [
     56.4439555,
     10.0607694
+  ],
+  "Glænøvænget, Tilst, Denmark": [
+    56.180314,
+    10.1058007
+  ],
+  "Cort Adelers Gade, Aarhus N, Denmark": [
+    56.1733396,
+    10.2195926
+  ],
+  "Katrinebjergvej, Aarhus N, Denmark": [
+    56.1734961,
+    10.1900259
+  ],
+  "Møllevangen, Risskov, Denmark": [
+    56.1928527,
+    10.2080462
+  ],
+  "Thorshavnsgade, Aarhus N, Denmark": [
+    56.1764141,
+    10.1835342
+  ],
+  "Klosterport, Aarhus C, Denmark": [
+    56.159352,
+    10.206359
+  ],
+  "Dr. Margrethes Vej, Randers SØ, Denmark": [
+    56.173611,
+    10.221341
+  ],
+  "Mejlgade, Aarhus C, Denmark": [
+    56.15813,
+    10.212357
+  ],
+  "Vesterbrogade, Aarhus C, Denmark": [
+    56.158287,
+    10.197196
+  ],
+  "Høegh-Guldbergs Gade, Aarhus C, Denmark": [
+    56.163626,
+    10.20575
+  ],
+  "Vandværksvej, Randers SØ, Denmark": [
+    56.4499156,
+    10.0408415
+  ],
+  "Bispeparken, Åbyhøj, Denmark": [
+    54.930092,
+    9.830136
+  ],
+  "Gammel Munkegade, Aarhus C, Denmark": [
+    56.159153,
+    10.204006
+  ],
+  "Kanehaven, Risskov, Denmark": [
+    56.206656,
+    10.216986
+  ],
+  "Fjældevænget, Aarhus C, Denmark": [
+    56.1783015,
+    10.1647186
+  ],
+  "Langelandsgade, Aarhus C, Denmark": [
+    56.16033,
+    10.197753
+  ],
+  "Frydenlunds Allé, Aarhus V, Denmark": [
+    56.1659137,
+    10.1747769
+  ],
+  "Havagervej, Egå, Denmark": [
+    56.23229,
+    10.32198
+  ],
+  "Sydtoften, Viby, Denmark": [
+    56.109612,
+    10.148181
+  ],
+  "Grestenvej, Langå, Denmark": [
+    56.392514,
+    9.900112
+  ],
+  "Fjældevænget, Aarhus V, Denmark": [
+    56.1783015,
+    10.1647186
+  ],
+  "Skovlund, Randers SV, Denmark": [
+    56.34544,
+    10.458798
+  ],
+  "Holmegårdsvej, Højbjerg, Denmark": [
+    56.119785,
+    10.161778
+  ],
+  "Vejlby Vænge, Risskov, Denmark": [
+    56.201397,
+    10.215403
+  ],
+  "Kirkedammen, Aarhus C, Denmark": [
+    56.1402261,
+    10.1780081
+  ],
+  "Doris Kæraas Gade, Aarhus C, Denmark": [
+    56.1965015,
+    10.2045406
+  ],
+  "Violvej, 8920 Randers NV, Denmark": [
+    56.19551,
+    10.243874
+  ],
+  "Bronzealdervej, 8210 Aarhus V, Denmark": [
+    56.1723684,
+    10.1371089
+  ],
+  "Dr. Larsens Vej, 8370 Hadsten, Denmark": [
+    56.330169,
+    10.046328
+  ],
+  "Bymosevej, 8210 Aarhus V, Denmark": [
+    56.172462,
+    10.1516468
+  ],
+  "Panvej, 8960 Randers SØ, Denmark": [
+    56.427579,
+    10.071015
+  ],
+  "Paderup Mosevej, Randers SØ, Denmark": [
+    56.4265306,
+    10.0763672
+  ],
+  "Eggebæksvej, Højbjerg, Denmark": [
+    56.11116,
+    10.2099
+  ],
+  "Finsensgade, Aarhus N, Denmark": [
+    56.1726663,
+    10.2075896
+  ],
+  "Havrebakken, Aarhus N, Denmark": [
+    56.1822625,
+    10.203567
+  ],
+  "Skytten, Randers NV, Denmark": [
+    56.484515,
+    9.998344
+  ],
+  "Kildehøjen, Risskov, Denmark": [
+    56.198499,
+    10.218452
+  ],
+  "Egebæksvej, Højbjerg, Denmark": [
+    56.120179,
+    10.1989161
+  ],
+  "Jægergårdsgade, Aarhus C, Denmark": [
+    56.148222,
+    10.200523
+  ],
+  "Ølstvadbrovej, Randers SV, Denmark": [
+    56.387397,
+    10.087581
+  ],
+  "Skejbytoften, Aarhus N, Denmark": [
+    56.2002107,
+    10.191363
+  ],
+  "Brendstrupvej, Aarhus N, Denmark": [
+    56.1779894,
+    10.1835879
+  ],
+  "Knud Rasmussens Vej, Aarhus N, Denmark": [
+    56.1756798,
+    10.2139793
+  ],
+  "Store Torv, Aarhus C, Denmark": [
+    56.157059,
+    10.208925
+  ],
+  "Bülowsgade, Aarhus C, Denmark": [
+    56.145637,
+    10.201201
+  ],
+  "Studsgade, Aarhus C, Denmark": [
+    56.159966,
+    10.212002
+  ],
+  "Tordenskjoldsgade, Aarhus N, Denmark": [
+    56.1718042,
+    10.2163472
+  ],
+  "Godhavnsvej, Aarhus N, Denmark": [
+    56.1831533,
+    10.2146298
+  ],
+  "Ledavej, Randers SØ, Denmark": [
+    56.4268808,
+    10.0690441
+  ],
+  "Jernaldervej, Aarhus V, Denmark": [
+    56.1696336,
+    10.1531401
+  ],
+  "Runehøjen, Aarhus V, Denmark": [
+    56.1747638,
+    10.1353958
+  ],
+  "Ridderlundvej, Kolind, Denmark": [
+    56.3503,
+    10.674614
+  ],
+  "Markedsgade, Randers C, Denmark": [
+    56.464397,
+    10.037367
+  ],
+  "Havhusevej, Allingåbro, Denmark": [
+    56.286,
+    10.378477
+  ],
+  "Panvej, Randers SØ, Denmark": [
+    56.4282616,
+    10.07104
+  ],
+  "Atlasvej, Højbjerg, Denmark": [
+    56.128531,
+    10.190239
+  ],
+  "Bojesvej, Randers SV, Denmark": [
+    56.450266,
+    10.031308
+  ],
+  "Holmstruphøjvej, Aarhus V, Denmark": [
+    56.17767,
+    10.1298078
+  ],
+  "Sadelmagervej, Randers NV, Denmark": [
+    56.476482,
+    10.001148
+  ],
+  "Saralystvej, Højbjerg, Denmark": [
+    56.1231336,
+    10.1955842
+  ],
+  "Holmegårdsvej, Randers SØ, Denmark": [
+    56.119785,
+    10.161778
+  ],
+  "Søskrænten, Viby J, Denmark": [
+    56.13437,
+    10.128202
+  ],
+  "Parosvej, Hjortshøj, Denmark": [
+    56.291012,
+    10.213032
+  ],
+  "Bødker Balles Gård, Aarhus C, Denmark": [
+    56.155361,
+    10.204256
+  ],
+  "Søren Møllers Gade, Randers C, Denmark": [
+    56.462249,
+    10.029892
+  ],
+  "Hjortevej, Hinnerup, Denmark": [
+    56.234107,
+    10.094797
+  ],
+  "Tornhøjvej, Viby J, Denmark": [
+    56.135743,
+    10.122493
+  ],
+  "Rosendalvej, Viby J, Denmark": [
+    56.134036,
+    10.1227
+  ],
+  "Højriisgårdsvej, Brabrand, Denmark": [
+    56.15306,
+    10.10571
+  ],
+  "Søkjærvej, Viby J, Denmark": [
+    56.136266,
+    10.114895
+  ],
+  "Søndermarken, Hinnerup, Denmark": [
+    56.235397,
+    10.082968
+  ],
+  "Nodrevej, Sabro, Denmark": [
+    56.212445,
+    10.033533
+  ],
+  "Rugbjergvej, Viby J, Denmark": [
+    56.131913,
+    10.124209
+  ],
+  "Brombærvej, Randers NV, Denmark": [
+    56.306117,
+    10.40682
+  ],
+  "Thit Jensens Gade, Aarhus C, Denmark": [
+    56.165065,
+    10.22677
+  ],
+  "Asser Rigs Vej, Randers SØ, Denmark": [
+    56.4445881,
+    10.0618907
   ]
 }
