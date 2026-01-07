@@ -5,7 +5,9 @@
         {
           "address": "Glænøvænget",
           "time": "5/1 16.00 - 6/1 16.40",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-januar-2026/2026/01/07"
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-januar-2026/2026/01/07",
+          "lat": 56.180314,
+          "lon": 10.1058007
         }
       ]
     }
@@ -103,8 +105,8 @@
           "address": "Skeltoften",
           "time": "31/12 15.00 - 1/1 15.40",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-2-januar-2026/2026/01/02",
-          "lat": 56.0577593,
-          "lon": 10.2105757
+          "lat": 56.0577134,
+          "lon": 10.2105809
         }
       ],
       "Tilst": [
@@ -112,8 +114,8 @@
           "address": "Østermarksvej",
           "time": "31/12 17.45 - 01/01 01.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/uddrag-af-doegnrapport/2026/01/01",
-          "lat": 56.1895106,
-          "lon": 10.1232564
+          "lat": 56.1929862,
+          "lon": 10.1209496
         }
       ],
       "Brabrand": [
@@ -168,8 +170,8 @@
           "address": "Vandværksvej",
           "time": "04.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-december-2025/2025/12/31",
-          "lat": 56.4376271,
-          "lon": 10.1435396
+          "lat": 56.4380741,
+          "lon": 10.1436114
         }
       ]
     }
@@ -221,8 +223,8 @@
           "address": "Beder Landevej",
           "time": "04.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-30-december-2025/2025/12/30",
-          "lat": 56.0576495,
-          "lon": 10.2030622
+          "lat": 56.0575571,
+          "lon": 10.2029976
         }
       ],
       "Grenaa": [
@@ -259,8 +261,8 @@
           "address": "Langelandsgade",
           "time": "26/12 17.00 - 28/12 20.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegn29122025/2025/12/29",
-          "lat": 56.1729047,
-          "lon": 10.2007565
+          "lat": 56.1675985,
+          "lon": 10.1978162
         }
       ],
       "Hadsten": [
@@ -396,13 +398,6 @@
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-december-2025/2025/12/27",
           "lat": 56.155973,
           "lon": 10.202288
-        },
-        {
-          "address": "Åboulevarden 96",
-          "time": "21/12 20.00 - 26/12 20.30",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-december-2025/2025/12/27",
-          "lat": 56.155973,
-          "lon": 10.202288
         }
       ],
       "Langå": [
@@ -417,8 +412,8 @@
           "address": "Strandhusvej",
           "time": "13.00 - 18.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-december-2025/2025/12/27",
-          "lat": 56.2052127,
-          "lon": 10.2802831
+          "lat": 56.2051767,
+          "lon": 10.2801985
         }
       ],
       "Højbjerg": [
@@ -426,8 +421,8 @@
           "address": "Katterhøjvej",
           "time": "15.19",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-december-2025/2025/12/27",
-          "lat": 56.1032519,
-          "lon": 10.2139093
+          "lat": 56.1030647,
+          "lon": 10.2140151
         },
         {
           "address": "Holmegårdsvej",
@@ -465,8 +460,8 @@
           "address": "Skovlund",
           "time": "16.40",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-december-2025/2025/12/27",
-          "lat": 56.4491673,
-          "lon": 10.0198013
+          "lat": 56.4493115,
+          "lon": 10.0197407
         }
       ],
       "Ebeltoft": [
@@ -496,8 +491,8 @@
           "address": "Holstebrovej",
           "time": "14/12 12.00 - 25/12 12.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-december-2025/2025/12/31",
-          "lat": 56.4426347,
-          "lon": 10.0471538
+          "lat": 56.4426819,
+          "lon": 10.0474603
         }
       ],
       "8920 Randers NV": [
@@ -505,8 +500,8 @@
           "address": "Violvej",
           "time": "24/12 17.00 - 25/12 00.15",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-december/2025/12/26",
-          "lat": 56.473209,
-          "lon": 10.0324304
+          "lat": 56.4732068,
+          "lon": 10.0324717
         }
       ],
       "8355 Solbjerg": [
@@ -514,8 +509,8 @@
           "address": "Møddebro Parkvej",
           "time": "11.12",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-december/2025/12/26",
-          "lat": 56.0429666,
-          "lon": 10.1010771
+          "lat": 56.0432782,
+          "lon": 10.1012393
         }
       ],
       "8370 Hadsten": [
@@ -557,21 +552,14 @@
           "address": "Beder Landevej",
           "time": "20/12 13.00 - 25/12 19.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-december/2025/12/26",
-          "lat": 56.0576495,
-          "lon": 10.2030622
+          "lat": 56.0575571,
+          "lon": 10.2029976
         }
       ],
       "8210 Aarhus V": [
         {
           "address": "Bymosevej",
           "time": "10.30 - 20.20",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-december/2025/12/26",
-          "lat": 56.1728856,
-          "lon": 10.1503995
-        },
-        {
-          "address": "Bymosevej",
-          "time": "22.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-december/2025/12/26",
           "lat": 56.1728856,
           "lon": 10.1503995
@@ -757,8 +745,8 @@
           "address": "Skejbytoften",
           "time": "02.13",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport22122025/2025/12/22",
-          "lat": 56.1990354,
-          "lon": 10.190624
+          "lat": 56.1979347,
+          "lon": 10.1917032
         }
       ]
     }
@@ -792,8 +780,8 @@
           "address": "Solbærhaven",
           "time": "14/12 15.00 - 20/12 14.15",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-21-december-2025/2025/12/21",
-          "lat": 56.242114,
-          "lon": 10.2404404
+          "lat": 56.2416741,
+          "lon": 10.2415555
         },
         {
           "address": "Birkehaven",
@@ -1170,8 +1158,8 @@
           "address": "Søskrænten",
           "time": "10.00 - 20.15",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-d-13-december-2025/2025/12/13",
-          "lat": 56.1338572,
-          "lon": 10.1285105
+          "lat": 56.1344501,
+          "lon": 10.1255348
         },
         {
           "address": "Niels Bohrs Vej",
@@ -1190,8 +1178,8 @@
           "address": "Helenelyst",
           "time": "10/12 08.00 - 11/12 08.00",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport12122025/2025/12/12",
-          "lat": 56.1616548,
-          "lon": 10.097358
+          "lat": 56.1578157,
+          "lon": 10.0886343
         },
         {
           "address": "Porskær",
@@ -1215,8 +1203,8 @@
           "address": "Jegstrupvænget",
           "time": "08.40 - 17.35",
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport12122025/2025/12/12",
-          "lat": 56.0885567,
-          "lon": 10.1247608
+          "lat": 56.0895576,
+          "lon": 10.1259411
         }
       ],
       "Hasselager": [
@@ -1420,13 +1408,6 @@
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport09122025/2025/12/09",
           "lat": 56.1458142,
           "lon": 10.2022541
-        },
-        {
-          "address": "Bülowsgade",
-          "time": "4/12 17.00 - 8/12 20.00",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport09122025/2025/12/09",
-          "lat": 56.1458142,
-          "lon": 10.2022541
         }
       ],
       "Viby J": [
@@ -1524,13 +1505,6 @@
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-december-2025/2025/12/08",
           "lat": 56.1347744,
           "lon": 10.1818365
-        },
-        {
-          "address": "Skovdalsvej",
-          "time": "6/12 07.00 - 7/12 21.00",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-december-2025/2025/12/08",
-          "lat": 56.1347744,
-          "lon": 10.1818365
         }
       ],
       "Randers NV": [
@@ -1549,6 +1523,13 @@
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-december-2025/2025/12/08",
           "lat": 56.1644101,
           "lon": 10.2278358
+        },
+        {
+          "address": "Kystvejen",
+          "time": "00.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-december-2025/2025/12/07",
+          "lat": 56.1591232,
+          "lon": 10.2137791
         }
       ],
       "Randers SØ": [
@@ -1558,6 +1539,809 @@
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-december-2025/2025/12/08",
           "lat": 56.4439555,
           "lon": 10.0607694
+        }
+      ],
+      "Aarhus V": [
+        {
+          "address": "Trillegårdsvej",
+          "time": "01.18",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-december-2025/2025/12/07",
+          "lat": 56.1780035,
+          "lon": 10.1712642
+        }
+      ]
+    }
+  },
+  "2025-12-06": {
+    "Østjyllands Politi": {
+      "Hasselager": [
+        {
+          "address": "Kildeagervej",
+          "time": "18.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-december-2025/2025/12/07",
+          "lat": 56.1143094,
+          "lon": 10.091132
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Nyborggade",
+          "time": "02.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-december-2025/2025/12/07",
+          "lat": 56.1443693,
+          "lon": 10.2049423
+        },
+        {
+          "address": "Frederiks Allé",
+          "time": "05/12 18.00 - 06/12 14.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-december-2025/2025/12/07",
+          "lat": 56.1502068,
+          "lon": 10.1990224
+        }
+      ],
+      "Randers C": [
+        {
+          "address": "Kirkegade",
+          "time": "22.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-december-2025/2025/12/07",
+          "lat": 56.4595945,
+          "lon": 10.0349985
+        }
+      ]
+    }
+  },
+  "2025-12-04": {
+    "Østjyllands Politi": {
+      "Aarhus C": [
+        {
+          "address": "Søndre Ringgade",
+          "time": "07.45 - 13.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-december-2025/2025/12/05",
+          "lat": 56.141907,
+          "lon": 10.1927624
+        }
+      ],
+      "Brabrand": [
+        {
+          "address": "Porskær",
+          "time": "17.32",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-december-2025/2025/12/05",
+          "lat": 56.1608506,
+          "lon": 10.0888995
+        }
+      ],
+      "Hasselager": [
+        {
+          "address": "Skovhøj",
+          "time": "18.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-december-2025/2025/12/05",
+          "lat": 56.1133494,
+          "lon": 10.0987312
+        },
+        {
+          "address": "Kildeagervej",
+          "time": "19.05",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-december-2025/2025/12/05",
+          "lat": 56.1143094,
+          "lon": 10.091132
+        }
+      ],
+      "Grenaa": [
+        {
+          "address": "Åstrupparken",
+          "time": "2/12 10.00 - 4/12 20.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-december-2025/2025/12/05",
+          "lat": 56.4232643,
+          "lon": 10.8818071
+        }
+      ],
+      "Trige": [
+        {
+          "address": "Trige Møllevej",
+          "time": "16.50 - 21.10",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-december-2025/2025/12/05",
+          "lat": 56.2498082,
+          "lon": 10.1320897
+        }
+      ]
+    }
+  },
+  "2025-12-03": {
+    "Østjyllands Politi": {
+      "Tilst": [
+        {
+          "address": "Halmøvænget",
+          "time": "12.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-december-2025/2025/12/07",
+          "lat": 56.178167,
+          "lon": 10.105819
+        }
+      ],
+      "Ryomgård": [
+        {
+          "address": "Esmarcksvej",
+          "time": "2/12 14.00 - 3/12 18.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-december-2025/2025/12/05",
+          "lat": 56.3898672,
+          "lon": 10.5091899
+        }
+      ],
+      "Hadsten": [
+        {
+          "address": "Kløvermarksvej",
+          "time": "29/11 08.00 - 3/12 10.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 56.33334,
+          "lon": 10.0379158
+        }
+      ],
+      "Ukendt": [
+        {
+          "address": "Frederiks Allé",
+          "time": "09.15 - 10.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04"
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Svendgårdsvej",
+          "time": "28/11 10.00 - 3/12 15.25",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 56.0582266,
+          "lon": 10.2136188
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Hans Egedes Vej",
+          "time": "14.30 - 14.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 56.1798212,
+          "lon": 10.2122627
+        }
+      ],
+      "Lystrup": [
+        {
+          "address": "Sønderskovvej",
+          "time": "11.30 - 16.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 56.24159,
+          "lon": 10.2345749
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Ole Rømers Gade",
+          "time": "07.00 - 14.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 56.147095,
+          "lon": 10.201029
+        },
+        {
+          "address": "Ny Munkegade",
+          "time": "29/11 08.30 - 3/12 19.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 56.1638778,
+          "lon": 10.2013858
+        }
+      ],
+      "Randers SØ": [
+        {
+          "address": "Herosvej",
+          "time": "15.30 - 20.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 56.4285598,
+          "lon": 10.0738226
+        }
+      ],
+      "Grenaa": [
+        {
+          "address": "Åstruphaven",
+          "time": "19.00 - 20.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 56.4229216,
+          "lon": 10.884771
+        }
+      ],
+      "Odder": [
+        {
+          "address": "Gersdorffsgade",
+          "time": "12.45 - 20.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport04122025/2025/12/04",
+          "lat": 55.9702737,
+          "lon": 10.1474551
+        }
+      ]
+    }
+  },
+  "2025-12-02": {
+    "Østjyllands Politi": {
+      "Aarhus C": [
+        {
+          "address": "Thunøgade",
+          "time": "07.45 - 13.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport03122025/2025/12/03",
+          "lat": 56.1613667,
+          "lon": 10.2056783
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Kasted Tværvej",
+          "time": "08.00 - 15.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport03122025/2025/12/03",
+          "lat": 56.2068489,
+          "lon": 10.1291195
+        }
+      ],
+      "Randers SØ": [
+        {
+          "address": "Venusvej",
+          "time": "06.10 - 16.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport03122025/2025/12/03",
+          "lat": 56.4234713,
+          "lon": 10.0679653
+        }
+      ],
+      "Ryomgård": [
+        {
+          "address": "Esmarcksvej",
+          "time": "19.00 - 20.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport03122025/2025/12/03",
+          "lat": 56.3898672,
+          "lon": 10.5091899
+        }
+      ]
+    }
+  },
+  "2025-12-01": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Kridthøjvej",
+          "time": "28/11 12.00 - 1/12 11.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport02122025/2025/12/02",
+          "lat": 56.1175513,
+          "lon": 10.1932249
+        },
+        {
+          "address": "Moesgårdvej",
+          "time": "31/10 21.00 - 1/12 12.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport02122025/2025/12/02",
+          "lat": 56.1032048,
+          "lon": 10.2094921
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Høegh-Guldbergs Gade",
+          "time": "12.08",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport02122025/2025/12/02",
+          "lat": 56.1633436,
+          "lon": 10.208053
+        },
+        {
+          "address": "Mejlgade",
+          "time": "08.00 - 09.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport02122025/2025/12/02",
+          "lat": 56.1616031,
+          "lon": 10.2143662
+        }
+      ]
+    }
+  },
+  "2025-11-30": {
+    "Østjyllands Politi": {
+      "Gjerlev J": [
+        {
+          "address": "Hammervænget",
+          "time": "03.00 - 10.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-december-2025/2025/12/01",
+          "lat": 56.0975719,
+          "lon": 10.13634
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Mårupvej",
+          "time": "29/11 10.00 - 30/11 14.10",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-december-2025/2025/12/01",
+          "lat": 56.1989975,
+          "lon": 10.2314109
+        },
+        {
+          "address": "Sveavej",
+          "time": "28/11 14.00 - 30/11 16.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-december-2025/2025/12/01",
+          "lat": 56.1996138,
+          "lon": 10.2292282
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Vilhelmsborgvænget",
+          "time": "28/11 09.00 - 30/11 15.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-december-2025/2025/12/01",
+          "lat": 56.0611316,
+          "lon": 10.2020785
+        }
+      ],
+      "Hammel": [
+        {
+          "address": "Minervavej",
+          "time": "27/11 13.00 - 30/11 16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-december-2025/2025/12/01",
+          "lat": 56.2631913,
+          "lon": 9.8685204
+        }
+      ],
+      "Hornslet": [
+        {
+          "address": "Ahornvej",
+          "time": "13.00 - 22.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-december-2025/2025/12/01",
+          "lat": 56.30937,
+          "lon": 10.3159573
+        },
+        {
+          "address": "Egevej",
+          "time": "15.30 - 22.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-december-2025/2025/12/01",
+          "lat": 56.3184388,
+          "lon": 10.3199079
+        }
+      ]
+    }
+  },
+  "2025-11-29": {
+    "Østjyllands Politi": {
+      "Randers SØ": [
+        {
+          "address": "Holmegårdsvej",
+          "time": "28/11 15.00 - 29/11 16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-december-2025/2025/12/01",
+          "lat": 56.1163895,
+          "lon": 10.1665134
+        },
+        {
+          "address": "Drost Peders Vej",
+          "time": "28/11 15.00 - 29/11 17.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrappolrt-fra-oestjyllands-politi/2025/11/30",
+          "lat": 56.4430334,
+          "lon": 10.0614351
+        }
+      ],
+      "Randers SV": [
+        {
+          "address": "Aalborggade",
+          "time": "21.11",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrappolrt-fra-oestjyllands-politi/2025/11/30",
+          "lat": 56.4453512,
+          "lon": 10.0428128
+        }
+      ],
+      "Stavtrup": [
+        {
+          "address": "Råhøjen",
+          "time": "17.00 - 21.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrappolrt-fra-oestjyllands-politi/2025/11/30",
+          "lat": 56.1322501,
+          "lon": 10.1092054
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Stavtrupvej",
+          "time": "17.00 - 20.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrappolrt-fra-oestjyllands-politi/2025/11/30",
+          "lat": 56.1276374,
+          "lon": 10.1184733
+        }
+      ],
+      "Ukendt": [
+        {
+          "address": "Egå Strandvej",
+          "time": "02.39",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-november-2025/2025/11/29"
+        }
+      ]
+    }
+  },
+  "2025-11-28": {
+    "Østjyllands Politi": {
+      "Aarhus": [
+        {
+          "address": "Søndre Ringgade",
+          "time": "10.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-november-2025/2025/11/29",
+          "lat": 56.141907,
+          "lon": 10.1927624
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Castenschioldsvej",
+          "time": "26/11 07.00 - 28/11 20.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-november-2025/2025/11/29",
+          "lat": 56.1119989,
+          "lon": 10.2075863
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "L.P. Bechs Vej",
+          "time": "21/11 04.00 - 28/11 22.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-november-2025/2025/11/29",
+          "lat": 56.1944358,
+          "lon": 10.2513339
+        },
+        {
+          "address": "Klintevej",
+          "time": "21.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-november-2025/2025/11/29",
+          "lat": 56.1988977,
+          "lon": 10.2500982
+        }
+      ]
+    }
+  },
+  "2025-11-27": {
+    "Østjyllands Politi": {
+      "Randers C": [
+        {
+          "address": "Nattergalvej",
+          "time": "09.48",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-28-november-2025/2025/11/28",
+          "lat": 56.4692696,
+          "lon": 10.0397365
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Elsdyrvej",
+          "time": "08.30 - 14.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-28-november-2025/2025/11/28",
+          "lat": 56.1073025,
+          "lon": 10.2190034
+        },
+        {
+          "address": "Elmehøjvej",
+          "time": "08.15 - 16.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-28-november-2025/2025/11/28",
+          "lat": 56.1021802,
+          "lon": 10.2220704
+        },
+        {
+          "address": "Kvædevej",
+          "time": "08.00 - 21.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-28-november-2025/2025/11/28",
+          "lat": 56.11726,
+          "lon": 10.1867854
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Tokkerbakken",
+          "time": "25/11 11.30 - 27/11 17.25",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-28-november-2025/2025/11/28",
+          "lat": 56.2043594,
+          "lon": 10.2143993
+        }
+      ],
+      "Tilst": [
+        {
+          "address": "Halmøvænget",
+          "time": "14.00 - 19.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-28-november-2025/2025/11/28",
+          "lat": 56.178167,
+          "lon": 10.105819
+        }
+      ],
+      "Hammel": [
+        {
+          "address": "Klintevej",
+          "time": "17.30 - 21.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-28-november-2025/2025/11/28",
+          "lat": 56.2623193,
+          "lon": 9.8611961
+        }
+      ]
+    }
+  },
+  "2025-11-26": {
+    "Østjyllands Politi": {
+      "Harlev J": [
+        {
+          "address": "Kridthøjen",
+          "time": "06.26",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-november-2025/2025/11/27",
+          "lat": 56.1359422,
+          "lon": 9.9922758
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Knudrisgade",
+          "time": "09.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-november-2025/2025/11/27",
+          "lat": 56.1628813,
+          "lon": 10.2133732
+        }
+      ],
+      "Tilst": [
+        {
+          "address": "Orøvænget",
+          "time": "25/11 15.00 - 26/11 11.43",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-november-2025/2025/11/27",
+          "lat": 56.1770604,
+          "lon": 10.1172183
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Niels Juels Gade",
+          "time": "06.45 - 14.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-november-2025/2025/11/27",
+          "lat": 56.1702058,
+          "lon": 10.2148342
+        }
+      ],
+      "Randers NØ": [
+        {
+          "address": "Solsikkevej",
+          "time": "06.00 - 19.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-november-2025/2025/11/27",
+          "lat": 56.4739392,
+          "lon": 10.0321212
+        }
+      ],
+      "Randers C": [
+        {
+          "address": "Mølleparken",
+          "time": "20.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-november-2025/2025/11/27",
+          "lat": 56.4671352,
+          "lon": 10.0410733
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "L.P. Bechs Vej",
+          "time": "23.58",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-27-november-2025/2025/11/27",
+          "lat": 56.1944358,
+          "lon": 10.2513339
+        }
+      ]
+    }
+  },
+  "2025-11-25": {
+    "Østjyllands Politi": {
+      "Egå": [
+        {
+          "address": "Åskrænten",
+          "time": "23/11 19.40 - 25/11 10.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-november-2025/2025/11/26",
+          "lat": 56.2032215,
+          "lon": 10.2651726
+        }
+      ],
+      "Kolind": [
+        {
+          "address": "Astrupvej",
+          "time": "24/11 23.00 - 25/11 07.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-november-2025/2025/11/26",
+          "lat": 56.4728884,
+          "lon": 10.0750551
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Østboulevarden",
+          "time": "10.00 - 12.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-november-2025/2025/11/26",
+          "lat": 56.1641689,
+          "lon": 10.2136058
+        },
+        {
+          "address": "Nørre Allé",
+          "time": "10.45 - 15.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-november-2025/2025/11/26",
+          "lat": 56.1586971,
+          "lon": 10.2005219
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "L.A. Rings Vej",
+          "time": "20.35",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-november-2025/2025/11/26",
+          "lat": 56.1168238,
+          "lon": 10.1979984
+        }
+      ],
+      "Hadsten": [
+        {
+          "address": "Andreas Gadebergsvej",
+          "time": "07.15 - 15.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-november-2025/2025/11/26"
+        }
+      ],
+      "Aarhus V": [
+        {
+          "address": "Holmstrupgårdvej",
+          "time": "24/11 06.45 - 25/11 00.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-november-2025/2025/11/25",
+          "lat": 56.172024,
+          "lon": 10.1178324
+        }
+      ]
+    }
+  },
+  "2025-11-24": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Capellavej",
+          "time": "12.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-november-2025/2025/11/25",
+          "lat": 56.1243658,
+          "lon": 10.1889443
+        }
+      ],
+      "Tilist": [
+        {
+          "address": "Havkærvænget",
+          "time": "20/11 16.30 - 24/11 12.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-november-2025/2025/11/25",
+          "lat": 56.1846588,
+          "lon": 10.120357
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Grøndalsvej",
+          "time": "08.00 - 16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-november-2025/2025/11/25",
+          "lat": 56.1231989,
+          "lon": 10.1475525
+        },
+        {
+          "address": "Rosenvangs Allé",
+          "time": "09.55 - 13.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-november-2025/2025/11/25",
+          "lat": 56.1367255,
+          "lon": 10.1768765
+        }
+      ],
+      "Gjerlev J": [
+        {
+          "address": "Rosengårdsvej",
+          "time": "20/11 13.30 - 24/11 16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-november-2025/2025/11/25",
+          "lat": 56.0190441,
+          "lon": 9.6424709
+        }
+      ],
+      "Randers NV": [
+        {
+          "address": "Herredsfogedvej",
+          "time": "16.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-november-2025/2025/11/25",
+          "lat": 56.4711257,
+          "lon": 10.013591
+        }
+      ],
+      "Åbyhøj": [
+        {
+          "address": "Tjalfesvej",
+          "time": "17.10",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-november-2025/2025/11/25",
+          "lat": 56.1605957,
+          "lon": 10.1654494
+        }
+      ]
+    }
+  },
+  "2025-11-23": {
+    "Østjyllands Politi": {
+      "Aarhus V": [
+        {
+          "address": "Bakkehegnet",
+          "time": "19/11 10.00 - 23/11 08.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.166314,
+          "lon": 10.1708349
+        }
+      ],
+      "Tranbjerg J": [
+        {
+          "address": "Trankjær Mosevej",
+          "time": "05.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24"
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Aage Bergs Vej",
+          "time": "22/11 12.00 - 23/11 10.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.1961331,
+          "lon": 10.2553882
+        }
+      ],
+      "Egå": [
+        {
+          "address": "Johannes Grosens Vej",
+          "time": "21/11 08.30 - 23/11 11.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.2051961,
+          "lon": 10.267003
+        }
+      ],
+      "Hjortshøj": [
+        {
+          "address": "Risvangsvej",
+          "time": "20/11 20.00 - 23/11 13.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.2914983,
+          "lon": 10.1874795
+        }
+      ],
+      "Langå": [
+        {
+          "address": "Bjerregårdsvej",
+          "time": "22/11 17.00 - 23/11 10.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.4347926,
+          "lon": 9.9400495
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Thorhavnsgade",
+          "time": "21/11 17.00 - 23/11 14.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24"
+        }
+      ],
+      "Kolind": [
+        {
+          "address": "Havrebakken",
+          "time": "21/11 13.00 - 23/11 15.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.3596304,
+          "lon": 10.5818097
+        }
+      ],
+      "Trige": [
+        {
+          "address": "Byhøjtoften",
+          "time": "15.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.2572001,
+          "lon": 10.1595387
+        }
+      ]
+    }
+  },
+  "2025-11-22": {
+    "Østjyllands Politi": {
+      "Aarhus V": [
+        {
+          "address": "Haslevangsvej",
+          "time": "15/11 07.00 - 22/11 23.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.1675192,
+          "lon": 10.1716582
+        }
+      ],
+      "Brabrand": [
+        {
+          "address": "Donsvej",
+          "time": "21/11 15.00 - 22/11 18.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2025/2025/11/24",
+          "lat": 56.1523531,
+          "lon": 10.0972934
         }
       ]
     }
@@ -1571,6 +2355,2246 @@
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport12122025/2025/12/12",
           "lat": 56.1555735,
           "lon": 10.2044421
+        }
+      ]
+    }
+  },
+  "2025-11-20": {
+    "Østjyllands Politi": {
+      "Langå": [
+        {
+          "address": "Hammelvej",
+          "time": "06.54",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport2112025/2025/11/21",
+          "lat": 56.4193157,
+          "lon": 10.0207746
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Castenschioldsvej",
+          "time": "16/11 16.00 - 20/11 08.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport2112025/2025/11/21",
+          "lat": 56.1119989,
+          "lon": 10.2075863
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Åvej",
+          "time": "19/11 10.00 - 20/11 10.39",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport2112025/2025/11/21",
+          "lat": 56.2015504,
+          "lon": 10.259413
+        },
+        {
+          "address": "Anemonevej",
+          "time": "16.30 - 19.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport2112025/2025/11/21",
+          "lat": 56.1955748,
+          "lon": 10.2417389
+        },
+        {
+          "address": "Blåmunkevej",
+          "time": "15.30 - 19.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport2112025/2025/11/21",
+          "lat": 56.1966844,
+          "lon": 10.2459668
+        }
+      ],
+      "Åbyhøj": [
+        {
+          "address": "Helgesvej",
+          "time": "16/11 10.00 - 20/11 13.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport2112025/2025/11/21",
+          "lat": 56.1539415,
+          "lon": 10.1713919
+        }
+      ]
+    }
+  },
+  "2025-11-18": {
+    "Østjyllands Politi": {
+      "Egå": [
+        {
+          "address": "Solklintvej",
+          "time": "11.01",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19112025/2025/11/19",
+          "lat": 56.2044566,
+          "lon": 10.2770978
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "L.A. Rings Cej",
+          "time": "17/11 09.00 - 18/11 13.43",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19112025/2025/11/19"
+        },
+        {
+          "address": "Miltonsvej",
+          "time": "23.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19112025/2025/11/19",
+          "lat": 56.1176193,
+          "lon": 10.2027106
+        }
+      ],
+      "Solbjerg": [
+        {
+          "address": "Solbjerg Hovedgade",
+          "time": "07.10 - 17.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19112025/2025/11/19",
+          "lat": 56.0399261,
+          "lon": 10.0831089
+        }
+      ],
+      "Aarhus V": [
+        {
+          "address": "Dalgas Avenue",
+          "time": "15.00 - 17.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19112025/2025/11/19",
+          "lat": 56.1403131,
+          "lon": 10.2051791
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Julius Bechgaards Vej",
+          "time": "18.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19112025/2025/11/19",
+          "lat": 56.1262573,
+          "lon": 10.2106654
+        }
+      ]
+    }
+  },
+  "2025-11-17": {
+    "Østjyllands Politi": {
+      "Aarhus C": [
+        {
+          "address": "Marstrandsgade",
+          "time": "02.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.1548958,
+          "lon": 10.1983842
+        }
+      ],
+      "Randers C": [
+        {
+          "address": "Steen Blichers Gade",
+          "time": "09.00 - 12.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.4625788,
+          "lon": 10.0289121
+        },
+        {
+          "address": "Stemannsgade",
+          "time": "22.21",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.461305,
+          "lon": 10.0417962
+        }
+      ],
+      "Grenaa": [
+        {
+          "address": "Markedsgade",
+          "time": "13.43",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.4166487,
+          "lon": 10.8701738
+        }
+      ],
+      "Brabrand": [
+        {
+          "address": "Silkeborgvej",
+          "time": "09.30 - 14.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.1528842,
+          "lon": 10.1131108
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Skrydstrupvej",
+          "time": "15.00 - 19.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.1846105,
+          "lon": 10.199547
+        }
+      ],
+      "Aarhus V": [
+        {
+          "address": "Provstebakken",
+          "time": "17.39 - 21.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.1628752,
+          "lon": 10.1654248
+        },
+        {
+          "address": "Oktobervej",
+          "time": "22.24",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.1774103,
+          "lon": 10.1513833
+        }
+      ],
+      "Knebel": [
+        {
+          "address": "Energivej",
+          "time": "21.41",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.2177685,
+          "lon": 10.4836811
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Fritz Sybergs Vej",
+          "time": "14.35 - 22.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.122066,
+          "lon": 10.1948132
+        }
+      ]
+    }
+  },
+  "2025-11-16": {
+    "Østjyllands Politi": {
+      "Viby J": [
+        {
+          "address": "H.C. Ørsteds Vej",
+          "time": "10.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18112025/2025/11/18",
+          "lat": 56.1328596,
+          "lon": 10.1788137
+        },
+        {
+          "address": "Espegårdsvej",
+          "time": "30/10 03.00 - 16/11 11.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 56.1355277,
+          "lon": 10.1811921
+        }
+      ],
+      "Thorsø": [
+        {
+          "address": "Ridder Munks Vej",
+          "time": "15/11 07.50 - 16/11 00.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 56.3082211,
+          "lon": 9.7864781
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "P. Heises Vej",
+          "time": "15/11 11.03 - 16/11 11.39",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 56.1322033,
+          "lon": 10.2078296
+        }
+      ],
+      "Randers NØ": [
+        {
+          "address": "Valløvej",
+          "time": "15/11 14.00 - 16/11 12.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 56.471908,
+          "lon": 10.0570155
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Søsterhøjvej",
+          "time": "15/11 09.40 - 16/11 18.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 56.1012759,
+          "lon": 10.2172643
+        }
+      ],
+      "Odder": [
+        {
+          "address": "Røddalsminde",
+          "time": "12/11 15.00 - 16/11 18.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 55.9772499,
+          "lon": 10.1307859
+        },
+        {
+          "address": "Christianslund",
+          "time": "15/11 14.30 - 16/11 19.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 55.9792838,
+          "lon": 10.1452942
+        }
+      ],
+      "Glesborg": [
+        {
+          "address": "Strandparken",
+          "time": "20.08",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 55.8629748,
+          "lon": 9.8884205
+        }
+      ]
+    }
+  },
+  "2025-11-15": {
+    "Østjyllands Politi": {
+      "Viby J": [
+        {
+          "address": "Rolfsgade",
+          "time": "17.00 - 22.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-november-2025/2025/11/17",
+          "lat": 56.1364206,
+          "lon": 10.1816842
+        }
+      ]
+    }
+  },
+  "2025-11-13": {
+    "Østjyllands Politi": {
+      "Odder": [
+        {
+          "address": "Strandvejen",
+          "time": "11/11 20.30 - 13/11 15.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-november-2025/2025/11/14",
+          "lat": 55.9760402,
+          "lon": 10.1933685
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Nygårdsvej",
+          "time": "11.00 - 15.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-november-2025/2025/11/14",
+          "lat": 56.1103231,
+          "lon": 10.1765682
+        }
+      ]
+    }
+  },
+  "2025-11-12": {
+    "Østjyllands Politi": {
+      "Harlev J": [
+        {
+          "address": "Framlev Korsvej",
+          "time": "21.30 - 22.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-november-2025/2025/11/14",
+          "lat": 56.151866,
+          "lon": 10.0058653
+        },
+        {
+          "address": "Rodlundvej",
+          "time": "15.00 - 20.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-november-2025/2025/11/13",
+          "lat": 56.1432197,
+          "lon": 9.9891541
+        }
+      ],
+      "Randers NØ": [
+        {
+          "address": "Skovlyvej",
+          "time": "11.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-november-2025/2025/11/13",
+          "lat": 56.4701654,
+          "lon": 10.0493752
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Ådalsvej",
+          "time": "7/11 08.00 - 12/11 15.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-november-2025/2025/11/13",
+          "lat": 56.202108,
+          "lon": 10.2570966
+        },
+        {
+          "address": "Myntevej",
+          "time": "19.48",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-november-2025/2025/11/13",
+          "lat": 56.2003722,
+          "lon": 10.2515316
+        },
+        {
+          "address": "Kantorparken",
+          "time": "18.45 - 21.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-november-2025/2025/11/13",
+          "lat": 56.1974574,
+          "lon": 10.2067797
+        }
+      ],
+      "Ørsted": [
+        {
+          "address": "Vasen",
+          "time": "18.25 - 18.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-november-2025/2025/11/13",
+          "lat": 56.4964802,
+          "lon": 10.3312742
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Kirkedammen",
+          "time": "14.30 - 21.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-november-2025/2025/11/13",
+          "lat": 56.1401889,
+          "lon": 10.178156
+        }
+      ]
+    }
+  },
+  "2025-11-11": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Holme Byvej",
+          "time": "11.00 - 14.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.1160907,
+          "lon": 10.1739695
+        },
+        {
+          "address": "Egebæksvej",
+          "time": "13.30 - 20.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.1201907,
+          "lon": 10.1988824
+        }
+      ],
+      "Randers NØ": [
+        {
+          "address": "Basager",
+          "time": "08.00 - 14.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.4953831,
+          "lon": 10.1222289
+        }
+      ],
+      "Hasselager": [
+        {
+          "address": "Kolt Østervej",
+          "time": "07.00 - 16.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.111464,
+          "lon": 10.0946641
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Rolighedsvej",
+          "time": "13.45 - 17.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.1915031,
+          "lon": 10.2383248
+        }
+      ],
+      "Brabrand": [
+        {
+          "address": "Hejredalsvej",
+          "time": "11.00 - 18.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.1538313,
+          "lon": 10.1176565
+        }
+      ],
+      "Tranbjerg": [
+        {
+          "address": "Sønderbrokrogen",
+          "time": "18.54",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.0825037,
+          "lon": 10.119344
+        }
+      ],
+      "Thorsø": [
+        {
+          "address": "tingvej",
+          "time": "11.00 - 20.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.2655423,
+          "lon": 10.114662
+        }
+      ],
+      "Lystrup": [
+        {
+          "address": "Bystævnet",
+          "time": "17.30 - 22.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.2341242,
+          "lon": 10.2248098
+        }
+      ]
+    }
+  },
+  "2025-11-10": {
+    "Østjyllands Politi": {
+      "Grenå": [
+        {
+          "address": "Rolighedsvej",
+          "time": "6/11 10.00 - 10/11 09.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-november-2025/2025/11/11",
+          "lat": 56.4170248,
+          "lon": 10.8782522
+        }
+      ],
+      "Brabrand": [
+        {
+          "address": "Helenelyst",
+          "time": "08.00 - 18.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-november-2025/2025/11/11",
+          "lat": 56.1610084,
+          "lon": 10.0970618
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Havgårdsvej",
+          "time": "17.35 - 19.25",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-november-2025/2025/11/11",
+          "lat": 56.1975398,
+          "lon": 10.2606076
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Solkjærvej",
+          "time": "05.30 - 21.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-november-2025/2025/11/11"
+        }
+      ],
+      "Egå": [
+        {
+          "address": "Tålforvej",
+          "time": "7/11 10.00 - 10/11 22.10",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-november-2025/2025/11/11",
+          "lat": 56.2184462,
+          "lon": 10.2896502
+        }
+      ]
+    }
+  },
+  "2025-11-09": {
+    "Østjyllands Politi": {
+      "Beder": [
+        {
+          "address": "Engdalgårdsvej",
+          "time": "7/11 12.00 - 9/11 11.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.0612677,
+          "lon": 10.2061076
+        },
+        {
+          "address": "Byagervænget",
+          "time": "26/10 10.00 - 9/11 13.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.0539531,
+          "lon": 10.2151068
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Bævervej",
+          "time": "7/11 17.00 - 9/11 13.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.1089393,
+          "lon": 10.2264154
+        },
+        {
+          "address": "Jelshøjvej",
+          "time": "6/11 12.00 - 9/11 16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.1006275,
+          "lon": 10.1947342
+        },
+        {
+          "address": "L.A. Rings Vej",
+          "time": "15.00 - 21.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.1168238,
+          "lon": 10.1979984
+        }
+      ],
+      "Ryomgård": [
+        {
+          "address": "Park Allé",
+          "time": "7/11 11.00 - 9/11 14.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.382497,
+          "lon": 10.4956187
+        }
+      ],
+      "Egå": [
+        {
+          "address": "Solagervej",
+          "time": "7/11 17.23 - 9/11 17.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.2062635,
+          "lon": 10.2781293
+        },
+        {
+          "address": "Egå Strandvej",
+          "time": "17.00 - 21.35",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.2060634,
+          "lon": 10.2755714
+        }
+      ],
+      "Hinnerup": [
+        {
+          "address": "Fredensgade",
+          "time": "10.00 - 20.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.2650207,
+          "lon": 10.0645883
+        }
+      ],
+      "Skødstrup": [
+        {
+          "address": "Grenåvej",
+          "time": "9.30 - 20.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.2540061,
+          "lon": 10.3030933
+        }
+      ]
+    }
+  },
+  "2025-11-08": {
+    "Østjyllands Politi": {
+      "Randers SV": [
+        {
+          "address": "Målervej",
+          "time": "4/11 00.00 - 8/11 09.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-november-2025/2025/11/12",
+          "lat": 56.4497411,
+          "lon": 10.0360904
+        }
+      ]
+    }
+  },
+  "2025-11-07": {
+    "Østjyllands Politi": {
+      "Risskov": [
+        {
+          "address": "Vejlbygade",
+          "time": "00.01",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-november-2025/2025/11/11",
+          "lat": 56.1954415,
+          "lon": 10.2167629
+        }
+      ],
+      "Randers NV": [
+        {
+          "address": "Wennerbergsvej",
+          "time": "17.00 - 23.55",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-november-2025/2025/11/11",
+          "lat": 56.4647961,
+          "lon": 9.9713564
+        }
+      ],
+      "Hornslet": [
+        {
+          "address": "Ahornvej",
+          "time": "16.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-november-2025/2025/11/10",
+          "lat": 56.3097856,
+          "lon": 10.3150389
+        }
+      ]
+    }
+  },
+  "2025-11-06": {
+    "Østjyllands Politi": {
+      "Allingåbro": [
+        {
+          "address": "Rugvangen 009",
+          "time": "15.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-november-2025/2025/11/08",
+          "lat": 56.480233,
+          "lon": 10.506601
+        }
+      ]
+    }
+  },
+  "2025-11-05": {
+    "Østjyllands Politi": {
+      "Skødstrup": [
+        {
+          "address": "Løgten Østervej",
+          "time": "03/11 22.00 - 05/11 09.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-november-2025/2025/11/08",
+          "lat": 56.2668476,
+          "lon": 10.3134413
+        }
+      ],
+      "Hornslet": [
+        {
+          "address": "Ellekærparken",
+          "time": "1/11 13.00 - 5/11 07.11",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-november-2025/2025/11/06",
+          "lat": 56.3196958,
+          "lon": 10.3094064
+        },
+        {
+          "address": "Karl A. Møllers Vej",
+          "time": "18.55",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-november-2025/2025/11/06"
+        }
+      ],
+      "Randers SØ": [
+        {
+          "address": "Tirsdalen",
+          "time": "4/11 16.00 - 5/11 20.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-november-2025/2025/11/06",
+          "lat": 56.4417541,
+          "lon": 10.0534561
+        }
+      ],
+      "Ebeltoft": [
+        {
+          "address": "Bysvinget",
+          "time": "3/11 17.15 - 5/11 15.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-november-2025/2025/11/06",
+          "lat": 56.2225778,
+          "lon": 10.7033035
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Jarlsmindevej",
+          "time": "3/11 22.00 - 5/11 16.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-november-2025/2025/11/06",
+          "lat": 56.1353881,
+          "lon": 10.120185
+        }
+      ],
+      "Hasselager": [
+        {
+          "address": "Bavnebakken",
+          "time": "19.03",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-november-2025/2025/11/06",
+          "lat": 56.1107871,
+          "lon": 10.0793102
+        }
+      ],
+      "Randers SV": [
+        {
+          "address": "Skanse Allé",
+          "time": "07.00 - 17.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-november-2025/2025/11/06",
+          "lat": 56.4450048,
+          "lon": 10.0455166
+        }
+      ]
+    }
+  },
+  "2025-11-04": {
+    "Østjyllands Politi": {
+      "Hasselager": [
+        {
+          "address": "Kildeagervej",
+          "time": "06.57",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-november-2025/2025/11/05",
+          "lat": 56.1131703,
+          "lon": 10.0878069
+        }
+      ],
+      "Grenaa": [
+        {
+          "address": "Lyngdalvej",
+          "time": "07.30 - 16.56",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-november-2025/2025/11/05",
+          "lat": 56.3895322,
+          "lon": 10.8865233
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Klokkeskovvej",
+          "time": "17.45 - 18.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-november-2025/2025/11/05",
+          "lat": 56.1360089,
+          "lon": 10.1163992
+        },
+        {
+          "address": "Tornhøjvej",
+          "time": "17.15 - 18.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-november-2025/2025/11/05",
+          "lat": 56.1362376,
+          "lon": 10.1219102
+        }
+      ],
+      "Brabrand": [
+        {
+          "address": "Helenelyst",
+          "time": "15.30 - 19.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-november-2025/2025/11/05",
+          "lat": 56.1610084,
+          "lon": 10.0970618
+        }
+      ],
+      "Randers SØ": [
+        {
+          "address": "Fjorddalen",
+          "time": "16.00 - 20.57",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-november-2025/2025/11/05",
+          "lat": 56.4538075,
+          "lon": 10.1751967
+        },
+        {
+          "address": "Abelsvej",
+          "time": "15.15 - 21.03",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-november-2025/2025/11/05",
+          "lat": 56.4423119,
+          "lon": 10.0542453
+        }
+      ]
+    }
+  },
+  "2025-11-03": {
+    "Østjyllands Politi": {
+      "Ebeltoft": [
+        {
+          "address": "Skovskadevej",
+          "time": "2/11 15.00 - 3/11 21.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-november-2025/2025/11/04",
+          "lat": 56.1934866,
+          "lon": 10.6987902
+        }
+      ],
+      "Allingåbro": [
+        {
+          "address": "Hvedevænget",
+          "time": "11.30 - 16.25",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-november-2025/2025/11/04",
+          "lat": 56.3311554,
+          "lon": 10.0601826
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Fuglsøvej",
+          "time": "31/10 10.15 - 3/11 19.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-november-2025/2025/11/04",
+          "lat": 56.2021427,
+          "lon": 10.2402613
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Søskrænten",
+          "time": "07.00 - 21.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-november-2025/2025/11/04",
+          "lat": 56.1344501,
+          "lon": 10.1255348
+        }
+      ],
+      "Randers SV": [
+        {
+          "address": "Skovlund",
+          "time": "2/11 20.00 - 3/11 23.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-november-2025/2025/11/04",
+          "lat": 56.4493115,
+          "lon": 10.0197407
+        }
+      ]
+    }
+  },
+  "2025-11-02": {
+    "Østjyllands Politi": {
+      "Ryomgård": [
+        {
+          "address": "Søparken",
+          "time": "1/11 14.00 - 2/11 08.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-november-2025/2025/11/03",
+          "lat": 56.390183,
+          "lon": 10.5002247
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Byagervej",
+          "time": "31/10 12.00 - 2/11 12.39",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-november-2025/2025/11/03",
+          "lat": 56.0534811,
+          "lon": 10.2027536
+        }
+      ],
+      "Hasselager": [
+        {
+          "address": "Bavnebakken",
+          "time": "1/11 11.00 - 2/11 16.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-november-2025/2025/11/03",
+          "lat": 56.1107871,
+          "lon": 10.0793102
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Herluf Trolles Gade",
+          "time": "30/9 16.00 - 2/11 16.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-november-2025/2025/11/03",
+          "lat": 56.1727566,
+          "lon": 10.2173077
+        }
+      ],
+      "Lystrup": [
+        {
+          "address": "Engvangen",
+          "time": "17.38",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-november-2025/2025/11/03",
+          "lat": 56.2257216,
+          "lon": 10.2335872
+        }
+      ],
+      "Odder": [
+        {
+          "address": "Højvænget",
+          "time": "11.30 - 18.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-november-2025/2025/11/03",
+          "lat": 55.9736418,
+          "lon": 10.168868
+        }
+      ]
+    }
+  },
+  "2025-10-31": {
+    "Østjyllands Politi": {
+      "Langå": [
+        {
+          "address": "Würglersvej",
+          "time": "30/10 18.00 - 31/10 02.36",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport31102025/2025/10/31",
+          "lat": 56.3910743,
+          "lon": 9.8889367
+        }
+      ]
+    }
+  },
+  "2025-10-30": {
+    "Østjyllands Politi": {
+      "Mårslet": [
+        {
+          "address": "Bedervej",
+          "time": "29/10 15.30 - 30/10 06.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport31102025/2025/10/31",
+          "lat": 56.0640693,
+          "lon": 10.1637238
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Knudrisgade",
+          "time": "11.18",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport31102025/2025/10/31",
+          "lat": 56.1628813,
+          "lon": 10.2133732
+        },
+        {
+          "address": "Tøndergade",
+          "time": "16.00 - 21.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport31102025/2025/10/31",
+          "lat": 56.1402435,
+          "lon": 10.1809563
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Jens Baggesens Vej",
+          "time": "29/10 09.00 - 30/10 18.10",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport31102025/2025/10/31",
+          "lat": 56.1706222,
+          "lon": 10.195001
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Byagervej",
+          "time": "18.15 - 18.18",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport31102025/2025/10/31",
+          "lat": 56.0534811,
+          "lon": 10.2027536
+        }
+      ],
+      "Malling": [
+        {
+          "address": "Tværgade",
+          "time": "16.45 - 21.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport31102025/2025/10/31",
+          "lat": 56.0366225,
+          "lon": 10.1972689
+        }
+      ]
+    }
+  },
+  "2025-10-28": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Dalvangen",
+          "time": "09.45 - 11.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-oktober-2025/2025/10/29",
+          "lat": 56.1125068,
+          "lon": 10.2152463
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Klintevej",
+          "time": "23.36",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-oktober-2025/2025/10/29",
+          "lat": 56.1988977,
+          "lon": 10.2500982
+        }
+      ]
+    }
+  },
+  "2025-10-26": {
+    "Østjyllands Politi": {
+      "Viby J": [
+        {
+          "address": "Christian X's Vej",
+          "time": "24/10 07.30 - 26/10 10.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27102025/2025/10/27",
+          "lat": 56.1277795,
+          "lon": 10.1727626
+        }
+      ],
+      "Odder": [
+        {
+          "address": "Østerlunden",
+          "time": "24/10 16.00 - 26/10 19.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27102025/2025/10/27",
+          "lat": 55.9856099,
+          "lon": 10.2332962
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Mågevej",
+          "time": "18.55 - 20.55",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27102025/2025/10/27",
+          "lat": 56.2012466,
+          "lon": 10.277591
+        }
+      ]
+    }
+  },
+  "2025-10-23": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Bævervej",
+          "time": "09.00 - 19.46",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-oktober-2025/2025/10/24",
+          "lat": 56.1089393,
+          "lon": 10.2264154
+        }
+      ],
+      "Odder": [
+        {
+          "address": "Egelunden",
+          "time": "07.30 - 21.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-oktober-2025/2025/10/24",
+          "lat": 55.9741199,
+          "lon": 10.13336
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Skovagervej",
+          "time": "00.21",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.1885404,
+          "lon": 10.2278159
+        }
+      ]
+    }
+  },
+  "2025-10-22": {
+    "Østjyllands Politi": {
+      "Lystrup": [
+        {
+          "address": "Ellebrinken",
+          "time": "08.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.2315438,
+          "lon": 10.2242045
+        },
+        {
+          "address": "Hybenhaven",
+          "time": "11/10 00.00 - 22/10 14.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.2488349,
+          "lon": 10.246602
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Engelundsvej",
+          "time": "21/10 12.30 - 22/10 00.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.1196858,
+          "lon": 10.1287567
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Åkrogs Strandvej",
+          "time": "20/10 11.00 - 22/10 15.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.2037964,
+          "lon": 10.2806749
+        },
+        {
+          "address": "Rislundvej",
+          "time": "20.22",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.1828153,
+          "lon": 10.2269238
+        },
+        {
+          "address": "Myntevej",
+          "time": "17.30 - 22.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.2003722,
+          "lon": 10.2515316
+        }
+      ],
+      "Hammel": [
+        {
+          "address": "Møllevangen",
+          "time": "07.00 - 15.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.2567036,
+          "lon": 9.8489244
+        }
+      ],
+      "Åbyhøj": [
+        {
+          "address": "H. C. Andersens Vej",
+          "time": "10/10 14.00 - 22/10 16.26",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.151728,
+          "lon": 10.1588286
+        }
+      ],
+      "Brabrand": [
+        {
+          "address": "Laskedalen",
+          "time": "16.00 - 20.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-oktober-2025/2025/10/23",
+          "lat": 56.1581608,
+          "lon": 10.0953979
+        }
+      ],
+      "Tranbjerg J": [
+        {
+          "address": "Frisenholt",
+          "time": "00.06",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-22-oktober-2025/2025/10/22",
+          "lat": 56.0882971,
+          "lon": 10.1131404
+        }
+      ],
+      "Mårslet": [
+        {
+          "address": "Mustrupvej",
+          "time": "04.39",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-22-oktober-2025/2025/10/22",
+          "lat": 56.0539722,
+          "lon": 10.1332093
+        }
+      ]
+    }
+  },
+  "2025-10-21": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Orionsvej",
+          "time": "18.30 - 21.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-22-oktober-2025/2025/10/22",
+          "lat": 56.1241464,
+          "lon": 10.1907822
+        }
+      ]
+    }
+  },
+  "2025-10-20": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Ildervej",
+          "time": "19.04 - 19.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-22-oktober-2025/2025/10/22",
+          "lat": 56.1103797,
+          "lon": 10.222203
+        },
+        {
+          "address": "Jupitervej",
+          "time": "18.40 - 21.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-21-oktober-2025/2025/10/21",
+          "lat": 56.1302676,
+          "lon": 10.1892156
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Brendstrupvej",
+          "time": "17/10 12.00 - 20/10 09.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-21-oktober-2025/2025/10/21",
+          "lat": 56.1759485,
+          "lon": 10.1931297
+        }
+      ],
+      "Mårslet": [
+        {
+          "address": "Æblehaven",
+          "time": "09.25 - 11.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-21-oktober-2025/2025/10/21",
+          "lat": 56.2399168,
+          "lon": 10.2302421
+        }
+      ],
+      "Randers NV": [
+        {
+          "address": "Tyge Brahes Vej",
+          "time": "17.00 - 22.05",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-21-oktober-2025/2025/10/21",
+          "lat": 56.4686638,
+          "lon": 9.9883075
+        }
+      ]
+    }
+  },
+  "2025-10-19": {
+    "Østjyllands Politi": {
+      "Grenaa": [
+        {
+          "address": "Sønder Allé",
+          "time": "17/10 15.00 - 19/10 10.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-oktober-2025/2025/10/20",
+          "lat": 56.4108566,
+          "lon": 10.8804628
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Elsdyrvænget",
+          "time": "17/10 14.00 - 19/10 11.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-oktober-2025/2025/10/20",
+          "lat": 56.1052761,
+          "lon": 10.2182625
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Præstetoften",
+          "time": "9/10 06.30 - 19/10 11.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-oktober-2025/2025/10/20",
+          "lat": 56.0610578,
+          "lon": 10.2185658
+        }
+      ],
+      "Mårslet": [
+        {
+          "address": "Langballevænget",
+          "time": "16/10 14.55 - 19/10 14.58",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-oktober-2025/2025/10/20",
+          "lat": 56.0688415,
+          "lon": 10.1732154
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Skovagervej",
+          "time": "10/10 16.30 - 19/10 15.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-oktober-2025/2025/10/20",
+          "lat": 56.1885404,
+          "lon": 10.2278159
+        }
+      ]
+    }
+  },
+  "2025-10-17": {
+    "Østjyllands Politi": {
+      "Grenaa": [
+        {
+          "address": "Skovstykket",
+          "time": "10.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-oktober-2025/2025/10/20",
+          "lat": 56.4008398,
+          "lon": 10.8778157
+        }
+      ],
+      "Skødstrup": [
+        {
+          "address": "Fruenseje",
+          "time": "01.33",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-oktober-2025/2025/10/17",
+          "lat": 56.2737426,
+          "lon": 10.3221311
+        }
+      ]
+    }
+  },
+  "2025-10-16": {
+    "Østjyllands Politi": {
+      "Randers C": [
+        {
+          "address": "Sjællandsgade",
+          "time": "08.30 - 15.25",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-oktober-2025/2025/10/17",
+          "lat": 56.4651314,
+          "lon": 10.0168213
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Solbakken",
+          "time": "15/10 16.30 - 16/10 15.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-oktober-2025/2025/10/17",
+          "lat": 56.1887356,
+          "lon": 10.2330935
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Kaserneboulevarden",
+          "time": "13/10 10.00 - 16/10 11.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-oktober-2025/2025/10/17",
+          "lat": 56.1649968,
+          "lon": 10.2011548
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Oluf Palmes Allé",
+          "time": "15.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-oktober-2025/2025/10/17"
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Skådevej",
+          "time": "20.44",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-oktober-2025/2025/10/17",
+          "lat": 56.105211,
+          "lon": 10.2050586
+        }
+      ]
+    }
+  },
+  "2025-10-15": {
+    "Østjyllands Politi": {
+      "Risskov": [
+        {
+          "address": "Rishøjvej",
+          "time": "20.26",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-17-oktober-2025/2025/10/17",
+          "lat": 56.182936,
+          "lon": 10.2240048
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Dalvangen",
+          "time": "05.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-16-oktober-2025/2025/10/16",
+          "lat": 56.1122271,
+          "lon": 10.2155906
+        }
+      ],
+      "Mårslet": [
+        {
+          "address": "Kratleddet",
+          "time": "14/10 08.00 - 15/10 09.17",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-16-oktober-2025/2025/10/16",
+          "lat": 56.0663607,
+          "lon": 10.1571857
+        }
+      ],
+      "Randers": [
+        {
+          "address": "Markedsgade",
+          "time": "08.30 - 12.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-16-oktober-2025/2025/10/16",
+          "lat": 56.4640635,
+          "lon": 10.0351958
+        }
+      ],
+      "Harlev J": [
+        {
+          "address": "Ådalsparken",
+          "time": "12/10 09.00 - 15/10 19.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-16-oktober-2025/2025/10/16",
+          "lat": 56.1356149,
+          "lon": 9.99618
+        }
+      ]
+    }
+  },
+  "2025-10-14": {
+    "Østjyllands Politi": {
+      "Risskov": [
+        {
+          "address": "Nørresøvej",
+          "time": "12/10 08.45 - 14/10 14.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15102025/2025/10/15",
+          "lat": 56.2092169,
+          "lon": 10.242093
+        }
+      ],
+      "Hørning": [
+        {
+          "address": "Brydehøjvej",
+          "time": "18.05",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15102025/2025/10/15",
+          "lat": 56.1154432,
+          "lon": 10.0211787
+        }
+      ]
+    }
+  },
+  "2025-10-13": {
+    "Østjyllands Politi": {
+      "Randers C": [
+        {
+          "address": "Vestergrave",
+          "time": "10.00 - 13.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport14102025/2025/10/14",
+          "lat": 56.4581518,
+          "lon": 10.0362665
+        },
+        {
+          "address": "Provstegyde",
+          "time": "5/10 14.00 - 13/10 17.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport14102025/2025/10/14",
+          "lat": 56.4581886,
+          "lon": 10.0369765
+        }
+      ],
+      "Randers SV": [
+        {
+          "address": "Mølletoften",
+          "time": "07.45 - 16.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport14102025/2025/10/14",
+          "lat": 56.4481853,
+          "lon": 10.0445492
+        }
+      ],
+      "Egå": [
+        {
+          "address": "Østtoften",
+          "time": "18.18",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport14102025/2025/10/14",
+          "lat": 56.2220978,
+          "lon": 10.2985553
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Byagervænget",
+          "time": "10/10 13.00 - 13/10 18.55",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport14102025/2025/10/14",
+          "lat": 56.0539531,
+          "lon": 10.2151068
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Lindevangsvej",
+          "time": "17.00 - 21.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport14102025/2025/10/14",
+          "lat": 56.1885258,
+          "lon": 10.2417015
+        }
+      ]
+    }
+  },
+  "2025-10-12": {
+    "Østjyllands Politi": {
+      "Grenå": [
+        {
+          "address": "Hovedvejen",
+          "time": "5/10 16.00 - 12/10 11.59",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-16-oktober-2025/2025/10/16",
+          "lat": 56.428435,
+          "lon": 10.8129145
+        }
+      ],
+      "Hjortshøj": [
+        {
+          "address": "Virup Skovvej",
+          "time": "00.00 - 01.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport13102025/2025/10/13",
+          "lat": 56.2421608,
+          "lon": 10.2691003
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Mandalsvej",
+          "time": "11/10 16.00 - 12/10 18.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport13102025/2025/10/13",
+          "lat": 56.18006,
+          "lon": 10.1825595
+        }
+      ],
+      "Tilst": [
+        {
+          "address": "Havkærparken",
+          "time": "14.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport13102025/2025/10/13",
+          "lat": 56.1862295,
+          "lon": 10.1195767
+        }
+      ],
+      "Lystrup": [
+        {
+          "address": "Solbærhaven",
+          "time": "10/10 12.00 - 12/10 19.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport13102025/2025/10/13",
+          "lat": 56.242114,
+          "lon": 10.2404404
+        }
+      ],
+      "Hinnerup": [
+        {
+          "address": "Skovstien",
+          "time": "20.10",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport13102025/2025/10/13",
+          "lat": 56.2727118,
+          "lon": 10.0473738
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Myrholmsvej",
+          "time": "9/10 10.30 - 12/10 21.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport13102025/2025/10/13",
+          "lat": 56.130475,
+          "lon": 10.1532417
+        }
+      ],
+      "Malling": [
+        {
+          "address": "Serinehøjen",
+          "time": "11/10 13.50 - 12/10 00.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapport-12-oktober-2025/2025/10/12",
+          "lat": 56.0235666,
+          "lon": 10.1888624
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Rønbjergvej",
+          "time": "03.48",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapport-12-oktober-2025/2025/10/12",
+          "lat": 56.2021461,
+          "lon": 10.2259256
+        }
+      ]
+    }
+  },
+  "2025-10-11": {
+    "Østjyllands Politi": {
+      "Egå": [
+        {
+          "address": "Strandhusvej",
+          "time": "08.17",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapport-12-oktober-2025/2025/10/12",
+          "lat": 56.2052127,
+          "lon": 10.2802831
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Vedbendvej",
+          "time": "17.30 - 21.05",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapport-12-oktober-2025/2025/10/12",
+          "lat": 56.1923226,
+          "lon": 10.2360808
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Svendgårdsvej",
+          "time": "01.12",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-11-oktober-2025/2025/10/11",
+          "lat": 56.0582266,
+          "lon": 10.2136188
+        }
+      ]
+    }
+  },
+  "2025-10-10": {
+    "Østjyllands Politi": {
+      "Grenaa": [
+        {
+          "address": "Hjorterodsvej",
+          "time": "07.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport14102025/2025/10/14",
+          "lat": 56.4230884,
+          "lon": 10.8663569
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Marselisborg Allé",
+          "time": "9.30 - 17.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-11-oktober-2025/2025/10/11",
+          "lat": 56.1472283,
+          "lon": 10.2070676
+        }
+      ],
+      "Randers NV": [
+        {
+          "address": "Hobrovej",
+          "time": "13.00 - 22.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-11-oktober-2025/2025/10/11",
+          "lat": 56.4634312,
+          "lon": 10.0308507
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Rosenvej",
+          "time": "01.59",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-oktober-2025/2025/10/10",
+          "lat": 56.1927873,
+          "lon": 10.2321098
+        }
+      ]
+    }
+  },
+  "2025-10-09": {
+    "Østjyllands Politi": {
+      "Brabrand": [
+        {
+          "address": "Langdalsvej",
+          "time": "6/10 12.00 - 9/10 12.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-11-oktober-2025/2025/10/11",
+          "lat": 56.1590164,
+          "lon": 10.1007168
+        }
+      ],
+      "Randers SV": [
+        {
+          "address": "Bøsbrovej",
+          "time": "29/9 10.00 - 9/10 10.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-11-oktober-2025/2025/10/11",
+          "lat": 56.4311262,
+          "lon": 10.0396367
+        }
+      ],
+      "Hundslund": [
+        {
+          "address": "Sondrupvej",
+          "time": "09.00 - 11.35",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-oktober-2025/2025/10/10",
+          "lat": 55.9068601,
+          "lon": 10.06226
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Jyllands Allé",
+          "time": "06.45 - 14.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-oktober-2025/2025/10/10",
+          "lat": 56.1323002,
+          "lon": 10.1895169
+        },
+        {
+          "address": "Stadion Allé",
+          "time": "08.30 - 16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-oktober-2025/2025/10/10",
+          "lat": 56.1423452,
+          "lon": 10.1943032
+        }
+      ]
+    }
+  },
+  "2025-10-08": {
+    "Østjyllands Politi": {
+      "Spentrup": [
+        {
+          "address": "Høgshøjvej",
+          "time": "16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-oktober-2025/2025/10/10",
+          "lat": 56.5414573,
+          "lon": 10.0481849
+        }
+      ],
+      "Odder": [
+        {
+          "address": "Fasanvej",
+          "time": "24/9 08.00 - 8/10 12.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-10-oktober-2025/2025/10/10",
+          "lat": 55.9719742,
+          "lon": 10.1597475
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Stadion Allé",
+          "time": "05.11",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-marts-2025/2025/10/09",
+          "lat": 56.1423452,
+          "lon": 10.1943032
+        },
+        {
+          "address": "Langenæs Allé",
+          "time": "7/10 12.25 - 8/10 9.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-marts-2025/2025/10/09",
+          "lat": 56.142346,
+          "lon": 10.1844177
+        },
+        {
+          "address": "Hans Schourups Gade",
+          "time": "07.15 - 15.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-marts-2025/2025/10/09",
+          "lat": 56.1413551,
+          "lon": 10.1914309
+        }
+      ],
+      "Randers NV": [
+        {
+          "address": "Karetmagervej",
+          "time": "11.00 - 12.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-marts-2025/2025/10/09",
+          "lat": 56.4708258,
+          "lon": 10.0021509
+        }
+      ],
+      "Åbyhøj": [
+        {
+          "address": "Tousparken",
+          "time": "14.30 - 21.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-marts-2025/2025/10/09",
+          "lat": 56.1503114,
+          "lon": 10.1539649
+        }
+      ],
+      "Lystrup": [
+        {
+          "address": "Elmehaven",
+          "time": "16.30 - 22.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-marts-2025/2025/10/09",
+          "lat": 56.2431888,
+          "lon": 10.250726
+        }
+      ]
+    }
+  },
+  "2025-10-07": {
+    "Østjyllands Politi": {
+      "Risskov": [
+        {
+          "address": "Tammerisvej",
+          "time": "2/10 09.30 - 7/10 00.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-oktober-2025/2025/10/07",
+          "lat": 56.1912474,
+          "lon": 10.2334363
+        }
+      ],
+      "Tilst": [
+        {
+          "address": "Hindøvænget",
+          "time": "03.43",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-oktober-2025/2025/10/07",
+          "lat": 56.1760121,
+          "lon": 10.1047549
+        }
+      ]
+    }
+  },
+  "2025-10-06": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Sandbakken",
+          "time": "5/10 00.00 - 6/10 08.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-oktober-2025/2025/10/07",
+          "lat": 56.1063814,
+          "lon": 10.2175643
+        },
+        {
+          "address": "Elverdalsvej",
+          "time": "06.15 - 12.05",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-oktober-2025/2025/10/07",
+          "lat": 56.1120835,
+          "lon": 10.2016417
+        },
+        {
+          "address": "Rypevej",
+          "time": "4/10 11.00 - 6/10 17.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-oktober-2025/2025/10/07",
+          "lat": 56.1167486,
+          "lon": 10.2147407
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Strandbyvej",
+          "time": "3/10 12.00 - 6/10 17.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-oktober-2025/2025/10/07",
+          "lat": 56.2012598,
+          "lon": 10.2532168
+        }
+      ]
+    }
+  },
+  "2025-10-05": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Nygårdsvej",
+          "time": "07.02 - 07.09",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-oktober-2025/2025/10/06",
+          "lat": 56.1107768,
+          "lon": 10.1773381
+        }
+      ],
+      "Holbæk": [
+        {
+          "address": "Rougsøvej",
+          "time": "4/10 16.00 - 5/10 11.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-oktober-2025/2025/10/06",
+          "lat": 56.5374675,
+          "lon": 10.301428
+        }
+      ],
+      "Kolt": [
+        {
+          "address": "Kunnerupvej",
+          "time": "1/10 00.00 - 5/10 11.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-oktober-2025/2025/10/06",
+          "lat": 56.1087052,
+          "lon": 10.0729496
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Solsikkevej",
+          "time": "4/10 12.00 - 5/10 15.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-oktober-2025/2025/10/06",
+          "lat": 56.1976591,
+          "lon": 10.2389787
+        }
+      ]
+    }
+  },
+  "2025-10-03": {
+    "Østjyllands Politi": {
+      "Hadsten": [
+        {
+          "address": "Lyøvej",
+          "time": "12.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-oktober-2025/2025/10/06",
+          "lat": 56.3337334,
+          "lon": 10.0730755
+        }
+      ]
+    }
+  },
+  "2025-10-02": {
+    "Østjyllands Politi": {
+      "Hadbjerg": [
+        {
+          "address": "Hadbjergvej",
+          "time": "11.09",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport03102025/2025/10/03",
+          "lat": 56.3375863,
+          "lon": 10.0824771
+        }
+      ],
+      "Aarhus V": [
+        {
+          "address": "Fuglesangs Allé",
+          "time": "10.45 - 12.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport03102025/2025/10/03",
+          "lat": 56.1678878,
+          "lon": 10.1826414
+        }
+      ]
+    }
+  },
+  "2025-09-30": {
+    "Østjyllands Politi": {
+      "Tilst": [
+        {
+          "address": "Havkærparken",
+          "time": "14.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport02102025/2025/10/02",
+          "lat": 56.1862295,
+          "lon": 10.1195767
+        }
+      ],
+      "Grenaa": [
+        {
+          "address": "Grønland",
+          "time": "29/9 15.00 - 30/9 19.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport01102025/2025/10/01",
+          "lat": 56.4160515,
+          "lon": 10.8757777
+        }
+      ]
+    }
+  },
+  "2025-09-29": {
+    "Østjyllands Politi": {
+      "Hasselager": [
+        {
+          "address": "Jegstrupvej",
+          "time": "28/9 21.10 - 29/9 15.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-30-september-2025/2025/09/30",
+          "lat": 56.1060125,
+          "lon": 10.1090661
+        }
+      ]
+    }
+  },
+  "2025-09-28": {
+    "Østjyllands Politi": {
+      "Hjortshøj": [
+        {
+          "address": "Spørringvej",
+          "time": "27/9 11.15 - 28/9 08.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-september-2025/2025/09/29",
+          "lat": 56.297602,
+          "lon": 10.1901036
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Snebærvej",
+          "time": "26/9 16.00 - 28/9 13.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-september-2025/2025/09/29",
+          "lat": 56.1164304,
+          "lon": 10.1817642
+        },
+        {
+          "address": "Reinettevej",
+          "time": "26/9 13.30 - 28/9 19.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-29-september-2025/2025/09/29",
+          "lat": 56.1172349,
+          "lon": 10.1803624
+        }
+      ]
+    }
+  },
+  "2025-09-25": {
+    "Østjyllands Politi": {
+      "Randers SV": [
+        {
+          "address": "Skivevej",
+          "time": "12.45 - 14.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-september-2025/2025/09/26",
+          "lat": 56.4465507,
+          "lon": 10.0369596
+        }
+      ]
+    }
+  },
+  "2025-09-24": {
+    "Østjyllands Politi": {
+      "Hammel": [
+        {
+          "address": "Kirkeskovvej",
+          "time": "00.01 - 04.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport25092025/2025/09/25",
+          "lat": 55.8400541,
+          "lon": 9.8228268
+        }
+      ]
+    }
+  },
+  "2025-09-23": {
+    "Østjyllands Politi": {
+      "Aarhus N": [
+        {
+          "address": "Roald Amundsens Vej",
+          "time": "17.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport25092025/2025/09/25",
+          "lat": 56.1789759,
+          "lon": 10.2155124
+        }
+      ],
+      "Odder": [
+        {
+          "address": "Tornøegade",
+          "time": "13/9 00.00 - 23/9 09.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-september-2025/2025/09/24",
+          "lat": 55.9727123,
+          "lon": 10.1522063
+        }
+      ],
+      "Aarhus V": [
+        {
+          "address": "Munkemosevej",
+          "time": "07.00 - 15.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-september-2025/2025/09/24",
+          "lat": 56.1743205,
+          "lon": 10.1490717
+        }
+      ],
+      "Glesborg": [
+        {
+          "address": "Meilgaardsvej",
+          "time": "19/9 18.00 - 23/9 16.46",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-september-2025/2025/09/24"
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Nyringen",
+          "time": "18.15 - 20.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-september-2025/2025/09/24",
+          "lat": 56.1901118,
+          "lon": 10.2022844
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Holmevej",
+          "time": "21.18",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-september-2025/2025/09/24",
+          "lat": 56.1202281,
+          "lon": 10.1851285
+        }
+      ],
+      "Solbjerg": [
+        {
+          "address": "Birkevangen",
+          "time": "19/9 19.00 - 23/9 01.21",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-september-2025/2025/09/23",
+          "lat": 56.0430686,
+          "lon": 10.0983774
+        }
+      ]
+    }
+  },
+  "2025-09-22": {
+    "Østjyllands Politi": {
+      "Aarhus V": [
+        {
+          "address": "Peter Fabers Vej",
+          "time": "18/9 03.00 - 22/9 21.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-september-2025/2025/09/24",
+          "lat": 56.1686428,
+          "lon": 10.1864158
+        }
+      ],
+      "Trige": [
+        {
+          "address": "Byhøjparken",
+          "time": "21/9 18.00 - 22/9 13.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-september-2025/2025/09/23",
+          "lat": 56.2584521,
+          "lon": 10.1560719
+        }
+      ]
+    }
+  },
+  "2025-09-19": {
+    "Østjyllands Politi": {
+      "Glesborg": [
+        {
+          "address": "Sydøstvej",
+          "time": "04.58",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19092025/2025/09/19",
+          "lat": 56.5280309,
+          "lon": 10.7075003
+        }
+      ]
+    }
+  },
+  "2025-09-18": {
+    "Østjyllands Politi": {
+      "Aarhus V": [
+        {
+          "address": "Klokkerbakken",
+          "time": "09.30 - 13.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19092025/2025/09/19",
+          "lat": 56.1641012,
+          "lon": 10.16069
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "C.F. Aagaards Vej",
+          "time": "07.30 - 17.21",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19092025/2025/09/19",
+          "lat": 56.1136107,
+          "lon": 10.1978422
+        }
+      ]
+    }
+  },
+  "2025-09-17": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Rensdyrvej",
+          "time": "10.54",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport18092025/2025/09/18",
+          "lat": 56.1134592,
+          "lon": 10.2202449
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Ny Tjørnegade",
+          "time": "02.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport17092025/2025/09/17",
+          "lat": 56.1773386,
+          "lon": 10.2033007
+        }
+      ]
+    }
+  },
+  "2025-09-16": {
+    "Østjyllands Politi": {
+      "Odder": [
+        {
+          "address": "Blommevænget",
+          "time": "13/9 08.00 - 16/9 07.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport17092025/2025/09/17",
+          "lat": 55.9767905,
+          "lon": 10.2265766
+        }
+      ]
+    }
+  },
+  "2025-09-15": {
+    "Østjyllands Politi": {
+      "Tranbjerg": [
+        {
+          "address": "Trankær Mosevej",
+          "time": "09.00 - 14.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport19092025/2025/09/19",
+          "lat": 56.0813409,
+          "lon": 10.1247812
+        }
+      ],
+      "Randers SØ": [
+        {
+          "address": "Graastenvej",
+          "time": "02.08",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjylland-politi-uddrag-af-doegnrapporten-15-september-2025/2025/09/15",
+          "lat": 56.4210224,
+          "lon": 10.0745213
+        }
+      ]
+    }
+  },
+  "2025-09-14": {
+    "Østjyllands Politi": {
+      "Grenå": [
+        {
+          "address": "Grønland",
+          "time": "07.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjylland-politi-uddrag-af-doegnrapporten-15-september-2025/2025/09/15",
+          "lat": 56.4160515,
+          "lon": 10.8757777
+        }
+      ],
+      "Hammel": [
+        {
+          "address": "Grævlingevej",
+          "time": "11/9 15.00 - 14/9 20.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjylland-politi-uddrag-af-doegnrapporten-15-september-2025/2025/09/15",
+          "lat": 56.245682,
+          "lon": 9.8522323
+        }
+      ]
+    }
+  },
+  "2025-09-13": {
+    "Østjyllands Politi": {
+      "Viby J": [
+        {
+          "address": "Søkjærvej",
+          "time": "12/9 21.00 - 13/9 13.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport17092025/2025/09/17",
+          "lat": 56.136522,
+          "lon": 10.114417
+        }
+      ]
+    }
+  },
+  "2025-09-11": {
+    "Østjyllands Politi": {
+      "Odder": [
+        {
+          "address": "Tornøegade",
+          "time": "9/9 11.00 - 11/9 11.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport17092025/2025/09/17",
+          "lat": 55.9727123,
+          "lon": 10.1522063
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Malmøgade",
+          "time": "10/9 17.00 - 11/9 08.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-september-2025/2025/09/12",
+          "lat": 56.1800961,
+          "lon": 10.1962391
+        }
+      ]
+    }
+  },
+  "2025-09-10": {
+    "Østjyllands Politi": {
+      "Skødstrup": [
+        {
+          "address": "Stenvendervej",
+          "time": "9/9 22.00 - 10/9 07.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport11092025/2025/09/11",
+          "lat": 56.2567634,
+          "lon": 10.3428196
+        }
+      ]
+    }
+  },
+  "2025-09-09": {
+    "Østjyllands Politi": {
+      "Egå": [
+        {
+          "address": "Fyrrevej",
+          "time": "16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-september-2025/2025/09/12",
+          "lat": 56.2392655,
+          "lon": 10.3343382
+        }
+      ]
+    }
+  },
+  "2025-07-15": {
+    "Østjyllands Politi": {
+      "Søby": [
+        {
+          "address": "Estrupvej",
+          "time": "11.08",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-oktober-2025/2025/10/06",
+          "lat": 56.3378876,
+          "lon": 10.2423038
+        }
+      ]
+    }
+  },
+  "2024-22-08": {
+    "Østjyllands Politi": {
+      "Tranbjerg J": [
+        {
+          "address": "Trankær Mosevej",
+          "time": "07/11 15.30 - 08/22 09.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-november-2025/2025/11/09",
+          "lat": 56.0804772,
+          "lon": 10.1222943
         }
       ]
     }

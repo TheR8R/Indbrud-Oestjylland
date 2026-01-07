@@ -13,11 +13,13 @@ Fetches break-in data from Østjyllands Politi's daily reports (døgnrapporter).
 **Technology:** Python, Playwright (headless Chromium), LocationIQ/Nominatim
 
 **Flow:**
-1. Navigates to `politi.dk/doegnrapporter` using Playwright
-2. Extracts Østjylland report links
-3. Parses the "Indbrud" (break-in) section from each report
-4. Geocodes addresses to coordinates using LocationIQ (or Nominatim as fallback)
-5. Merges new data with existing `docs/data.json`
+1. For each listing page:
+   - Fetches report links from `politi.dk/doegnrapporter`
+   - For each report on that page:
+     - Scrapes the "Indbrud" (break-in) section
+     - Geocodes addresses using LocationIQ (or Nominatim as fallback)
+     - Saves to `data.json` and geocode cache immediately
+2. Crash-safe: progress is saved after each report, so no work is lost if interrupted
 
 ### Frontend (`docs/`)
 
@@ -48,7 +50,13 @@ python scraper.py
 # Quick update (latest reports only)
 python scraper.py -l 5 -p 1
 
-# With LocationIQ geocoding
+# Fetch ALL historical reports (since Dec 2018)
+python scraper.py --all
+
+# From a specific date
+python scraper.py -f "2020/1/1" -l 500 -p 50
+
+# With LocationIQ geocoding (recommended)
 export LOCATIONIQ_API_KEY=your_key_here
 python scraper.py
 
@@ -75,9 +83,6 @@ indbrud/
 ├── geocode_cache.json      # Cached geocoding results
 ├── geocode_failures.json   # Failed geocodes for review
 ├── README.md
-├── .github/
-│   └── workflows/
-│       └── scrape.yml      # GitHub Actions (blocked by politi.dk)
 └── docs/                   # GitHub Pages
     ├── index.html
     ├── style.css

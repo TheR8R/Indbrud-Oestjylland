@@ -56,15 +56,90 @@
       "Nodrevej, Denmark"
     ]
   },
-  "Glænøvænget, Tilst": {
+  "Frederiks Allé, Ukendt": {
+    "reason": "unknown city",
+    "address": "Frederiks Allé",
+    "city": "Ukendt"
+  },
+  "Egå Strandvej, Ukendt": {
+    "reason": "unknown city",
+    "address": "Egå Strandvej",
+    "city": "Ukendt"
+  },
+  "Andreas Gadebergsvej, Hadsten": {
     "reason": "not found",
-    "address": "Glænøvænget",
-    "city": "Tilst",
+    "address": "Andreas Gadebergsvej",
+    "city": "Hadsten",
     "tried": [
-      "Glænøvænget, Tilst, Denmark",
-      "Glænøvænget, Tilst, Aarhus, Denmark",
-      "Glænøvænget, Aarhus, Denmark",
-      "Glænøvænget, Denmark"
+      "Andreas Gadebergsvej, Hadsten, Denmark",
+      "Andreas Gadebergsvej, Denmark"
+    ]
+  },
+  "Trankjær Mosevej, Tranbjerg J": {
+    "reason": "not found",
+    "address": "Trankjær Mosevej",
+    "city": "Tranbjerg J",
+    "tried": [
+      "Trankjær Mosevej, Tranbjerg J, Denmark",
+      "Trankjær Mosevej, Denmark"
+    ]
+  },
+  "Thorhavnsgade, Aarhus N": {
+    "reason": "not found",
+    "address": "Thorhavnsgade",
+    "city": "Aarhus N",
+    "tried": [
+      "Thorhavnsgade, Aarhus N, Denmark",
+      "Thorhavnsgade, Aarhus, Denmark",
+      "Thorhavnsgade, Denmark"
+    ]
+  },
+  "L.A. Rings Cej, Højbjerg": {
+    "reason": "not found",
+    "address": "L.A. Rings Cej",
+    "city": "Højbjerg",
+    "tried": [
+      "L.A. Rings Cej, Højbjerg, Denmark",
+      "L.A. Rings Cej, Højbjerg, Aarhus, Denmark",
+      "L.A. Rings Cej, Aarhus, Denmark",
+      "L.A. Rings Cej, Denmark"
+    ]
+  },
+  "Solkjærvej, Viby J": {
+    "reason": "not found",
+    "address": "Solkjærvej",
+    "city": "Viby J",
+    "tried": [
+      "Solkjærvej, Viby J, Denmark",
+      "Solkjærvej, Denmark"
+    ]
+  },
+  "Karl A. Møllers Vej, Hornslet": {
+    "reason": "not found",
+    "address": "Karl A. Møllers Vej",
+    "city": "Hornslet",
+    "tried": [
+      "Karl A. Møllers Vej, Hornslet, Denmark",
+      "Karl A. Møllers Vej, Denmark"
+    ]
+  },
+  "Oluf Palmes Allé, Aarhus N": {
+    "reason": "not found",
+    "address": "Oluf Palmes Allé",
+    "city": "Aarhus N",
+    "tried": [
+      "Oluf Palmes Allé, Aarhus N, Denmark",
+      "Oluf Palmes Allé, Aarhus, Denmark",
+      "Oluf Palmes Allé, Denmark"
+    ]
+  },
+  "Meilgaardsvej, Glesborg": {
+    "reason": "not found",
+    "address": "Meilgaardsvej",
+    "city": "Glesborg",
+    "tried": [
+      "Meilgaardsvej, Glesborg, Denmark",
+      "Meilgaardsvej, Denmark"
     ]
   }
 }
