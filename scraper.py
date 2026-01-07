@@ -166,7 +166,16 @@ def get_report_links(page, limit: int = 5, pages: int = 1) -> list[str]:
         url = f"{BASE_URL}/doegnrapporter?page={page_num}"
         print(f"Fetching page {page_num}: {url}")
         
-        page.goto(url, wait_until="networkidle", timeout=PAGE_TIMEOUT)
+        # Retry logic for flaky connections
+        for attempt in range(3):
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT)
+                page.wait_for_timeout(3000)  # Wait for Angular to render
+                break
+            except Exception as e:
+                print(f"  Attempt {attempt + 1} failed: {e}")
+                if attempt == 2:
+                    raise
         
         try:
             page.wait_for_selector("a[href*='/doegnrapporter/']", timeout=PAGE_TIMEOUT)
@@ -332,8 +341,17 @@ def scrape_report(page, url: str) -> list[dict]:
     
     _, report_year, report_month = extract_date_from_url(url)
     
-    page.goto(url, wait_until="networkidle", timeout=PAGE_TIMEOUT)
-    page.wait_for_timeout(1000)
+    # Retry logic for flaky connections
+    for attempt in range(3):
+        try:
+            page.goto(url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT)
+            page.wait_for_timeout(2000)  # Wait for content to render
+            break
+        except Exception as e:
+            print(f"    Attempt {attempt + 1} failed: {e}")
+            if attempt == 2:
+                print(f"    Skipping {url} after 3 failed attempts")
+                return []
     
     content = page.inner_text("body")
     
