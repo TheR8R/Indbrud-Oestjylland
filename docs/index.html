@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indbrud i Østjylland</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="map"></div>
+  
+  <div class="info-panel">
+    <h1>🔓 Indbrud i Østjylland</h1>
+    <p>Data fra Østjyllands Politis døgnrapporter</p>
+    <div class="stats">
+      <div>Viste indbrud: <span id="count">0</span></div>
+      <div>Total i datasæt: <span id="total">0</span></div>
+    </div>
+  </div>
+  
+  <div class="timeline-panel">
+    <div class="timeline-header">
+      <h2>Tidsperiode</h2>
+      <div class="date-range">
+        <span id="startLabel">-</span> → <span id="endLabel">-</span>
+      </div>
+    </div>
+    <div class="slider-container">
+      <div class="slider-track"></div>
+      <div class="slider-range" id="sliderRange"></div>
+      <input type="range" id="startSlider" min="0" max="100" value="0" />
+      <input type="range" id="endSlider" min="0" max="100" value="100" />
+    </div>
+    <div class="timeline-labels">
+      <span id="minDate">-</span>
+      <span id="maxDate">-</span>
+    </div>
+  </div>
+  
+  <div class="loading" id="loading">Indlæser data...</div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

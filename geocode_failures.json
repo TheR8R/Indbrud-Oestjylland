@@ -1,0 +1,59 @@
+{
+  "Espedalen 66, Ukendt": {
+    "reason": "unknown city",
+    "address": "Espedalen 66",
+    "city": "Ukendt"
+  },
+  "Grestenvej, Langå": {
+    "reason": "not found",
+    "address": "Grestenvej",
+    "city": "Langå",
+    "tried": [
+      "Grestenvej, Langå, Denmark",
+      "Grestenvej, Denmark"
+    ]
+  },
+  "Harald Jensens Plads, Ukendt": {
+    "reason": "unknown city",
+    "address": "Harald Jensens Plads",
+    "city": "Ukendt"
+  },
+  "Eggebæksvej, Højbjerg": {
+    "reason": "not found",
+    "address": "Eggebæksvej",
+    "city": "Højbjerg",
+    "tried": [
+      "Eggebæksvej, Højbjerg, Denmark",
+      "Eggebæksvej, Højbjerg, Aarhus, Denmark",
+      "Eggebæksvej, Aarhus, Denmark",
+      "Eggebæksvej, Denmark"
+    ]
+  },
+  "Tilst Bypark, Ukendt": {
+    "reason": "unknown city",
+    "address": "Tilst Bypark",
+    "city": "Ukendt"
+  },
+  "Højriisgårdsvej, Brabrand": {
+    "reason": "not found",
+    "address": "Højriisgårdsvej",
+    "city": "Brabrand",
+    "tried": [
+      "Højriisgårdsvej, Brabrand, Denmark",
+      "Højriisgårdsvej, Brabrand, Aarhus, Denmark",
+      "Højriisgårdsvej, Aarhus, Denmark",
+      "Højriisgårdsvej, Denmark"
+    ]
+  },
+  "Nodrevej, Sabro": {
+    "reason": "not found",
+    "address": "Nodrevej",
+    "city": "Sabro",
+    "tried": [
+      "Nodrevej, Sabro, Denmark",
+      "Nodrevej, Sabro, Aarhus, Denmark",
+      "Nodrevej, Aarhus, Denmark",
+      "Nodrevej, Denmark"
+    ]
+  }
+}
