@@ -29,6 +29,7 @@ jobs:
         timeout-minutes: 10
         env:
           PLAYWRIGHT_TIMEOUT: 60000
+          LOCATIONIQ_API_KEY: ${{ secrets.LOCATIONIQ_API_KEY }}
       
       - name: Commit and push if changed
         run: |

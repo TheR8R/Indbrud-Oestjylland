@@ -15,6 +15,9 @@ REGION_NAME = "Østjyllands Politi"
 # Timeout for page loads (default 60s, can be overridden via env var)
 PAGE_TIMEOUT = int(os.environ.get("PLAYWRIGHT_TIMEOUT", 60000))
 
+# LocationIQ API key (optional, falls back to Nominatim if not set)
+LOCATIONIQ_API_KEY = os.environ.get("LOCATIONIQ_API_KEY", "")
+
 GEOCODE_CACHE_FILE = Path("geocode_cache.json")
 GEOCODE_FAILURES_FILE = Path("geocode_failures.json")
 
@@ -113,20 +116,36 @@ def geocode(address: str, city: str, cache: dict, failures: dict) -> tuple[float
                     return tuple(cached)
         
         try:
-            time.sleep(1)
+            time.sleep(1)  # Rate limiting
             
-            resp = requests.get(
-                "https://nominatim.openstreetmap.org/search",
-                params={
-                    "format": "json",
-                    "q": query,
-                    "limit": 5,
-                    "viewbox": viewbox,
-                    "bounded": 0,
-                },
-                headers={"User-Agent": "IndbrudScraper/1.0"},
-                timeout=10
-            )
+            # Use LocationIQ if API key is set, otherwise fall back to Nominatim
+            if LOCATIONIQ_API_KEY:
+                resp = requests.get(
+                    "https://us1.locationiq.com/v1/search.php",
+                    params={
+                        "key": LOCATIONIQ_API_KEY,
+                        "q": query,
+                        "format": "json",
+                        "limit": 5,
+                        "viewbox": viewbox,
+                        "bounded": 0,
+                    },
+                    timeout=10
+                )
+            else:
+                resp = requests.get(
+                    "https://nominatim.openstreetmap.org/search",
+                    params={
+                        "format": "json",
+                        "q": query,
+                        "limit": 5,
+                        "viewbox": viewbox,
+                        "bounded": 0,
+                    },
+                    headers={"User-Agent": "IndbrudScraper/1.0"},
+                    timeout=10
+                )
+            
             resp.raise_for_status()
             data = resp.json()
             
@@ -374,12 +393,24 @@ def scrape_report(page, url: str) -> list[dict]:
     return results
 
 
-def structure_data(entries: list[dict], geocode_cache: dict, geocode_failures: dict) -> dict:
+def structure_data(entries: list[dict], geocode_cache: dict, geocode_failures: dict, skip_geocoding: bool = False) -> dict:
     structured = {}
     for e in entries:
         date, region, city = e["date"], e["region"], e["city"]
         
-        coords = geocode(e["address"], city, geocode_cache, geocode_failures)
+        coords = None
+        if skip_geocoding:
+            # Only use cached coordinates
+            address = sanitize_address(e["address"])
+            for city_variant in normalize_city(city):
+                query = f"{address}, {city_variant}, Denmark" if city_variant else f"{address}, Denmark"
+                if query in geocode_cache and geocode_cache[query] is not None:
+                    cached = geocode_cache[query]
+                    if isinstance(cached, list) and len(cached) == 2:
+                        coords = tuple(cached)
+                        break
+        else:
+            coords = geocode(e["address"], city, geocode_cache, geocode_failures)
         
         entry_data = {
             "address": e["address"],
@@ -439,6 +470,8 @@ def main():
                         help="Run browser in headless mode (default: True)")
     parser.add_argument("--no-headless", action="store_false", dest="headless",
                         help="Run browser with visible window (for debugging)")
+    parser.add_argument("--skip-geocoding", action="store_true", default=False,
+                        help="Skip geocoding (use cached coordinates only)")
     args = parser.parse_args()
     
     output_file = Path(args.output)
@@ -463,7 +496,7 @@ def main():
         browser.close()
     
     print(f"\nGeocoding addresses...")
-    new_data = structure_data(all_entries, geocode_cache, geocode_failures)
+    new_data = structure_data(all_entries, geocode_cache, geocode_failures, skip_geocoding=args.skip_geocoding)
     save_geocode_cache(geocode_cache)
     save_geocode_failures(geocode_failures)
     
