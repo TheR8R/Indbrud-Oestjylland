@@ -55,5 +55,16 @@
       "Nodrevej, Aarhus, Denmark",
       "Nodrevej, Denmark"
     ]
+  },
+  "Glænøvænget, Tilst": {
+    "reason": "not found",
+    "address": "Glænøvænget",
+    "city": "Tilst",
+    "tried": [
+      "Glænøvænget, Tilst, Denmark",
+      "Glænøvænget, Tilst, Aarhus, Denmark",
+      "Glænøvænget, Aarhus, Denmark",
+      "Glænøvænget, Denmark"
+    ]
   }
 }
