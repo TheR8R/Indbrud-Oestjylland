@@ -18,6 +18,11 @@ PAGE_TIMEOUT = int(os.environ.get("PLAYWRIGHT_TIMEOUT", 60000))
 # LocationIQ API key (optional, falls back to Nominatim if not set)
 LOCATIONIQ_API_KEY = os.environ.get("LOCATIONIQ_API_KEY", "")
 
+if LOCATIONIQ_API_KEY:
+    print(f"Using LocationIQ for geocoding (key: {LOCATIONIQ_API_KEY[:4]}...)")
+else:
+    print("Using Nominatim for geocoding (no LocationIQ API key set)")
+
 GEOCODE_CACHE_FILE = Path("geocode_cache.json")
 GEOCODE_FAILURES_FILE = Path("geocode_failures.json")
 
