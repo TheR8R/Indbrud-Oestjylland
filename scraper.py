@@ -7,9 +7,14 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 import requests
 
+import os
+
 BASE_URL = "https://politi.dk"
 REGION_SLUG = "oestjyllands-politi"
 REGION_NAME = "Østjyllands Politi"
+
+# Timeout for page loads (default 30s, can be overridden via env var)
+PAGE_TIMEOUT = int(os.environ.get("PLAYWRIGHT_TIMEOUT", 60000))
 
 GEOCODE_CACHE_FILE = Path("geocode_cache.json")
 GEOCODE_FAILURES_FILE = Path("geocode_failures.json")
@@ -380,7 +385,7 @@ def scrape_report(page, url: str) -> list[dict]:
     
     _, report_year, report_month = extract_date_from_url(url)
     
-    page.goto(url, wait_until="networkidle")
+    page.goto(url, wait_until="networkidle", timeout=PAGE_TIMEOUT)
     page.wait_for_timeout(1000)
     
     content = page.inner_text("body")

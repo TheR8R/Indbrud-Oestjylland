@@ -26,6 +26,9 @@ jobs:
       
       - name: Run scraper
         run: python scraper.py -l 5 -p 1
+        timeout-minutes: 10
+        env:
+          PLAYWRIGHT_TIMEOUT: 60000
       
       - name: Commit and push if changed
         run: |
