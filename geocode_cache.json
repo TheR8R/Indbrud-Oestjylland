@@ -2808,8 +2808,8 @@
     10.0187905
   ],
   "Bøgeskoven, Denmark": [
-    55.6841412,
-    12.4153978
+    55.6842284,
+    12.4153642
   ],
   "Trindballevej, Denmark": [
     56.1275498,
@@ -7386,5 +7386,141 @@
   "Gemmavej, Aarhus, Denmark": [
     56.1276539,
     10.1877072
+  ],
+  "Stribvej, Randers SV, Denmark": [
+    56.4359816,
+    10.031937
+  ],
+  "Munkdrupvej, Randers, Denmark": [
+    56.4182958,
+    10.0765465
+  ],
+  "Vibevænget, Aarhus, Denmark": [
+    56.0470784,
+    10.2657668
+  ],
+  "Rønnehaven, Hadsten, Denmark": [
+    56.332272,
+    10.0496149
+  ],
+  "Skovsvinget, Denmark": [
+    55.8976984,
+    9.7801154
+  ],
+  "Voldgårdsvej, Aarhus, Denmark": [
+    56.1150927,
+    10.1669718
+  ],
+  "Søgade, Aarhus, Denmark": [
+    56.1503464,
+    10.1980098
+  ],
+  "Bagervej, Randers, Denmark": [
+    56.4728285,
+    10.0009512
+  ],
+  "Adelgade, Ebeltoft, Denmark": [
+    56.2001536,
+    10.679797
+  ],
+  "Christian X’s Vej, Viby J, Denmark": [
+    56.1167674,
+    10.1628331
+  ],
+  "Erslevvej, Erslev, Denmark": [
+    56.3535171,
+    10.0610265
+  ],
+  "Ingerslevvænget, Tranbjerg, Denmark": [
+    56.0844692,
+    10.1195149
+  ],
+  "Larixvej, Sabro, Denmark": [
+    56.2081961,
+    10.0382604
+  ],
+  "Neptunvej, Randers, Denmark": [
+    56.423891,
+    10.0609313
+  ],
+  "Havrevænget, Thorsager, Denmark": [
+    56.3396396,
+    10.4628261
+  ],
+  "Sydagervej, Denmark": [
+    56.4803814,
+    10.4506753
+  ],
+  "Valdemar Poulsens Vej, Viby J, Denmark": [
+    56.1337381,
+    10.178529
+  ],
+  "Bøggildsvej, Aarhus, Denmark": [
+    56.275266,
+    10.2145535
+  ],
+  "Samuel Morses Vej, Denmark": [
+    56.2019849,
+    10.1864156
+  ],
+  "Langøvænget, Tilst, Denmark": [
+    56.1755157,
+    10.1092141
+  ],
+  "Fasanlunden, Hinnerup, Denmark": [
+    56.2695396,
+    10.0611826
+  ],
+  "Torvevænget, Tranbjerg, Denmark": [
+    56.092469,
+    10.1376246
+  ],
+  "Slotsgade, Ryomgård, Denmark": [
+    56.380321,
+    10.5044335
+  ],
+  "Kirkevej, Mørke, Denmark": [
+    56.3360803,
+    10.3759141
+  ],
+  "Bavnevej, Tvede, Denmark": [
+    56.5433966,
+    10.1716174
+  ],
+  "Hoelvej, Vissing, Denmark": [
+    56.3734589,
+    10.0223895
+  ],
+  "Urvej, Hammel, Denmark": [
+    56.2568607,
+    9.8708591
+  ],
+  "Nørre Boulevard, Randers, Denmark": [
+    56.4704901,
+    10.0382713
+  ],
+  "Vinkelvej, Mørke, Denmark": [
+    56.3350608,
+    10.378733
+  ],
+  "Mølledalen, Hjortshøj, Denmark": [
+    56.2529956,
+    10.2668458
+  ],
+  "Skippertoften, Aarhus, Denmark": [
+    56.2320939,
+    10.2896823
+  ],
+  "Strandhuset, Aarhus, Denmark": [
+    56.1851133,
+    10.2379766
+  ],
+  "Irisvej, Viby J, Denmark": [
+    56.1338607,
+    10.1864019
+  ],
+  "Skjoldballen, Hornslet, Denmark": [
+    56.3110398,
+    10.3258732
   ]
 }

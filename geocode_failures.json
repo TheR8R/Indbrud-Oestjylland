@@ -630,5 +630,20 @@
       "Marskellet, Randers, Denmark",
       "Marskellet, Denmark"
     ]
+  },
+  "Norvestpassagen, Aarhus N": {
+    "reason": "not found",
+    "address": "Norvestpassagen",
+    "city": "Aarhus N",
+    "tried": [
+      "Norvestpassagen, Aarhus N, Denmark",
+      "Norvestpassagen, Aarhus, Denmark",
+      "Norvestpassagen, Denmark"
+    ]
+  },
+  "Podøvej ved Ulstrup, Ukendt": {
+    "reason": "unknown city",
+    "address": "Podøvej ved Ulstrup",
+    "city": "Ukendt"
   }
 }
