@@ -141,5 +141,494 @@
       "Meilgaardsvej, Glesborg, Denmark",
       "Meilgaardsvej, Denmark"
     ]
+  },
+  "Delfinvej ved Odder, Ukendt": {
+    "reason": "unknown city",
+    "address": "Delfinvej ved Odder",
+    "city": "Ukendt"
+  },
+  "Prins Christiansgade, Randers": {
+    "reason": "not found",
+    "address": "Prins Christiansgade",
+    "city": "Randers",
+    "tried": [
+      "Prins Christiansgade, Randers, Denmark",
+      "Prins Christiansgade, Denmark"
+    ]
+  },
+  "Agrisvej, Risskov": {
+    "reason": "not found",
+    "address": "Agrisvej",
+    "city": "Risskov",
+    "tried": [
+      "Agrisvej, Risskov, Denmark",
+      "Agrisvej, Risskov, Aarhus, Denmark",
+      "Agrisvej, Aarhus, Denmark",
+      "Agrisvej, Denmark"
+    ]
+  },
+  "Brombærhavne, Lystrup": {
+    "reason": "not found",
+    "address": "Brombærhavne",
+    "city": "Lystrup",
+    "tried": [
+      "Brombærhavne, Lystrup, Denmark",
+      "Brombærhavne, Lystrup, Aarhus, Denmark",
+      "Brombærhavne, Aarhus, Denmark",
+      "Brombærhavne, Denmark"
+    ]
+  },
+  "Julius Bechsgaards Vej, Aarhus C": {
+    "reason": "not found",
+    "address": "Julius Bechsgaards Vej",
+    "city": "Aarhus C",
+    "tried": [
+      "Julius Bechsgaards Vej, Aarhus C, Denmark",
+      "Julius Bechsgaards Vej, Aarhus, Denmark",
+      "Julius Bechsgaards Vej, Denmark"
+    ]
+  },
+  "Skt. Pauls Gade, Aarhus C": {
+    "reason": "not found",
+    "address": "Skt. Pauls Gade",
+    "city": "Aarhus C",
+    "tried": [
+      "Skt. Pauls Gade, Aarhus C, Denmark",
+      "Skt. Pauls Gade, Aarhus, Denmark",
+      "Skt. Pauls Gade, Denmark"
+    ]
+  },
+  "Trænkær Mosevej, Tranbjerg J": {
+    "reason": "not found",
+    "address": "Trænkær Mosevej",
+    "city": "Tranbjerg J",
+    "tried": [
+      "Trænkær Mosevej, Tranbjerg J, Denmark",
+      "Trænkær Mosevej, Denmark"
+    ]
+  },
+  "Laksedalen, Brabrand": {
+    "reason": "not found",
+    "address": "Laksedalen",
+    "city": "Brabrand",
+    "tried": [
+      "Laksedalen, Brabrand, Denmark",
+      "Laksedalen, Brabrand, Aarhus, Denmark",
+      "Laksedalen, Aarhus, Denmark",
+      "Laksedalen, Denmark"
+    ]
+  },
+  "Klokkefaldet, Hasle": {
+    "reason": "not found",
+    "address": "Klokkefaldet",
+    "city": "Hasle",
+    "tried": [
+      "Klokkefaldet, Hasle, Denmark",
+      "Klokkefaldet, Hasle, Aarhus, Denmark",
+      "Klokkefaldet, Aarhus, Denmark",
+      "Klokkefaldet, Denmark"
+    ]
+  },
+  "Daubjergvej, Ulstrup": {
+    "reason": "not found",
+    "address": "Daubjergvej",
+    "city": "Ulstrup",
+    "tried": [
+      "Daubjergvej, Ulstrup, Denmark",
+      "Daubjergvej, Denmark"
+    ]
+  },
+  "Minersvej, Randers NV": {
+    "reason": "not found",
+    "address": "Minersvej",
+    "city": "Randers NV",
+    "tried": [
+      "Minersvej, Randers NV, Denmark",
+      "Minersvej, Randers, Denmark",
+      "Minersvej, Denmark"
+    ]
+  },
+  "Møllevangs Allé, Ukendt": {
+    "reason": "unknown city",
+    "address": "Møllevangs Allé",
+    "city": "Ukendt"
+  },
+  "Georgsminde, Ukendt": {
+    "reason": "unknown city",
+    "address": "Georgsminde",
+    "city": "Ukendt"
+  },
+  "Stennehøj Allé,, Ukendt": {
+    "reason": "unknown city",
+    "address": "Stennehøj Allé,",
+    "city": "Ukendt"
+  },
+  "Rønshøjs Ager, Odder": {
+    "reason": "not found",
+    "address": "Rønshøjs Ager",
+    "city": "Odder",
+    "tried": [
+      "Rønshøjs Ager, Odder, Denmark",
+      "Rønshøjs Ager, Denmark"
+    ]
+  },
+  "Chr. Wærums Gade, Aarhus C": {
+    "reason": "not found",
+    "address": "Chr. Wærums Gade",
+    "city": "Aarhus C",
+    "tried": [
+      "Chr. Wærums Gade, Aarhus C, Denmark",
+      "Chr. Wærums Gade, Aarhus, Denmark",
+      "Chr. Wærums Gade, Denmark"
+    ]
+  },
+  "Rønsbjergvej, Risskov": {
+    "reason": "not found",
+    "address": "Rønsbjergvej",
+    "city": "Risskov",
+    "tried": [
+      "Rønsbjergvej, Risskov, Denmark",
+      "Rønsbjergvej, Risskov, Aarhus, Denmark",
+      "Rønsbjergvej, Aarhus, Denmark",
+      "Rønsbjergvej, Denmark"
+    ]
+  },
+  "Glarbjergvvej, Randers NØ": {
+    "reason": "not found",
+    "address": "Glarbjergvvej",
+    "city": "Randers NØ",
+    "tried": [
+      "Glarbjergvvej, Randers NØ, Denmark",
+      "Glarbjergvvej, Randers, Denmark",
+      "Glarbjergvvej, Denmark"
+    ]
+  },
+  "Egevæksvej, Højbjerg": {
+    "reason": "not found",
+    "address": "Egevæksvej",
+    "city": "Højbjerg",
+    "tried": [
+      "Egevæksvej, Højbjerg, Denmark",
+      "Egevæksvej, Højbjerg, Aarhus, Denmark",
+      "Egevæksvej, Aarhus, Denmark",
+      "Egevæksvej, Denmark"
+    ]
+  },
+  "Æblegaven, Risskov": {
+    "reason": "not found",
+    "address": "Æblegaven",
+    "city": "Risskov",
+    "tried": [
+      "Æblegaven, Risskov, Denmark",
+      "Æblegaven, Risskov, Aarhus, Denmark",
+      "Æblegaven, Aarhus, Denmark",
+      "Æblegaven, Denmark"
+    ]
+  },
+  "Absalongade, Aarhus C": {
+    "reason": "not found",
+    "address": "Absalongade",
+    "city": "Aarhus C",
+    "tried": [
+      "Absalongade, Aarhus C, Denmark",
+      "Absalongade, Aarhus, Denmark",
+      "Absalongade, Denmark"
+    ]
+  },
+  "Kalkærvej, Højbjerg": {
+    "reason": "not found",
+    "address": "Kalkærvej",
+    "city": "Højbjerg",
+    "tried": [
+      "Kalkærvej, Højbjerg, Denmark",
+      "Kalkærvej, Højbjerg, Aarhus, Denmark",
+      "Kalkærvej, Aarhus, Denmark",
+      "Kalkærvej, Denmark"
+    ]
+  },
+  "Kirkevænget, Ukendt": {
+    "reason": "unknown city",
+    "address": "Kirkevænget",
+    "city": "Ukendt"
+  },
+  "Skt. Anna Gade, Aarhus C": {
+    "reason": "not found",
+    "address": "Skt. Anna Gade",
+    "city": "Aarhus C",
+    "tried": [
+      "Skt. Anna Gade, Aarhus C, Denmark",
+      "Skt. Anna Gade, Aarhus, Denmark",
+      "Skt. Anna Gade, Denmark"
+    ]
+  },
+  "Kløvemarksvej, Hadsten": {
+    "reason": "not found",
+    "address": "Kløvemarksvej",
+    "city": "Hadsten",
+    "tried": [
+      "Kløvemarksvej, Hadsten, Denmark",
+      "Kløvemarksvej, Denmark"
+    ]
+  },
+  "Williemoesgade, Aarhus N": {
+    "reason": "not found",
+    "address": "Williemoesgade",
+    "city": "Aarhus N",
+    "tried": [
+      "Williemoesgade, Aarhus N, Denmark",
+      "Williemoesgade, Aarhus, Denmark",
+      "Williemoesgade, Denmark"
+    ]
+  },
+  "Morelvej, Ukendt": {
+    "reason": "unknown city",
+    "address": "Morelvej",
+    "city": "Ukendt"
+  },
+  "Bygaden på Anholt, Ukendt": {
+    "reason": "unknown city",
+    "address": "Bygaden på Anholt",
+    "city": "Ukendt"
+  },
+  "Bisgaardvej, Odder": {
+    "reason": "not found",
+    "address": "Bisgaardvej",
+    "city": "Odder",
+    "tried": [
+      "Bisgaardvej, Odder, Denmark",
+      "Bisgaardvej, Denmark"
+    ]
+  },
+  "Sønderholmvej ved Hasselager, Ukendt": {
+    "reason": "unknown city",
+    "address": "Sønderholmvej ved Hasselager",
+    "city": "Ukendt"
+  },
+  "Ringebjergvej på Samsø, Ukendt": {
+    "reason": "unknown city",
+    "address": "Ringebjergvej på Samsø",
+    "city": "Ukendt"
+  },
+  "Lysstrupgårdsparken, Odder": {
+    "reason": "not found",
+    "address": "Lysstrupgårdsparken",
+    "city": "Odder",
+    "tried": [
+      "Lysstrupgårdsparken, Odder, Denmark",
+      "Lysstrupgårdsparken, Denmark"
+    ]
+  },
+  "Risvangs Allé, Aarhus N": {
+    "reason": "not found",
+    "address": "Risvangs Allé",
+    "city": "Aarhus N",
+    "tried": [
+      "Risvangs Allé, Aarhus N, Denmark",
+      "Risvangs Allé, Aarhus, Denmark",
+      "Risvangs Allé, Denmark"
+    ]
+  },
+  "Ny Tilemansnsvej, Hammel": {
+    "reason": "not found",
+    "address": "Ny Tilemansnsvej",
+    "city": "Hammel",
+    "tried": [
+      "Ny Tilemansnsvej, Hammel, Denmark",
+      "Ny Tilemansnsvej, Denmark"
+    ]
+  },
+  "Krabbes Agger, Odder": {
+    "reason": "not found",
+    "address": "Krabbes Agger",
+    "city": "Odder",
+    "tried": [
+      "Krabbes Agger, Odder, Denmark",
+      "Krabbes Agger, Denmark"
+    ]
+  },
+  "Askevej, Ukendt": {
+    "reason": "unknown city",
+    "address": "Askevej",
+    "city": "Ukendt"
+  },
+  "Haderslevgade, Ukendt": {
+    "reason": "unknown city",
+    "address": "Haderslevgade",
+    "city": "Ukendt"
+  },
+  "St. Blichersvej, Aarhus V, Ukendt": {
+    "reason": "unknown city",
+    "address": "St. Blichersvej, Aarhus V",
+    "city": "Ukendt"
+  },
+  "Housgårdsvej, Brabrand": {
+    "reason": "not found",
+    "address": "Housgårdsvej",
+    "city": "Brabrand",
+    "tried": [
+      "Housgårdsvej, Brabrand, Denmark",
+      "Housgårdsvej, Brabrand, Aarhus, Denmark",
+      "Housgårdsvej, Aarhus, Denmark",
+      "Housgårdsvej, Denmark"
+    ]
+  },
+  "Solskrænten Thorsø, Ukendt": {
+    "reason": "unknown city",
+    "address": "Solskrænten Thorsø",
+    "city": "Ukendt"
+  },
+  "K L Knudsensvej, Ryomgård": {
+    "reason": "not found",
+    "address": "K L Knudsensvej",
+    "city": "Ryomgård",
+    "tried": [
+      "K L Knudsensvej, Ryomgård, Denmark",
+      "K L Knudsensvej, Denmark"
+    ]
+  },
+  "Frederik Barfoeds Vej, Ukendt": {
+    "reason": "unknown city",
+    "address": "Frederik Barfoeds Vej",
+    "city": "Ukendt"
+  },
+  "Runehøjen, Ukendt": {
+    "reason": "unknown city",
+    "address": "Runehøjen",
+    "city": "Ukendt"
+  },
+  "C.A. Thyregodsvej, Åbyhøj": {
+    "reason": "not found",
+    "address": "C.A. Thyregodsvej",
+    "city": "Åbyhøj",
+    "tried": [
+      "C.A. Thyregodsvej, Åbyhøj, Denmark",
+      "C.A. Thyregodsvej, Åbyhøj, Aarhus, Denmark",
+      "C.A. Thyregodsvej, Aarhus, Denmark",
+      "C.A. Thyregodsvej, Denmark"
+    ]
+  },
+  "Grenstenvej Stevnstrup, Ukendt": {
+    "reason": "unknown city",
+    "address": "Grenstenvej Stevnstrup",
+    "city": "Ukendt"
+  },
+  "Majsvænget, Ukendt": {
+    "reason": "unknown city",
+    "address": "Majsvænget",
+    "city": "Ukendt"
+  },
+  "Hanstholmsvej, Egå": {
+    "reason": "not found",
+    "address": "Hanstholmsvej",
+    "city": "Egå",
+    "tried": [
+      "Hanstholmsvej, Egå, Denmark",
+      "Hanstholmsvej, Egå, Aarhus, Denmark",
+      "Hanstholmsvej, Aarhus, Denmark",
+      "Hanstholmsvej, Denmark"
+    ]
+  },
+  "Carit Etlars Vej, Ukendt": {
+    "reason": "unknown city",
+    "address": "Carit Etlars Vej",
+    "city": "Ukendt"
+  },
+  "Baskildevej, Ask ved Malling": {
+    "reason": "not found",
+    "address": "Baskildevej",
+    "city": "Ask ved Malling",
+    "tried": [
+      "Baskildevej, Ask ved Malling, Denmark",
+      "Baskildevej, Denmark"
+    ]
+  },
+  "Simonsens Have, Søften": {
+    "reason": "not found",
+    "address": "Simonsens Have",
+    "city": "Søften",
+    "tried": [
+      "Simonsens Have, Søften, Denmark",
+      "Simonsens Have, Denmark"
+    ]
+  },
+  "Ludvig Feilbergs Vej, Ukendt": {
+    "reason": "unknown city",
+    "address": "Ludvig Feilbergs Vej",
+    "city": "Ukendt"
+  },
+  "Ahornvej, Ukendt": {
+    "reason": "unknown city",
+    "address": "Ahornvej",
+    "city": "Ukendt"
+  },
+  "Køsters Alle, Ukendt": {
+    "reason": "unknown city",
+    "address": "Køsters Alle",
+    "city": "Ukendt"
+  },
+  "Rønneparken, Ukendt": {
+    "reason": "unknown city",
+    "address": "Rønneparken",
+    "city": "Ukendt"
+  },
+  "Sønder Allé i Aarhus C blev en 26-årig mand stoppet, sigtet for at føre bil i påvirket tilstand. I bilen fandt betjentene frem til flere pakker med tramadol-piller, som manden ikke havde gyldig recept til. I hans køretøj fandt patruljen desuden et par patroner til en pistol, som blev beslaglagt. Manden blev siget for at overtræde våbenloven og loven om euforiserende stoffer og blev anholdt. ** Knive i Randers To personer blev i forbindelse med to forskellige visitationer fundet i besiddelse af ulovlige knive i Randers C. Kl. 2.29 blev en 44-årig mand sigtet for at være i besiddelse af en låsbar enhåndsbetjent foldekniv, da han blev visiteret af en politipatrulje på Hobrovej i Randers C. Kl. 3.15 blev en anden 44-årig mand sigtet for på Stemannsgade i Randers C at være i besiddelse af en lignende kniv på et offentligt tilgængeligt sted uden et anerkendelsesværdigt formål. Han blev ligeledes sigtet for at overtræde knivloven. ** Færdsel: Onsdag kl. 8.08 skete der et færdselsuheld på Thorvaldsensgade i Aarhus C i krydset ved Vestre Allé. En 29-årig mandlig bilist påkørte en 43-årig kvindelig fodgænger i fodgængerfeltet, da han kørte ligeud. En ambulance blev tilkaldt, men kvinden slap umiddelbart fra uheldet uden skader. Den 29-årige bilist blev sigtet for påkørslen. Onsdag kl. 12.04 skete der et færdselsuheld på Tyvhøjvej i Grenå, hvor to personbiler kørte frontalt sammen på grund af glat føre. En 44-årig kvinde mistede herredømmet over sin bil og endte i modsatte vognbane, hvor hun kørte frontalt sammen med en 31-årig mandlig modkørende. Den 44-årige kvinde blev kørt til kontrol på skadestuen efterfølgende, men ingen personer kom alvorligt til skade i forbindelse med sammenstødet. Dog skete der betydelige materielle skader på de to køretøjer. Onsdag kl. 12.10 skete der et færdselsuheld på Knudrisgade i Aarhus C, hvor en 26-årig kvinde i bil overså sin vigepligt og påkørte en 35-årig mandlig cyklist. Ingen personer kom til skade, men kvinden blev sigtet for påkørslen. Onsdag kl. 15.46 skete der et færdselsuheld på Korupskovvej i Ryomgård. En 40-årig kvinde mistede herredømmet over sit køretøj i det glatte føre og kørte i rabatten, hvor bilen endte på siden. Hun kunne selv komme ud af bilen og slap umiddelbart fra uheldet uden større skader, men blev tilset i en ambulance efterfølgende. ** Indbrud: Der er det seneste døgn anmeldt ti indbrud i privat beboelse i Østjyllands politikreds. • På Kvædevej i Højbjerg, Ukendt": {
+    "reason": "unknown city",
+    "address": "Sønder Allé i Aarhus C blev en 26-årig mand stoppet, sigtet for at føre bil i påvirket tilstand. I bilen fandt betjentene frem til flere pakker med tramadol-piller, som manden ikke havde gyldig recept til. I hans køretøj fandt patruljen desuden et par patroner til en pistol, som blev beslaglagt. Manden blev siget for at overtræde våbenloven og loven om euforiserende stoffer og blev anholdt. ** Knive i Randers To personer blev i forbindelse med to forskellige visitationer fundet i besiddelse af ulovlige knive i Randers C. Kl. 2.29 blev en 44-årig mand sigtet for at være i besiddelse af en låsbar enhåndsbetjent foldekniv, da han blev visiteret af en politipatrulje på Hobrovej i Randers C. Kl. 3.15 blev en anden 44-årig mand sigtet for på Stemannsgade i Randers C at være i besiddelse af en lignende kniv på et offentligt tilgængeligt sted uden et anerkendelsesværdigt formål. Han blev ligeledes sigtet for at overtræde knivloven. ** Færdsel: Onsdag kl. 8.08 skete der et færdselsuheld på Thorvaldsensgade i Aarhus C i krydset ved Vestre Allé. En 29-årig mandlig bilist påkørte en 43-årig kvindelig fodgænger i fodgængerfeltet, da han kørte ligeud. En ambulance blev tilkaldt, men kvinden slap umiddelbart fra uheldet uden skader. Den 29-årige bilist blev sigtet for påkørslen. Onsdag kl. 12.04 skete der et færdselsuheld på Tyvhøjvej i Grenå, hvor to personbiler kørte frontalt sammen på grund af glat føre. En 44-årig kvinde mistede herredømmet over sin bil og endte i modsatte vognbane, hvor hun kørte frontalt sammen med en 31-årig mandlig modkørende. Den 44-årige kvinde blev kørt til kontrol på skadestuen efterfølgende, men ingen personer kom alvorligt til skade i forbindelse med sammenstødet. Dog skete der betydelige materielle skader på de to køretøjer. Onsdag kl. 12.10 skete der et færdselsuheld på Knudrisgade i Aarhus C, hvor en 26-årig kvinde i bil overså sin vigepligt og påkørte en 35-årig mandlig cyklist. Ingen personer kom til skade, men kvinden blev sigtet for påkørslen. Onsdag kl. 15.46 skete der et færdselsuheld på Korupskovvej i Ryomgård. En 40-årig kvinde mistede herredømmet over sit køretøj i det glatte føre og kørte i rabatten, hvor bilen endte på siden. Hun kunne selv komme ud af bilen og slap umiddelbart fra uheldet uden større skader, men blev tilset i en ambulance efterfølgende. ** Indbrud: Der er det seneste døgn anmeldt ti indbrud i privat beboelse i Østjyllands politikreds. • På Kvædevej i Højbjerg",
+    "city": "Ukendt"
+  },
+  "Asavænger, Randers": {
+    "reason": "not found",
+    "address": "Asavænger",
+    "city": "Randers",
+    "tried": [
+      "Asavænger, Randers, Denmark",
+      "Asavænger, Denmark"
+    ]
+  },
+  "Lerbærkvej, Risskov": {
+    "reason": "not found",
+    "address": "Lerbærkvej",
+    "city": "Risskov",
+    "tried": [
+      "Lerbærkvej, Risskov, Denmark",
+      "Lerbærkvej, Risskov, Aarhus, Denmark",
+      "Lerbærkvej, Aarhus, Denmark",
+      "Lerbærkvej, Denmark"
+    ]
+  },
+  "Ved Starnden, Egå": {
+    "reason": "not found",
+    "address": "Ved Starnden",
+    "city": "Egå",
+    "tried": [
+      "Ved Starnden, Egå, Denmark",
+      "Ved Starnden, Egå, Aarhus, Denmark",
+      "Ved Starnden, Aarhus, Denmark",
+      "Ved Starnden, Denmark"
+    ]
+  },
+  "Maarup Østerstrand på Samsø, Ukendt": {
+    "reason": "unknown city",
+    "address": "Maarup Østerstrand på Samsø",
+    "city": "Ukendt"
+  },
+  "Karslbergvej, Randers": {
+    "reason": "not found",
+    "address": "Karslbergvej",
+    "city": "Randers",
+    "tried": [
+      "Karslbergvej, Randers, Denmark",
+      "Karslbergvej, Denmark"
+    ]
+  },
+  "Marskellet, Randers NV": {
+    "reason": "not found",
+    "address": "Marskellet",
+    "city": "Randers NV",
+    "tried": [
+      "Marskellet, Randers NV, Denmark",
+      "Marskellet, Randers, Denmark",
+      "Marskellet, Denmark"
+    ]
   }
 }

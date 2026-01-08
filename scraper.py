@@ -358,12 +358,12 @@ def scrape_and_process_report(page, url: str, geocode_cache: dict, geocode_failu
     
     content = page.inner_text("body")
     
-    match = re.search(r"(?:^|\n)\s*Indbrud(?:\s+i\s+[^\n]+)?\s*\n(.*?)(?=\n[A-ZÆØÅ][a-zæøå]+(?:\s+[a-zæøå]+)?\s*\n|\Z)", content, re.DOTALL)
+    match = re.search(r"(?:^|\n)\s*Indbrud:?(?:\s+i\s+[^\n]+)?\s*\n(.*?)(?=\n[A-ZÆØÅ][a-zæøå]+(?:\s+[a-zæøå]+)?:?\s*\n|\Z)", content, re.DOTALL)
     if not match:
         print(f"    No 'Indbrud' section found")
         return 0
     
-    entries = re.split(r"(?:^|\n)\s*\*?\s*(?=På\s+)", match.group(1))
+    entries = re.split(r"(?:^|\n|\•)\s*\*?\s*(?=På\s+)", match.group(1))
     
     new_count = 0
     for entry in entries:
