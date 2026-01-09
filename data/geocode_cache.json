@@ -1,0 +1,722 @@
+{
+  "Hjelmagerparken, Skødstrup": {
+    "lat": 56.2787882,
+    "lon": 10.3205657
+  },
+  "Hjelmagerparken, Skødstrup, Denmark": {
+    "lat": 56.2787882,
+    "lon": 10.3205657
+  },
+  "Rugbjergvej, Viby J": {
+    "lat": 56.1317374,
+    "lon": 10.1209705
+  },
+  "Rugbjergvej, Aarhus, Denmark": {
+    "lat": 56.1317374,
+    "lon": 10.1209705
+  },
+  "Vegavej, Højbjerg": {
+    "lat": 56.1257789,
+    "lon": 10.1873168
+  },
+  "Vegavej, Højbjerg, Denmark": {
+    "lat": 56.1257789,
+    "lon": 10.1873168
+  },
+  "Stribvej, Randers SV": {
+    "lat": 56.4359816,
+    "lon": 10.031937
+  },
+  "Stribvej, Randers SV, Denmark": {
+    "lat": 56.4359816,
+    "lon": 10.031937
+  },
+  "Munkdrupvej, Randers SØ": {
+    "lat": 56.4182958,
+    "lon": 10.0765465
+  },
+  "Munkdrupvej, Randers, Denmark": {
+    "lat": 56.4182958,
+    "lon": 10.0765465
+  },
+  "Vibevænget, Beder": {
+    "lat": 56.0470784,
+    "lon": 10.2657668
+  },
+  "Vibevænget, Aarhus, Denmark": {
+    "lat": 56.0470784,
+    "lon": 10.2657668
+  },
+  "Rønnehaven, Hadsten": {
+    "lat": 56.332272,
+    "lon": 10.0496149
+  },
+  "Rønnehaven, Hadsten, Denmark": {
+    "lat": 56.332272,
+    "lon": 10.0496149
+  },
+  "Glænøvænget, Tilst": {
+    "lat": 56.180314,
+    "lon": 10.1058007
+  },
+  "Glænøvænget, Tilst, Denmark": {
+    "lat": 56.180314,
+    "lon": 10.1058007
+  },
+  "Vilhelmsborgvænget, Beder": {
+    "lat": 56.0611316,
+    "lon": 10.2020785
+  },
+  "Vilhelmsborgvænget, Beder, Denmark": {
+    "lat": 56.0611316,
+    "lon": 10.2020785
+  },
+  "Skt. Pauls Gade, Aarhus C": {
+    "lat": 56.1462385,
+    "lon": 10.2010287
+  },
+  "Sankt Pauls Gade, Denmark": {
+    "lat": 56.1462385,
+    "lon": 10.2010287
+  },
+  "Cort Adelers Gade, Aarhus N": {
+    "lat": 56.1733429,
+    "lon": 10.2195939
+  },
+  "Cort Adelers Gade, Aarhus, Denmark": {
+    "lat": 56.1733429,
+    "lon": 10.2195939
+  },
+  "Katrinebjergvej, Aarhus N": {
+    "lat": 56.1734545,
+    "lon": 10.1902736
+  },
+  "Katrinebjergvej, Aarhus, Denmark": {
+    "lat": 56.1734545,
+    "lon": 10.1902736
+  },
+  "Byagervænget, Beder": {
+    "lat": 56.0539531,
+    "lon": 10.2151068
+  },
+  "Byagervænget, Beder, Denmark": {
+    "lat": 56.0539531,
+    "lon": 10.2151068
+  },
+  "Astridsvej, Brabrand": {
+    "lat": 56.1565233,
+    "lon": 10.1286504
+  },
+  "Astridsvej, Brabrand, Denmark": {
+    "lat": 56.1565233,
+    "lon": 10.1286504
+  },
+  "Asser Rigs vej 53, 8960 Randers sø": {
+    "lat": 56.442633,
+    "lon": 10.063165
+  },
+  "Asser Rigs vej 53, 8960 Randers sø, Denmark": {
+    "lat": 56.442633,
+    "lon": 10.063165
+  },
+  "Ejbyvej 12, 8270 Højbjerg": {
+    "lat": 56.120016,
+    "lon": 10.169194
+  },
+  "Ejbyvej 12, 8270 Højbjerg, Denmark": {
+    "lat": 56.120016,
+    "lon": 10.169194
+  },
+  "Møllevangen, Risskov": {
+    "lat": 56.1855866,
+    "lon": 10.212842
+  },
+  "Møllevangen, Aarhus, Denmark": {
+    "lat": 56.1855866,
+    "lon": 10.212842
+  },
+  "Thorshavnsgade, Aarhus N": {
+    "lat": 56.1761119,
+    "lon": 10.1834273
+  },
+  "Thorshavnsgade, Aarhus, Denmark": {
+    "lat": 56.1761119,
+    "lon": 10.1834273
+  },
+  "Skeltoften, Beder": {
+    "lat": 56.0577593,
+    "lon": 10.2105757
+  },
+  "Skeltoften, Beder, Denmark": {
+    "lat": 56.0577593,
+    "lon": 10.2105757
+  },
+  "Klosterport, Aarhus C": {
+    "lat": 56.1594795,
+    "lon": 10.2059827
+  },
+  "Klosterport, Denmark": {
+    "lat": 56.1594795,
+    "lon": 10.2059827
+  },
+  "Dr. Margrethes Vej, Randers SØ": {
+    "lat": 56.4423702,
+    "lon": 10.0582625
+  },
+  "Dr. Margrethes Vej, Randers, Denmark": {
+    "lat": 56.4423702,
+    "lon": 10.0582625
+  },
+  "Østermarksvej, Tilst": {
+    "lat": 56.1895106,
+    "lon": 10.1232564
+  },
+  "Østermarksvej, Tilst, Denmark": {
+    "lat": 56.1895106,
+    "lon": 10.1232564
+  },
+  "Høiriisgårdsvej, Brabrand": {
+    "lat": 56.1557684,
+    "lon": 10.0959843
+  },
+  "Høiriisgårdsvej, Brabrand, Denmark": {
+    "lat": 56.1557684,
+    "lon": 10.0959843
+  },
+  "Mejlgade, Aarhus C": {
+    "lat": 56.1616031,
+    "lon": 10.2143662
+  },
+  "Mejlgade, Denmark": {
+    "lat": 56.1616031,
+    "lon": 10.2143662
+  },
+  "Vesterbrogade, Aarhus C": {
+    "lat": 56.1579829,
+    "lon": 10.1970683
+  },
+  "Vesterbrogade, Denmark": {
+    "lat": 56.1579829,
+    "lon": 10.1970683
+  },
+  "Holstebrovej, Randers SV": {
+    "lat": 56.4426347,
+    "lon": 10.0471538
+  },
+  "Holstebrovej, Randers SV, Denmark": {
+    "lat": 56.4426347,
+    "lon": 10.0471538
+  },
+  "Engtoften, Viby J": {
+    "lat": 56.122499,
+    "lon": 10.1679634
+  },
+  "Engtoften, Viby J, Denmark": {
+    "lat": 56.122499,
+    "lon": 10.1679634
+  },
+  "Vorup Boulevard, Randers SV": {
+    "lat": 56.4448975,
+    "lon": 10.040299
+  },
+  "Vorup Boulevard, Randers SV, Denmark": {
+    "lat": 56.4448975,
+    "lon": 10.040299
+  },
+  "Høegh-Guldbergs Gade, Aarhus C": {
+    "lat": 56.1633436,
+    "lon": 10.208053
+  },
+  "Høegh-Guldbergs Gade, Denmark": {
+    "lat": 56.1633436,
+    "lon": 10.208053
+  },
+  "Vandværksvej, Randers SØ": {
+    "lat": 56.4376271,
+    "lon": 10.1435396
+  },
+  "Vandværksvej, Randers, Denmark": {
+    "lat": 56.4376271,
+    "lon": 10.1435396
+  },
+  "Bispeparken, Åbyhøj": {
+    "lat": 55.712884,
+    "lon": 12.5324865
+  },
+  "Bispeparken, Denmark": {
+    "lat": 55.712884,
+    "lon": 12.5324865
+  },
+  "Beder Landevej, Beder": {
+    "lat": 56.0576495,
+    "lon": 10.2030622
+  },
+  "Beder Landevej, Beder, Denmark": {
+    "lat": 56.0576495,
+    "lon": 10.2030622
+  },
+  "Stadion Allé, Grenaa": {
+    "lat": 56.4058846,
+    "lon": 10.8827034
+  },
+  "Stadion Allé, Grenaa, Denmark": {
+    "lat": 56.4058846,
+    "lon": 10.8827034
+  },
+  "Gammel Munkegade, Aarhus C": {
+    "lat": 56.1593743,
+    "lon": 10.2042481
+  },
+  "Gammel Munkegade, Denmark": {
+    "lat": 56.1593743,
+    "lon": 10.2042481
+  },
+  "Kanehaven, Risskov": {
+    "lat": 56.2072323,
+    "lon": 10.2141055
+  },
+  "Kanehaven, Aarhus, Denmark": {
+    "lat": 56.2072323,
+    "lon": 10.2141055
+  },
+  "Fjældevænget, Aarhus C": {
+    "lat": 56.1782948,
+    "lon": 10.164716
+  },
+  "Fjældevænget, Denmark": {
+    "lat": 56.1782948,
+    "lon": 10.164716
+  },
+  "Elgårdsminde, Hadsten": {
+    "lat": 56.3341058,
+    "lon": 10.0636544
+  },
+  "Elgårdsminde, Hadsten, Denmark": {
+    "lat": 56.3341058,
+    "lon": 10.0636544
+  },
+  "Langelandsgade, Aarhus C": {
+    "lat": 56.1729047,
+    "lon": 10.2007565
+  },
+  "Langelandsgade, Denmark": {
+    "lat": 56.1729047,
+    "lon": 10.2007565
+  },
+  "Frydenlunds Allé, Aarhus V": {
+    "lat": 56.1654988,
+    "lon": 10.1748524
+  },
+  "Frydenlunds Allé, Aarhus, Denmark": {
+    "lat": 56.1654988,
+    "lon": 10.1748524
+  },
+  "Vinterslevvej, Hadsten": {
+    "lat": 56.3347943,
+    "lon": 10.0477677
+  },
+  "Vinterslevvej, Hadsten, Denmark": {
+    "lat": 56.3347943,
+    "lon": 10.0477677
+  },
+  "Havagervej, Egå": {
+    "lat": 56.2322978,
+    "lon": 10.3218356
+  },
+  "Havagervej, Aarhus, Denmark": {
+    "lat": 56.2322978,
+    "lon": 10.3218356
+  },
+  "Sydtoften, Viby": {
+    "lat": 56.1096674,
+    "lon": 10.1450076
+  },
+  "Sydtoften, Aarhus, Denmark": {
+    "lat": 56.1096674,
+    "lon": 10.1450076
+  },
+  "Harald Jensens Plads, Aarhus": {
+    "lat": 56.1440312,
+    "lon": 10.1907906
+  },
+  "Harald Jensens Plads, Aarhus, Denmark": {
+    "lat": 56.1440312,
+    "lon": 10.1907906
+  },
+  "Bysmedevej, Tilst": {
+    "lat": 56.191956,
+    "lon": 10.1137768
+  },
+  "Bysmedevej, Tilst, Denmark": {
+    "lat": 56.191956,
+    "lon": 10.1137768
+  },
+  "Fjældevænget, Aarhus V": {
+    "lat": 56.1782948,
+    "lon": 10.164716
+  },
+  "Fjældevænget, Aarhus, Denmark": {
+    "lat": 56.1782948,
+    "lon": 10.164716
+  },
+  "Tousvej, Åbyhøj": {
+    "lat": 56.147914,
+    "lon": 10.1551953
+  },
+  "Tousvej, Åbyhøj, Denmark": {
+    "lat": 56.147914,
+    "lon": 10.1551953
+  },
+  "Strandhusvej, Egå": {
+    "lat": 56.2052127,
+    "lon": 10.2802831
+  },
+  "Strandhusvej, Egå, Denmark": {
+    "lat": 56.2052127,
+    "lon": 10.2802831
+  },
+  "Katterhøjvej, Højbjerg": {
+    "lat": 56.1032519,
+    "lon": 10.2139093
+  },
+  "Katterhøjvej, Højbjerg, Denmark": {
+    "lat": 56.1032519,
+    "lon": 10.2139093
+  },
+  "Byløkken, Risskov": {
+    "lat": 56.2049733,
+    "lon": 10.2208451
+  },
+  "Byløkken, Risskov, Denmark": {
+    "lat": 56.2049733,
+    "lon": 10.2208451
+  },
+  "Skovlund, Randers SV": {
+    "lat": 56.4491673,
+    "lon": 10.0198013
+  },
+  "Skovlund, Randers, Denmark": {
+    "lat": 56.4491673,
+    "lon": 10.0198013
+  },
+  "Krogagre, Risskov": {
+    "lat": 56.2085255,
+    "lon": 10.2120911
+  },
+  "Krogagre, Risskov, Denmark": {
+    "lat": 56.2085255,
+    "lon": 10.2120911
+  },
+  "Holmegårdsvej, Højbjerg": {
+    "lat": 56.1163895,
+    "lon": 10.1665134
+  },
+  "Holmegårdsvej, Aarhus, Denmark": {
+    "lat": 56.1163895,
+    "lon": 10.1665134
+  },
+  "Mariendalsvej, Ebeltoft": {
+    "lat": 56.1856239,
+    "lon": 10.7167424
+  },
+  "Mariendalsvej, Ebeltoft, Denmark": {
+    "lat": 56.1856239,
+    "lon": 10.7167424
+  },
+  "Rådhusgade, Odder": {
+    "lat": 55.9809988,
+    "lon": 10.1514047
+  },
+  "Rådhusgade, Odder, Denmark": {
+    "lat": 55.9809988,
+    "lon": 10.1514047
+  },
+  "Vejlby Vænge, Risskov": {
+    "lat": 56.200964,
+    "lon": 10.2146753
+  },
+  "Vejlby Vænge, Aarhus, Denmark": {
+    "lat": 56.200964,
+    "lon": 10.2146753
+  },
+  "Asylvej, Risskov": {
+    "lat": 56.1856839,
+    "lon": 10.2189389
+  },
+  "Asylvej, Risskov, Denmark": {
+    "lat": 56.1856839,
+    "lon": 10.2189389
+  },
+  "Kirkedammen, Aarhus C": {
+    "lat": 56.1401889,
+    "lon": 10.178156
+  },
+  "Kirkedammen, Denmark": {
+    "lat": 56.1401889,
+    "lon": 10.178156
+  },
+  "Doris Kæraas Gade, Aarhus C": {
+    "lat": 56.196954,
+    "lon": 10.2050466
+  },
+  "Doris Kæraas Gade, Denmark": {
+    "lat": 56.196954,
+    "lon": 10.2050466
+  },
+  "Åboulevarden 96, Aarhus C": {
+    "lat": 56.155973,
+    "lon": 10.202288
+  },
+  "Åboulevarden 96, Aarhus C, Denmark": {
+    "lat": 56.155973,
+    "lon": 10.202288
+  },
+  "Violvej, 8920 Randers NV": {
+    "lat": 56.473209,
+    "lon": 10.0324304
+  },
+  "Violvej, 8920 Randers, Denmark": {
+    "lat": 56.473209,
+    "lon": 10.0324304
+  },
+  "Møddebro Parkvej, 8355 Solbjerg": {
+    "lat": 56.0429666,
+    "lon": 10.1010771
+  },
+  "Møddebro Parkvej, 8355 Solbjerg, Denmark": {
+    "lat": 56.0429666,
+    "lon": 10.1010771
+  },
+  "Bronzealdervej, 8210 Aarhus V": {
+    "lat": 56.1709796,
+    "lon": 10.1407093
+  },
+  "Bronzealdervej, 8210 Aarhus, Denmark": {
+    "lat": 56.1709796,
+    "lon": 10.1407093
+  },
+  "Dr. Larsens Vej, 8370 Hadsten": {
+    "lat": 56.3316668,
+    "lon": 10.04258
+  },
+  "Dr. Larsens Vej, Hadsten, Denmark": {
+    "lat": 56.3316668,
+    "lon": 10.04258
+  },
+  "Villadsensvej, 8240 Risskov": {
+    "lat": 56.1858657,
+    "lon": 10.2166869
+  },
+  "Villadsensvej, 8240 Risskov, Denmark": {
+    "lat": 56.1858657,
+    "lon": 10.2166869
+  },
+  "Vilhelm Becks vej, 8260 Viby J": {
+    "lat": 56.1308143,
+    "lon": 10.1776106
+  },
+  "Vilhelm Becks vej, 8260 Viby J, Denmark": {
+    "lat": 56.1308143,
+    "lon": 10.1776106
+  },
+  "Beder Landevej, 8330 Beder": {
+    "lat": 56.0576495,
+    "lon": 10.2030622
+  },
+  "Beder Landevej, 8330 Beder, Denmark": {
+    "lat": 56.0576495,
+    "lon": 10.2030622
+  },
+  "Bymosevej, 8210 Aarhus V": {
+    "lat": 56.1728856,
+    "lon": 10.1503995
+  },
+  "Bymosevej, 8210 Aarhus, Denmark": {
+    "lat": 56.1728856,
+    "lon": 10.1503995
+  },
+  "Tove Ditlevsens Gade, 8240 Risskov": {
+    "lat": 56.2034342,
+    "lon": 10.2295212
+  },
+  "Tove Ditlevsens Gade, 8240 Risskov, Denmark": {
+    "lat": 56.2034342,
+    "lon": 10.2295212
+  },
+  "Panvej, 8960 Randers SØ": {
+    "lat": 56.4279288,
+    "lon": 10.071252
+  },
+  "Panvej, 8960 Randers, Denmark": {
+    "lat": 56.4279288,
+    "lon": 10.071252
+  },
+  "Mejlvej, Risskov": {
+    "lat": 56.1865495,
+    "lon": 10.2221412
+  },
+  "Mejlvej, Risskov, Denmark": {
+    "lat": 56.1865495,
+    "lon": 10.2221412
+  },
+  "Paderup Mosevej, Randers SØ": {
+    "lat": 56.4269908,
+    "lon": 10.0766742
+  },
+  "Paderup Mosevej, Randers, Denmark": {
+    "lat": 56.4269908,
+    "lon": 10.0766742
+  },
+  "Solsortevej, Hinnerup": {
+    "lat": 56.2737404,
+    "lon": 10.0677502
+  },
+  "Solsortevej, Hinnerup, Denmark": {
+    "lat": 56.2737404,
+    "lon": 10.0677502
+  },
+  "Rosengade, Grenå": {
+    "lat": 56.4144894,
+    "lon": 10.8789778
+  },
+  "Rosengade, Grenå, Denmark": {
+    "lat": 56.4144894,
+    "lon": 10.8789778
+  },
+  "Langkærvej, Tilst": {
+    "lat": 56.1874978,
+    "lon": 10.1049065
+  },
+  "Langkærvej, Tilst, Denmark": {
+    "lat": 56.1874978,
+    "lon": 10.1049065
+  },
+  "Finsensgade, Aarhus N": {
+    "lat": 56.1747567,
+    "lon": 10.2061257
+  },
+  "Finsensgade, Aarhus, Denmark": {
+    "lat": 56.1747567,
+    "lon": 10.2061257
+  },
+  "Slotsvej, Ulstrup": {
+    "lat": 56.395977,
+    "lon": 9.7772063
+  },
+  "Slotsvej, Ulstrup, Denmark": {
+    "lat": 56.395977,
+    "lon": 9.7772063
+  },
+  "Erslevvej, Hadsten": {
+    "lat": 56.3489678,
+    "lon": 10.0491463
+  },
+  "Erslevvej, Hadsten, Denmark": {
+    "lat": 56.3489678,
+    "lon": 10.0491463
+  },
+  "Havrebakken, Aarhus N": {
+    "lat": 56.1822613,
+    "lon": 10.2034631
+  },
+  "Havrebakken, Aarhus, Denmark": {
+    "lat": 56.1822613,
+    "lon": 10.2034631
+  },
+  "Skytten, Randers NV": {
+    "lat": 56.4856327,
+    "lon": 9.9984441
+  },
+  "Skytten, Randers, Denmark": {
+    "lat": 56.4856327,
+    "lon": 9.9984441
+  },
+  "Kildehøjen, Risskov": {
+    "lat": 56.1974681,
+    "lon": 10.2178582
+  },
+  "Kildehøjen, Aarhus, Denmark": {
+    "lat": 56.1974681,
+    "lon": 10.2178582
+  },
+  "Egebæksvej, Højbjerg": {
+    "lat": 56.1201907,
+    "lon": 10.1988824
+  },
+  "Egebæksvej, Aarhus, Denmark": {
+    "lat": 56.1201907,
+    "lon": 10.1988824
+  },
+  "Jægergårdsgade, Aarhus C": {
+    "lat": 56.1481505,
+    "lon": 10.2003944
+  },
+  "Jægergårdsgade, Denmark": {
+    "lat": 56.1481505,
+    "lon": 10.2003944
+  },
+  "Ølstvadbrovej, Randers SV": {
+    "lat": 56.3900949,
+    "lon": 10.0879195
+  },
+  "Ølstvadbrovej, Randers, Denmark": {
+    "lat": 56.3900949,
+    "lon": 10.0879195
+  },
+  "Eghøjvej, Egå": {
+    "lat": 56.2147319,
+    "lon": 10.2722763
+  },
+  "Eghøjvej, Egå, Denmark": {
+    "lat": 56.2147319,
+    "lon": 10.2722763
+  },
+  "Skejbytoften, Aarhus N": {
+    "lat": 56.1990354,
+    "lon": 10.190624
+  },
+  "Skejbytoften, Aarhus, Denmark": {
+    "lat": 56.1990354,
+    "lon": 10.190624
+  },
+  "Solbærhaven, Lystrup": {
+    "lat": 56.242114,
+    "lon": 10.2404404
+  },
+  "Solbærhaven, Lystrup, Denmark": {
+    "lat": 56.242114,
+    "lon": 10.2404404
+  },
+  "Birkehaven, Lystrup": {
+    "lat": 56.2469903,
+    "lon": 10.236752
+  },
+  "Birkehaven, Lystrup, Denmark": {
+    "lat": 56.2469903,
+    "lon": 10.236752
+  },
+  "Ørnelunden, Lystrup": {
+    "lat": 56.2429411,
+    "lon": 10.2230504
+  },
+  "Ørnelunden, Lystrup, Denmark": {
+    "lat": 56.2429411,
+    "lon": 10.2230504
+  },
+  "Brendstrupvej, Aarhus N": {
+    "lat": 56.1759485,
+    "lon": 10.1931297
+  },
+  "Brendstrupvej, Aarhus, Denmark": {
+    "lat": 56.1759485,
+    "lon": 10.1931297
+  },
+  "Knud Rasmussens Vej, Aarhus N": {
+    "lat": 56.1757153,
+    "lon": 10.2144292
+  },
+  "Knud Rasmussens Vej, Aarhus, Denmark": {
+    "lat": 56.1757153,
+    "lon": 10.2144292
+  }
+}

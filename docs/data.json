@@ -1,4 +1,89 @@
 {
+  "2026-01-09": {
+    "Østjyllands Politi": {
+      "Ukendt": [
+        {
+          "address": "hospitalet. Han var ikke umiddelbart kommet alvorligt til skade og er siden blevet udskrevet.\nDen 52-årige kvinde blev sigtet i sagen for at have",
+          "time": "kvalificeret vold og for at have overtrådt knivloven. Hun blev efterfølgende indlagt",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-januar-2026/2026/01/09"
+        }
+      ],
+      "Skødstrup": [
+        {
+          "address": "Hjelmagerparken",
+          "time": "torsdag d. 8/1 mellem kl. 04.55 og kl. 05.05",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-januar-2026/2026/01/09",
+          "lat": 56.2787882,
+          "lon": 10.3205657
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Rugbjergvej",
+          "time": "torsdag d. 8/1 mellem kl. 08.00 og kl. 16.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-januar-2026/2026/01/09",
+          "lat": 56.1317374,
+          "lon": 10.1209705
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Skt. Pauls Gade",
+          "time": "torsdag d. 8/1 mellem kl. 08.00 og kl. 17.50",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-januar-2026/2026/01/09"
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Vegavej",
+          "time": "torsdag d. 8/1 mellem kl. 17.50 og kl. 19.28",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-januar-2026/2026/01/09",
+          "lat": 56.1257789,
+          "lon": 10.1873168
+        }
+      ]
+    }
+  },
+  "2026-01-08": {
+    "Østjyllands Politi": {
+      "Randers SV": [
+        {
+          "address": "Stribvej",
+          "time": "onsdag d. 7/1 mellem kl. 05.00 og kl. 05.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-januar-2026/2026/01/08",
+          "lat": 56.4359816,
+          "lon": 10.031937
+        }
+      ],
+      "Randers SØ": [
+        {
+          "address": "Munkdrupvej",
+          "time": "onsdag d. 7/1 kl. 13.10",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-januar-2026/2026/01/08",
+          "lat": 56.4182958,
+          "lon": 10.0765465
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Vibevænget",
+          "time": "onsdag d. 7/1 mellem kl. 11.30 og kl. 13.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-januar-2026/2026/01/08",
+          "lat": 56.0470784,
+          "lon": 10.2657668
+        }
+      ],
+      "Hadsten": [
+        {
+          "address": "Rønnehaven",
+          "time": "onsdag d. 7/1 mellem kl. 17.45 og kl. 19.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-januar-2026/2026/01/08",
+          "lat": 56.332272,
+          "lon": 10.0496149
+        }
+      ]
+    }
+  },
   "2026-01-07": {
     "Østjyllands Politi": {
       "Randers SV": [
@@ -35,6 +120,15 @@
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-januar-2026/2026/01/08",
           "lat": 56.332272,
           "lon": 10.0496149
+        }
+      ],
+      "Tilst": [
+        {
+          "address": "Glænøvænget",
+          "time": "mellem mandag d. 5/1 kl. 16.00 og tirsdag d. 6/1 kl. 16.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-januar-2026/2026/01/07",
+          "lat": 56.180314,
+          "lon": 10.1058007
         }
       ]
     }

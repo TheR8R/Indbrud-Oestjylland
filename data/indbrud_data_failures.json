@@ -1,0 +1,371 @@
+{
+  "failures": [
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/anholdt-paa-anmodning-af-tysk-politi/2025/11/05",
+      "reason": "No Indbrud entries found",
+      "date": "2025-11-05",
+      "checkedAt": "2026-01-09T13:30:53.944Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-8-oktober-2025/2025/10/08",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-10-08",
+      "checkedAt": "2026-01-09T13:32:04.195Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-22-september-2025/2025/09/22",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-09-22",
+      "checkedAt": "2026-01-09T13:32:32.486Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-16-september-2025/2025/09/16",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-09-16",
+      "checkedAt": "2026-01-09T13:32:34.867Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport02092025/2025/09/02",
+      "reason": "No Indbrud entries found",
+      "date": "2025-09-02",
+      "checkedAt": "2026-01-09T13:32:43.618Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-test/2025/08/25",
+      "reason": "No Indbrud entries found",
+      "date": "2025-08-25",
+      "checkedAt": "2026-01-09T13:32:48.455Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport26062025/2025/06/26",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-06-26",
+      "checkedAt": "2026-01-09T13:33:20.360Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapporten-fra-oestjyllands-politi-torsdag-den-29-maj-2025/2025/05/29",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-05-29",
+      "checkedAt": "2026-01-09T13:33:35.532Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-7-maj-2024/2025/05/07",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-05-07",
+      "checkedAt": "2026-01-09T13:33:47.205Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-2-maj-2025/2025/05/02",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-05-02",
+      "checkedAt": "2026-01-09T13:33:49.018Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-soendag-d-13-april-2025/2025/04/13",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-04-13",
+      "checkedAt": "2026-01-09T13:33:59.475Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/14032025doegnrapport/2025/03/14",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-03-14",
+      "checkedAt": "2026-01-09T13:34:14.252Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-6-februar-2025/2025/02/06",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-02-06",
+      "checkedAt": "2026-01-09T13:34:46.251Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-januar-2025/2025/01/09",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2025-01-09",
+      "checkedAt": "2026-01-09T13:35:52.605Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/03122024doegnrapport/2024/12/03",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-12-03",
+      "checkedAt": "2026-01-09T13:37:28.540Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-november-2024/2024/11/24",
+      "reason": "No Indbrud entries found",
+      "date": "2024-11-24",
+      "checkedAt": "2026-01-09T13:37:49.898Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-november-2024/2024/11/20",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-11-20",
+      "checkedAt": "2026-01-09T13:37:59.489Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-den-2-november-2024/2024/11/02",
+      "reason": "No Indbrud entries found",
+      "date": "2024-11-02",
+      "checkedAt": "2026-01-09T13:38:41.669Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/01112024doegnrapport/2024/11/01",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-11-01",
+      "checkedAt": "2026-01-09T13:38:44.143Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-oktober-2024/2024/10/25",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-10-25",
+      "checkedAt": "2026-01-09T13:38:57.311Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-oktober-2024/2024/10/24",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-10-24",
+      "checkedAt": "2026-01-09T13:38:59.665Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-22-september-2024/2024/09/22",
+      "reason": "No Indbrud entries found",
+      "date": "2024-09-22",
+      "checkedAt": "2026-01-09T13:40:13.137Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-21-september-2024/2024/09/21",
+      "reason": "No Indbrud entries found",
+      "date": "2024-09-21",
+      "checkedAt": "2026-01-09T13:40:15.761Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-polti-uddrag-af-doegnrapporten-8-september-2024/2024/09/08",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-09-08",
+      "checkedAt": "2026-01-09T13:40:46.201Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-2-juni-2024/2024/06/02",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-06-02",
+      "checkedAt": "2026-01-09T13:44:34.478Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15052024/2024/05/15",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-05-15",
+      "checkedAt": "2026-01-09T13:45:17.935Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-maj-2024/2024/05/01",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-05-01",
+      "checkedAt": "2026-01-09T13:45:44.112Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-den-20-april-2024/2024/04/20",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-04-20",
+      "checkedAt": "2026-01-09T13:46:07.517Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-15-april-2024/2024/04/15",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-04-15",
+      "checkedAt": "2026-01-09T13:46:21.435Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport22032024/2024/03/22",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-03-22",
+      "checkedAt": "2026-01-09T13:47:21.259Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-marts-2024/2024/03/14",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2024-03-14",
+      "checkedAt": "2026-01-09T13:47:39.686Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-oktober-2023/2023/10/06",
+      "reason": "No Indbrud entries found",
+      "date": "2023-10-06",
+      "checkedAt": "2026-01-09T13:54:00.080Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport03102023/2023/10/03",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-10-03",
+      "checkedAt": "2026-01-09T13:54:07.534Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-5-september-2023/2023/09/05",
+      "reason": "No Indbrud entries found",
+      "date": "2023-09-05",
+      "checkedAt": "2026-01-09T13:55:14.924Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-den-1-juli-2023/2023/07/01",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-07-01",
+      "checkedAt": "2026-01-09T13:57:59.106Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-juni-2023/2023/06/03",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-06-03",
+      "checkedAt": "2026-01-09T13:59:02.407Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-15-maj-2023/2023/05/15",
+      "reason": "No Indbrud entries found",
+      "date": "2023-05-15",
+      "checkedAt": "2026-01-09T13:59:52.880Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapporten-fra-oestjyllands-politi/2023/05/14",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-05-14",
+      "checkedAt": "2026-01-09T13:59:55.358Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27042023/2023/04/27",
+      "reason": "No Indbrud entries found",
+      "date": "2023-04-27",
+      "checkedAt": "2026-01-09T14:00:37.678Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegn12042023/2023/04/12",
+      "reason": "No Indbrud entries found",
+      "date": "2023-04-12",
+      "checkedAt": "2026-01-09T14:01:13.185Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-marts-2023/2023/03/31",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-03-31",
+      "checkedAt": "2026-01-09T14:01:41.487Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi/2023/03/26",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-03-26",
+      "checkedAt": "2026-01-09T14:01:53.749Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport23032023/2023/03/23",
+      "reason": "No Indbrud entries found",
+      "date": "2023-03-23",
+      "checkedAt": "2026-01-09T14:02:01.139Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport02032023/2023/03/02",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-03-02",
+      "checkedAt": "2026-01-09T14:02:57.529Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport01032023/2023/03/01",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-03-01",
+      "checkedAt": "2026-01-09T14:03:05.541Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-februar-2023/2023/02/26",
+      "reason": "No Indbrud entries found",
+      "date": "2023-02-26",
+      "checkedAt": "2026-01-09T14:03:11.678Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-21-februar-2023/2023/02/21",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-02-21",
+      "checkedAt": "2026-01-09T14:03:23.531Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-februar-2023/2023/02/09",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-02-09",
+      "checkedAt": "2026-01-09T14:03:54.286Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport26012023/2023/01/26",
+      "reason": "No Indbrud entries found",
+      "date": "2023-01-26",
+      "checkedAt": "2026-01-09T14:04:28.528Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport25012023/2023/01/25",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2023-01-25",
+      "checkedAt": "2026-01-09T14:04:30.750Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-januar-2023/2023/01/23",
+      "reason": "No Indbrud entries found",
+      "date": "2023-01-23",
+      "checkedAt": "2026-01-09T14:04:35.510Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-soendag-20-november/2022/11/20",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-11-20",
+      "checkedAt": "2026-01-09T14:06:57.127Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-november-2022/2022/11/04",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-11-04",
+      "checkedAt": "2026-01-09T14:07:31.624Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-16-oktober-2022/2022/10/16",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-10-16",
+      "checkedAt": "2026-01-09T14:08:29.655Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-15-oktober-2022/2022/10/15",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-10-15",
+      "checkedAt": "2026-01-09T14:08:32.452Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport09092022/2022/09/09",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-09-09",
+      "checkedAt": "2026-01-09T14:09:54.324Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi/2022/09/04",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-09-04",
+      "checkedAt": "2026-01-09T14:10:06.069Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjylland-politi-uddrag-af-doegnrapporten-07-august-2022/2022/08/07",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-08-07",
+      "checkedAt": "2026-01-09T14:11:13.778Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport05082022/2022/08/05",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-08-05",
+      "checkedAt": "2026-01-09T14:11:18.820Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-den-16-juli-2022/2022/07/16",
+      "reason": "No Indbrud entries found",
+      "date": "2022-07-16",
+      "checkedAt": "2026-01-09T14:12:01.383Z"
+    },
+    {
+      "url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport/2022/07/02",
+      "reason": "Indbrud section found but no valid entries",
+      "date": "2022-07-02",
+      "checkedAt": "2026-01-09T14:12:33.392Z"
+    }
+  ],
+  "lastUpdated": "2026-01-09T14:12:33.392Z"
+}

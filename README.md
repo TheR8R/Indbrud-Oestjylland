@@ -10,14 +10,14 @@ An interactive map showing break-ins in Østjylland, Denmark, scraped from Østj
 
 Fetches break-in data from Østjyllands Politi's daily reports (døgnrapporter).
 
-**Technology:** Python, Playwright (headless Chromium), LocationIQ/Nominatim
+**Technology:** Python, Playwright (headless Chromium), Nominatim (OpenStreetMap)
 
 **Flow:**
 1. For each listing page:
-   - Fetches report links from `politi.dk/doegnrapporter`
+   - Fetches report links from `politi.dk` API
    - For each report on that page:
-     - Scrapes the "Indbrud" (break-in) section
-     - Geocodes addresses using LocationIQ (or Nominatim as fallback)
+     - Scrapes the "Indbrud" (break-in) section using Playwright
+     - Geocodes addresses using Nominatim
      - Saves to `data.json` and geocode cache immediately
 2. Crash-safe: progress is saved after each report, so no work is lost if interrupted
 
@@ -55,10 +55,6 @@ python scraper.py --all
 
 # From a specific date
 python scraper.py -f "2020/1/1" -l 500 -p 50
-
-# With LocationIQ geocoding (recommended)
-export LOCATIONIQ_API_KEY=your_key_here
-python scraper.py
 
 # Debug mode (visible browser)
 python scraper.py --no-headless
@@ -99,5 +95,5 @@ indbrud/
 ## Data Sources
 
 - [politi.dk/doegnrapporter](https://politi.dk/doegnrapporter) - Police reports
-- [LocationIQ](https://locationiq.com/) / [Nominatim](https://nominatim.openstreetmap.org/) - Geocoding
+- [Nominatim / OpenStreetMap](https://nominatim.openstreetmap.org/) - Geocoding
 - [OpenStreetMap](https://www.openstreetmap.org/) - Map tiles
