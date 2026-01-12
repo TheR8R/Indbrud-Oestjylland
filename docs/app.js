@@ -91,7 +91,7 @@ endSlider.addEventListener('input', filterAndDisplayMarkers);
 // Load and process data
 async function loadData() {
   try {
-    const res = await fetch('data.json');
+    const res = await fetch('../data/data.json');
     const data = await res.json();
     
     // Get sorted dates

@@ -1,17 +1,7 @@
 {
-  "hospitalet. Han var ikke umiddelbart kommet alvorligt til skade og er siden blevet udskrevet. Den 52-årige kvinde blev sigtet i sagen for at have, Ukendt": {
-    "reason": "unknown city",
-    "address": "hospitalet. Han var ikke umiddelbart kommet alvorligt til skade og er siden blevet udskrevet. Den 52-årige kvinde blev sigtet i sagen for at have",
-    "city": "Ukendt"
-  },
   "Espedalen 66, Ukendt": {
     "reason": "unknown city",
     "address": "Espedalen 66",
-    "city": "Ukendt"
-  },
-  "signalementet fra anmeldelsen. Vedkommende – en 40-årig mand – blev kl. 2.03 anholdt og sigtet for at have, Ukendt": {
-    "reason": "unknown city",
-    "address": "signalementet fra anmeldelsen. Vedkommende – en 40-årig mand – blev kl. 2.03 anholdt og sigtet for at have",
     "city": "Ukendt"
   },
   "Grestenvej, Langå": {
@@ -29,9 +19,39 @@
     "address": "Eggebæksvej",
     "city": "Højbjerg"
   },
-  "måneden. Den 9. december blev der, Ukendt": {
+  "B lowsgade, Aarhus C": {
+    "reason": "not found",
+    "address": "B lowsgade",
+    "city": "Aarhus C"
+  },
+  "Tilst Bypark, Ukendt": {
     "reason": "unknown city",
-    "address": "måneden. Den 9. december blev der",
+    "address": "Tilst Bypark",
+    "city": "Ukendt"
+  },
+  "Højriisgårdsvej, Brabrand": {
+    "reason": "not found",
+    "address": "Højriisgårdsvej",
+    "city": "Brabrand"
+  },
+  "Nodrevej, Sabro": {
+    "reason": "not found",
+    "address": "Nodrevej",
+    "city": "Sabro"
+  },
+  "Skæring Hedevej Egå, Ukendt": {
+    "reason": "unknown city",
+    "address": "Skæring Hedevej Egå",
+    "city": "Ukendt"
+  },
+  "Frederiks Allé, Ukendt": {
+    "reason": "unknown city",
+    "address": "Frederiks Allé",
+    "city": "Ukendt"
+  },
+  "Egå Strandvej, Ukendt": {
+    "reason": "unknown city",
+    "address": "Egå Strandvej",
     "city": "Ukendt"
   }
 }
