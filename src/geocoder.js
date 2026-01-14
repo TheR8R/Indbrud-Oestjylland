@@ -25,16 +25,13 @@ async function saveJson(filename, data) {
 
 // Parse "På [Address] i [City] begået..." into address and city
 function parseEntry(entry) {
-  // Remove "På " prefix and "begået..." suffix
   let text = entry.replace(/^(Forsøg på indbrud på|På)\s+/i, "");
   const begåetIdx = text.search(/\s+begået/i);
   if (begåetIdx > 0) text = text.slice(0, begåetIdx);
   
-  // Extract time info
   const timeMatch = entry.match(/begået\s+(.+)$/i);
   const time = timeMatch ? timeMatch[1].trim() : "";
   
-  // Split on " i " or " ved " to get address and city
   let address, city;
   const locationMatch = text.match(/^(.+?)\s+(?:i|ved)\s+(.+)$/i);
   
@@ -42,7 +39,6 @@ function parseEntry(entry) {
     address = locationMatch[1].trim();
     city = locationMatch[2].trim();
   } else {
-    // Try postal code pattern: "Address 8000 City"
     const postalMatch = text.match(/^(.+?)\s+(\d{4})\s+(.+)$/);
     if (postalMatch) {
       address = postalMatch[1].trim();
@@ -56,19 +52,15 @@ function parseEntry(entry) {
   return { address, city, time };
 }
 
-// Generate city variations for geocoding
 function getCityVariations(city) {
   const variations = [city];
   
-  // Remove directional suffixes (N, S, V, Ø, NV, SØ, etc.)
   const base = city.replace(/\s+[NSVØ]+$/i, "").trim();
   if (base !== city) variations.push(base);
   
-  // Remove postal code prefix
   const noPostal = city.replace(/^\d{4}\s+/, "").trim();
   if (noPostal !== city) variations.push(noPostal);
   
-  // Add Aarhus context for suburbs
   const cityLower = city.toLowerCase();
   const baseLower = base.toLowerCase();
   if (AARHUS_SUBURBS.some(s => cityLower.includes(s) || baseLower.includes(s))) {
@@ -76,32 +68,29 @@ function getCityVariations(city) {
     variations.push("Aarhus");
   }
   
-  variations.push(""); // Fallback: just address + Denmark
+  variations.push("");
   return [...new Set(variations)];
 }
 
-// Sanitize address for geocoding
 function sanitizeAddress(address) {
   return address
-    .replace(/\s+\d{4}$/, "")      // Remove trailing postal code
-    .replace(/\s+0+(\d+)/, " $1")  // Remove leading zeros in house numbers
+    .replace(/\s+\d{4}$/, "")
+    .replace(/\s+0+(\d+)/, " $1")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-// Get address variations for geocoding
 function getAddressVariations(address) {
   const variations = [address];
   
-  // Expand common abbreviations
   const abbreviations = [
     [/\bSkt\.\s*/gi, "Sankt "],
     [/\bSt\.\s*/gi, "Sankt "],
     [/\bDr\.\s*/gi, "Doktor "],
     [/\bVej\b/gi, "Vej"],
     [/\bGade\b/gi, "Gade"],
-    [/\bAllé\b/gi, "Alle"],  // Try without accent
-    [/\bAll[eé]\b/gi, "Allé"], // Try with accent
+    [/\bAllé\b/gi, "Alle"],
+    [/\bAll[eé]\b/gi, "Allé"],
     [/\bPlads\b/gi, "Plads"],
   ];
   
@@ -117,25 +106,21 @@ function getAddressVariations(address) {
   return variations;
 }
 
-// Check if coordinates are within Østjylland bounds
 function isInBounds(lat, lon) {
   return lat >= OSTJYLLAND_BOUNDS.latMin && lat <= OSTJYLLAND_BOUNDS.latMax &&
          lon >= OSTJYLLAND_BOUNDS.lonMin && lon <= OSTJYLLAND_BOUNDS.lonMax;
 }
 
-// Geocode an address using Nominatim
 async function geocode(address, city, cache, failures) {
   address = sanitizeAddress(address);
   const cacheKey = `${address}, ${city}`;
   
-  // Check cache first
   if (cache[cacheKey]) {
     return cache[cacheKey];
   }
   
-  // Skip unknown cities
   if (city.toLowerCase() === "ukendt") {
-    failures[cacheKey] = { reason: "unknown city", address, city };
+    failures[cacheKey] = { reason: "unknown_city", address, city };
     return null;
   }
   
@@ -143,19 +128,19 @@ async function geocode(address, city, cache, failures) {
   const addressVariations = getAddressVariations(address);
   const cityVariations = getCityVariations(city);
   
-  // Try all combinations of address and city variations
+  let bestOutOfBounds = null; // Track best out-of-bounds result for failure logging
+  
   for (const addrVariant of addressVariations) {
     for (const cityVariant of cityVariations) {
       const query = cityVariant ? `${addrVariant}, ${cityVariant}, Denmark` : `${addrVariant}, Denmark`;
       
-      // Check if this query variant is cached
       if (cache[query]) {
         cache[cacheKey] = cache[query];
         return cache[query];
       }
       
       try {
-        await Bun.sleep(1000); // Rate limiting
+        await Bun.sleep(1000);
         
         const params = new URLSearchParams({
           format: "json",
@@ -174,7 +159,7 @@ async function geocode(address, city, cache, failures) {
         const data = await res.json();
         
         if (data.length > 0) {
-          // Prefer results within bounds
+          // Only accept results within bounds
           for (const result of data) {
             const lat = parseFloat(result.lat);
             const lon = parseFloat(result.lon);
@@ -187,14 +172,12 @@ async function geocode(address, city, cache, failures) {
             }
           }
           
-          // Fall back to first result even if outside bounds
-          const lat = parseFloat(data[0].lat);
-          const lon = parseFloat(data[0].lon);
-          const coords = { lat, lon };
-          cache[cacheKey] = coords;
-          cache[query] = coords;
-          console.log(`  ⚠ Outside bounds: ${query}`);
-          return coords;
+          // Track out-of-bounds result for failure logging
+          if (!bestOutOfBounds) {
+            const lat = parseFloat(data[0].lat);
+            const lon = parseFloat(data[0].lon);
+            bestOutOfBounds = { lat, lon, query, display_name: data[0].display_name };
+          }
         }
       } catch (e) {
         console.log(`  ✗ Error: ${query} - ${e.message}`);
@@ -202,8 +185,22 @@ async function geocode(address, city, cache, failures) {
     }
   }
   
-  failures[cacheKey] = { reason: "not found", address, city };
-  console.log(`  ✗ Not found: ${cacheKey}`);
+  // Log failure with details
+  if (bestOutOfBounds) {
+    failures[cacheKey] = { 
+      reason: "out_of_bounds", 
+      address, 
+      city,
+      found_lat: bestOutOfBounds.lat,
+      found_lon: bestOutOfBounds.lon,
+      found_name: bestOutOfBounds.display_name
+    };
+    console.log(`  ✗ Out of bounds: ${cacheKey} -> ${bestOutOfBounds.display_name} (${bestOutOfBounds.lat}, ${bestOutOfBounds.lon})`);
+  } else {
+    failures[cacheKey] = { reason: "not_found", address, city };
+    console.log(`  ✗ Not found: ${cacheKey}`);
+  }
+  
   return null;
 }
 
@@ -216,7 +213,7 @@ async function main() {
   const failures = await loadJson(FAILURES_FILE) || {};
   const output = await loadJson(OUTPUT_FILE) || {};
   
-  let processed = 0, geocoded = 0, cached = 0, failed = 0;
+  let processed = 0, geocoded = 0, cached = 0, failed = 0, outOfBounds = 0;
 
   if (retryFailures) {
     const failureKeys = Object.keys(failures);
@@ -231,10 +228,9 @@ async function main() {
       if (processed >= limit) break;
       processed++;
       
-      const { address, city } = failures[key];
-      console.log(`[${processed}/${failureKeys.length}] ${address} i ${city}`);
+      const { address, city, reason } = failures[key];
+      console.log(`[${processed}/${failureKeys.length}] ${address} i ${city} (was: ${reason})`);
       
-      // Remove from failures before retrying
       delete failures[key];
       
       const coords = await geocode(address, city, cache, failures);
@@ -242,7 +238,6 @@ async function main() {
       if (coords) {
         geocoded++;
         
-        // Update output data if this address exists there
         for (const date of Object.keys(output)) {
           for (const region of Object.keys(output[date])) {
             for (const c of Object.keys(output[date][region])) {
@@ -259,7 +254,6 @@ async function main() {
         failed++;
       }
       
-      // Save periodically
       if (processed % 10 === 0) {
         await saveJson(CACHE_FILE, cache);
         await saveJson(FAILURES_FILE, failures);
@@ -267,7 +261,6 @@ async function main() {
       }
     }
     
-    // Final save
     await saveJson(CACHE_FILE, cache);
     await saveJson(FAILURES_FILE, failures);
     await saveJson(OUTPUT_FILE, output);
@@ -279,7 +272,6 @@ async function main() {
     return;
   }
   
-  // Normal mode: process input data
   const inputData = await loadJson(INPUT_FILE);
   if (!inputData) {
     console.error("No input data found. Run scraper.js first.");
@@ -310,16 +302,17 @@ async function main() {
       } else {
         coords = await geocode(address, city, cache, failures);
         if (coords) geocoded++;
-        else failed++;
+        else {
+          failed++;
+          if (failures[cacheKey]?.reason === "out_of_bounds") outOfBounds++;
+        }
       }
       
-      // Build output structure: { date: { region: { city: [...entries] } } }
       const region = "Østjyllands Politi";
       if (!output[date]) output[date] = {};
       if (!output[date][region]) output[date][region] = {};
       if (!output[date][region][city]) output[date][region][city] = [];
       
-      // Check for duplicates
       const exists = output[date][region][city].some(e => e.address === address);
       if (!exists) {
         const entryData = { address, time, source_url: report.url };
@@ -330,7 +323,6 @@ async function main() {
         output[date][region][city].push(entryData);
       }
       
-      // Save periodically
       if (processed % 10 === 0) {
         await saveJson(CACHE_FILE, cache);
         await saveJson(FAILURES_FILE, failures);
@@ -340,12 +332,10 @@ async function main() {
     if (processed >= limit) break;
   }
   
-  // Sort output by date descending
   const sortedOutput = Object.fromEntries(
     Object.entries(output).sort((a, b) => b[0].localeCompare(a[0]))
   );
   
-  // Final save
   await saveJson(CACHE_FILE, cache);
   await saveJson(FAILURES_FILE, failures);
   await saveJson(OUTPUT_FILE, sortedOutput);
@@ -354,8 +344,9 @@ async function main() {
   console.log(`Done! Processed: ${processed}`);
   console.log(`  Cached: ${cached}`);
   console.log(`  Geocoded: ${geocoded}`);
-  console.log(`  Failed: ${failed}`);
+  console.log(`  Failed: ${failed} (${outOfBounds} out of bounds)`);
   console.log(`Output: ${OUTPUT_FILE}`);
+  console.log(`Failures: ${FAILURES_FILE}`);
 }
 
 main().catch(e => console.error("Error:", e.message));

@@ -1,57 +1,1918 @@
 {
   "Espedalen 66, Ukendt": {
-    "reason": "unknown city",
+    "reason": "unknown_city",
     "address": "Espedalen 66",
     "city": "Ukendt"
   },
   "Grestenvej, Langå": {
-    "reason": "not found",
+    "reason": "not_found",
     "address": "Grestenvej",
     "city": "Langå"
   },
   "Harald Jensens Plads, Ukendt": {
-    "reason": "unknown city",
+    "reason": "unknown_city",
     "address": "Harald Jensens Plads",
     "city": "Ukendt"
   },
   "Eggebæksvej, Højbjerg": {
-    "reason": "not found",
+    "reason": "not_found",
     "address": "Eggebæksvej",
     "city": "Højbjerg"
   },
   "B lowsgade, Aarhus C": {
-    "reason": "not found",
+    "reason": "not_found",
     "address": "B lowsgade",
     "city": "Aarhus C"
   },
   "Tilst Bypark, Ukendt": {
-    "reason": "unknown city",
+    "reason": "unknown_city",
     "address": "Tilst Bypark",
     "city": "Ukendt"
   },
   "Højriisgårdsvej, Brabrand": {
-    "reason": "not found",
+    "reason": "not_found",
     "address": "Højriisgårdsvej",
     "city": "Brabrand"
   },
   "Nodrevej, Sabro": {
-    "reason": "not found",
+    "reason": "not_found",
     "address": "Nodrevej",
     "city": "Sabro"
   },
   "Skæring Hedevej Egå, Ukendt": {
-    "reason": "unknown city",
+    "reason": "unknown_city",
     "address": "Skæring Hedevej Egå",
     "city": "Ukendt"
   },
   "Frederiks Allé, Ukendt": {
-    "reason": "unknown city",
+    "reason": "unknown_city",
     "address": "Frederiks Allé",
     "city": "Ukendt"
   },
   "Egå Strandvej, Ukendt": {
-    "reason": "unknown city",
+    "reason": "unknown_city",
     "address": "Egå Strandvej",
     "city": "Ukendt"
+  },
+  "Åkrog Strandvej, Risskov": {
+    "reason": "not_found",
+    "address": "Åkrog Strandvej",
+    "city": "Risskov"
+  },
+  "Andreas Gadebergsvej, Hadsten": {
+    "reason": "not_found",
+    "address": "Andreas Gadebergsvej",
+    "city": "Hadsten"
+  },
+  "Trankjær Mosevej, Tranbjerg J": {
+    "reason": "not_found",
+    "address": "Trankjær Mosevej",
+    "city": "Tranbjerg J"
+  },
+  "Thorhavnsgade, Aarhus N": {
+    "reason": "not_found",
+    "address": "Thorhavnsgade",
+    "city": "Aarhus N"
+  },
+  "L.A. Rings Cej, Højbjerg": {
+    "reason": "not_found",
+    "address": "L.A. Rings Cej",
+    "city": "Højbjerg"
+  },
+  "Solkjærvej, Viby J": {
+    "reason": "not_found",
+    "address": "Solkjærvej",
+    "city": "Viby J"
+  },
+  "Karl A. Møllers Vej, Hornslet": {
+    "reason": "not_found",
+    "address": "Karl A. Møllers Vej",
+    "city": "Hornslet"
+  },
+  "W rglersvej, Langå": {
+    "reason": "not_found",
+    "address": "W rglersvej",
+    "city": "Langå"
+  },
+  "P.S. Krøyers, Ukendt": {
+    "reason": "unknown_city",
+    "address": "P.S. Krøyers",
+    "city": "Ukendt"
+  },
+  "Oluf Palmes Allé, Aarhus N": {
+    "reason": "not_found",
+    "address": "Oluf Palmes Allé",
+    "city": "Aarhus N"
+  },
+  "Meilgaardsvej, Glesborg": {
+    "reason": "not_found",
+    "address": "Meilgaardsvej",
+    "city": "Glesborg"
+  },
+  "Teglværksgade, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Teglværksgade",
+    "city": "Ukendt"
+  },
+  "Prins Christiansgade, Randers": {
+    "reason": "not_found",
+    "address": "Prins Christiansgade",
+    "city": "Randers"
+  },
+  "Der er det seneste døgn anmeldt syv indbrud, privat beboelse i Østjyllands Politikreds På Fenrisvej i Randers NV": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt syv indbrud",
+    "city": "privat beboelse i Østjyllands Politikreds På Fenrisvej i Randers NV"
+  },
+  "Agrisvej, Risskov": {
+    "reason": "not_found",
+    "address": "Agrisvej",
+    "city": "Risskov"
+  },
+  "Duevej, Hammel –, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Duevej, Hammel –",
+    "city": "Ukendt"
+  },
+  "Posthaven, Grenaa –, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Posthaven, Grenaa –",
+    "city": "Ukendt"
+  },
+  "Åkrogs Strandvej, Risskov –, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Åkrogs Strandvej, Risskov –",
+    "city": "Ukendt"
+  },
+  "Lindevej, Viby J –, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Lindevej, Viby J –",
+    "city": "Ukendt"
+  },
+  "Humlehaven, Hinnerup –, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Humlehaven, Hinnerup –",
+    "city": "Ukendt"
+  },
+  "Nydamsvej 39 Holbækgård Jagtvæsen Udby, 8950 Ørsted": {
+    "reason": "not_found",
+    "address": "Nydamsvej 39 Holbækgård Jagtvæsen Udby",
+    "city": "8950 Ørsted"
+  },
+  "Brombærhavne, Lystrup": {
+    "reason": "not_found",
+    "address": "Brombærhavne",
+    "city": "Lystrup"
+  },
+  "Julius Bechsgaards Vej, Aarhus C": {
+    "reason": "not_found",
+    "address": "Julius Bechsgaards Vej",
+    "city": "Aarhus C"
+  },
+  "Prins Christiansgade, Randers –": {
+    "reason": "not_found",
+    "address": "Prins Christiansgade",
+    "city": "Randers –"
+  },
+  "Norvestpassagen, Aarhus N": {
+    "reason": "not_found",
+    "address": "Norvestpassagen",
+    "city": "Aarhus N"
+  },
+  "Tiestensvej, Tilst": {
+    "reason": "not_found",
+    "address": "Tiestensvej",
+    "city": "Tilst"
+  },
+  "Trænkær Mosevej, Tranbjerg J": {
+    "reason": "not_found",
+    "address": "Trænkær Mosevej",
+    "city": "Tranbjerg J"
+  },
+  "Bøgeskoven, Viby J": {
+    "reason": "out_of_bounds",
+    "address": "Bøgeskoven",
+    "city": "Viby J",
+    "found_lat": 55.6841412,
+    "found_lon": 12.4153978,
+    "found_name": "Bøgeskoven, Ejby, Hvissinge, Glostrup Kommune, Region Hovedstaden, 2600, Danmark"
+  },
+  "Laksedalen, Brabrand": {
+    "reason": "not_found",
+    "address": "Laksedalen",
+    "city": "Brabrand"
+  },
+  "Vikår Toften, Risskov": {
+    "reason": "not_found",
+    "address": "Vikår Toften",
+    "city": "Risskov"
+  },
+  "Dunhammrvej, Viby J": {
+    "reason": "not_found",
+    "address": "Dunhammrvej",
+    "city": "Viby J"
+  },
+  "Chr. Molbechs Vej, Aarhus C": {
+    "reason": "out_of_bounds",
+    "address": "Chr. Molbechs Vej",
+    "city": "Aarhus C",
+    "found_lat": 55.375393,
+    "found_lon": 10.3844579,
+    "found_name": "Chr. Molbechs Vej, Folkebo, Hunderup, Odense, Odense Kommune, Region Syddanmark, 5230, Danmark"
+  },
+  "Klokkefaldet, Hasle": {
+    "reason": "not_found",
+    "address": "Klokkefaldet",
+    "city": "Hasle"
+  },
+  "Fuglsangs Allé, Aarhus V": {
+    "reason": "out_of_bounds",
+    "address": "Fuglsangs Allé",
+    "city": "Aarhus V",
+    "found_lat": 56.1423571,
+    "found_lon": 9.1676812,
+    "found_name": "Fuglsangs Alle, Højris, Ikast, Ikast-Brande Kommune, Region Midtjylland, 7430, Danmark"
+  },
+  "Lundbjergvej, Randers NØ": {
+    "reason": "out_of_bounds",
+    "address": "Lundbjergvej",
+    "city": "Randers NØ",
+    "found_lat": 55.6492184,
+    "found_lon": 9.7035891,
+    "found_name": "Lundbjergvej, Lundbjerg Gårde, Gårslev, Vejle Kommune, 7080, Danmark"
+  },
+  "Gefionvej, Åbyhøj": {
+    "reason": "out_of_bounds",
+    "address": "Gefionvej",
+    "city": "Åbyhøj",
+    "found_lat": 55.5082993,
+    "found_lon": 9.5088016,
+    "found_name": "Gefionvej, Strandhuse, Kolding, Kolding Kommune, 6000, Danmark"
+  },
+  "Hasselhøjvej, Aarhus V": {
+    "reason": "out_of_bounds",
+    "address": "Hasselhøjvej",
+    "city": "Aarhus V",
+    "found_lat": 55.8282648,
+    "found_lon": 12.000187,
+    "found_name": "Hasselhøjvej, Over Dråby, Frederikssund Kommune, Region Hovedstaden, Danmark"
+  },
+  "Rørhaven, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Rørhaven",
+    "city": "Ukendt"
+  },
+  "Podøvej, Ulstrup": {
+    "reason": "not_found",
+    "address": "Podøvej",
+    "city": "Ulstrup"
+  },
+  "Daubjergvej, Ulstrup": {
+    "reason": "not_found",
+    "address": "Daubjergvej",
+    "city": "Ulstrup"
+  },
+  "Karl Poulsensvej, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Karl Poulsensvej",
+    "city": "Havndal",
+    "found_lat": 56.6517205,
+    "found_lon": 10.2011259,
+    "found_name": "Karl Poulsensvej, Udbyover, Havndal, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Minersvej, Randers NV": {
+    "reason": "not_found",
+    "address": "Minersvej",
+    "city": "Randers NV"
+  },
+  "Carl Jensnes vej, Viby": {
+    "reason": "not_found",
+    "address": "Carl Jensnes vej",
+    "city": "Viby"
+  },
+  "Møllevangs Allé, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Møllevangs Allé",
+    "city": "Ukendt"
+  },
+  "Georgsminde, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Georgsminde",
+    "city": "Ukendt"
+  },
+  "Stennehøj Allé,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Stennehøj Allé,",
+    "city": "Ukendt"
+  },
+  "Rønshøjs Ager, Odder": {
+    "reason": "not_found",
+    "address": "Rønshøjs Ager",
+    "city": "Odder"
+  },
+  "Chr. Wærums Gade, Aarhus C": {
+    "reason": "not_found",
+    "address": "Chr. Wærums Gade",
+    "city": "Aarhus C"
+  },
+  "Rønsbjergvej, Risskov": {
+    "reason": "not_found",
+    "address": "Rønsbjergvej",
+    "city": "Risskov"
+  },
+  "Glarbjergvvej, Randers NØ": {
+    "reason": "not_found",
+    "address": "Glarbjergvvej",
+    "city": "Randers NØ"
+  },
+  "Rimsø Bygade onsdag d. 2/10 mellem kl. 6.00 og kl. 19.30, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Rimsø Bygade onsdag d. 2/10 mellem kl. 6.00 og kl. 19.30",
+    "city": "Ukendt"
+  },
+  "Ballenvej på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Ballenvej på Samsø",
+    "city": "Ukendt"
+  },
+  "Egevæksvej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Egevæksvej",
+    "city": "Højbjerg"
+  },
+  "Æblegaven, Risskov": {
+    "reason": "not_found",
+    "address": "Æblegaven",
+    "city": "Risskov"
+  },
+  "Absalongade, Aarhus C": {
+    "reason": "not_found",
+    "address": "Absalongade",
+    "city": "Aarhus C"
+  },
+  "Kalkærvej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Kalkærvej",
+    "city": "Højbjerg"
+  },
+  "Hareskovvej, Lystrup": {
+    "reason": "out_of_bounds",
+    "address": "Hareskovvej",
+    "city": "Lystrup",
+    "found_lat": 55.6650515,
+    "found_lon": 11.1179858,
+    "found_name": "Hareskovvej, Kalundborg Lyng, Kalundborg, Kalundborg Kommune, Region Sjælland, 4400, Danmark"
+  },
+  "Kirkevænget, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Kirkevænget",
+    "city": "Ukendt"
+  },
+  "Egelundvej, Risskov": {
+    "reason": "out_of_bounds",
+    "address": "Egelundvej",
+    "city": "Risskov",
+    "found_lat": 55.6502108,
+    "found_lon": 9.5260562,
+    "found_name": "Egelundvej, Vejle, Vejle Kommune, Region Syddanmark, Danmark"
+  },
+  "Mortensvej, Auning": {
+    "reason": "out_of_bounds",
+    "address": "Mortensvej",
+    "city": "Auning",
+    "found_lat": 55.5485986,
+    "found_lon": 11.1614505,
+    "found_name": "Mortensvej, Ornum Strand, Kalundborg Kommune, Region Sjælland, 4281, Danmark"
+  },
+  "Grøfthøjparken Viby J, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Grøfthøjparken Viby J",
+    "city": "Ukendt"
+  },
+  "Kløvemarksvej, Hadsten": {
+    "reason": "not_found",
+    "address": "Kløvemarksvej",
+    "city": "Hadsten"
+  },
+  "Williemoesgade, Aarhus N": {
+    "reason": "not_found",
+    "address": "Williemoesgade",
+    "city": "Aarhus N"
+  },
+  "Østendalsvej, Kærby": {
+    "reason": "out_of_bounds",
+    "address": "Østendalsvej",
+    "city": "Kærby",
+    "found_lat": 56.600775,
+    "found_lon": 10.0660318,
+    "found_name": "Østendalsvej, Kærby, Randers Kommune, Region Midtjylland, Danmark"
+  },
+  "Morelvej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Morelvej",
+    "city": "Ukendt"
+  },
+  "Bygaden på Anholt, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Bygaden på Anholt",
+    "city": "Ukendt"
+  },
+  "Langemarksvej på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Langemarksvej på Samsø",
+    "city": "Ukendt"
+  },
+  "Bisgaardvej, Odder": {
+    "reason": "not_found",
+    "address": "Bisgaardvej",
+    "city": "Odder"
+  },
+  "Vestre Strandallé, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Vestre Strandallé",
+    "city": "Ukendt"
+  },
+  "Ringebjergvej på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Ringebjergvej på Samsø",
+    "city": "Ukendt"
+  },
+  "Lysstrupgårdsparken, Odder": {
+    "reason": "not_found",
+    "address": "Lysstrupgårdsparken",
+    "city": "Odder"
+  },
+  "Chr. Christensensvej, Odder": {
+    "reason": "not_found",
+    "address": "Chr. Christensensvej",
+    "city": "Odder"
+  },
+  "Risvangs Allé, Aarhus N": {
+    "reason": "not_found",
+    "address": "Risvangs Allé",
+    "city": "Aarhus N"
+  },
+  "Ny Tilemansnsvej, Hammel": {
+    "reason": "not_found",
+    "address": "Ny Tilemansnsvej",
+    "city": "Hammel"
+  },
+  "Krabbes Agger, Odder": {
+    "reason": "not_found",
+    "address": "Krabbes Agger",
+    "city": "Odder"
+  },
+  "Gunneruplundvej, Hadsten": {
+    "reason": "not_found",
+    "address": "Gunneruplundvej",
+    "city": "Hadsten"
+  },
+  "Askevej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Askevej",
+    "city": "Ukendt"
+  },
+  "Skydstrupvej, Aarhus N": {
+    "reason": "not_found",
+    "address": "Skydstrupvej",
+    "city": "Aarhus N"
+  },
+  "Hvedevangsvej, Egå": {
+    "reason": "not_found",
+    "address": "Hvedevangsvej",
+    "city": "Egå"
+  },
+  "Tranebærvej Brabrand, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Tranebærvej Brabrand",
+    "city": "Ukendt"
+  },
+  "Haderslevgade, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Haderslevgade",
+    "city": "Ukendt"
+  },
+  "St. Blichersvej, Aarhus V, Ukendt": {
+    "reason": "unknown_city",
+    "address": "St. Blichersvej, Aarhus V",
+    "city": "Ukendt"
+  },
+  "I.P. Jacobsens Vej, Åbyhøj, Ukendt": {
+    "reason": "unknown_city",
+    "address": "I.P. Jacobsens Vej, Åbyhøj",
+    "city": "Ukendt"
+  },
+  "Novembervej, Aarhus V, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Novembervej, Aarhus V",
+    "city": "Ukendt"
+  },
+  "Ved Stranden, Egå, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Ved Stranden, Egå",
+    "city": "Ukendt"
+  },
+  "Østergade, Randers C, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Østergade, Randers C",
+    "city": "Ukendt"
+  },
+  "Øster Alle, Grenaa, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Øster Alle, Grenaa",
+    "city": "Ukendt"
+  },
+  "Rønnevangen, Sabro, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Rønnevangen, Sabro",
+    "city": "Ukendt"
+  },
+  "Holmetoften, Højbjerg, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Holmetoften, Højbjerg",
+    "city": "Ukendt"
+  },
+  "Framlev Korsvej, Harlev J, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Framlev Korsvej, Harlev J",
+    "city": "Ukendt"
+  },
+  "Lerhus Alle, Højbjerg, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Lerhus Alle, Højbjerg",
+    "city": "Ukendt"
+  },
+  "Skovgaardsgade, Aarhus C, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Skovgaardsgade, Aarhus C",
+    "city": "Ukendt"
+  },
+  "Housgårdsvej, Brabrand": {
+    "reason": "not_found",
+    "address": "Housgårdsvej",
+    "city": "Brabrand"
+  },
+  "Solskrænten Thorsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Solskrænten Thorsø",
+    "city": "Ukendt"
+  },
+  "K L Knudsensvej, Ryomgård": {
+    "reason": "not_found",
+    "address": "K L Knudsensvej",
+    "city": "Ryomgård"
+  },
+  "Klattrupgade, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Klattrupgade",
+    "city": "Havndal",
+    "found_lat": 56.6634137,
+    "found_lon": 10.2111364,
+    "found_name": "Klattrupgade, Fuglsø Mark, Havndal, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Frederik Barfoeds Vej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Frederik Barfoeds Vej",
+    "city": "Ukendt"
+  },
+  "Guldsmedegade, Aarhus C": {
+    "reason": "out_of_bounds",
+    "address": "Guldsmedegade",
+    "city": "Aarhus C",
+    "found_lat": 56.7515603,
+    "found_lon": 8.4118171,
+    "found_name": "Guldsmedegade, Hurup, Thisted Kommune, Region Nordjylland, 7760, Danmark"
+  },
+  "Runehøjen, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Runehøjen",
+    "city": "Ukendt"
+  },
+  "C.A. Thyregodsvej, Åbyhøj": {
+    "reason": "not_found",
+    "address": "C.A. Thyregodsvej",
+    "city": "Åbyhøj"
+  },
+  "Grenstenvej Stevnstrup, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Grenstenvej Stevnstrup",
+    "city": "Ukendt"
+  },
+  "Vorresvangs Allé, Egå": {
+    "reason": "not_found",
+    "address": "Vorresvangs Allé",
+    "city": "Egå"
+  },
+  "Majsvænget, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Majsvænget",
+    "city": "Ukendt"
+  },
+  "Kroagre, Risskov": {
+    "reason": "not_found",
+    "address": "Kroagre",
+    "city": "Risskov"
+  },
+  "Ellebæk Park, Lystrup": {
+    "reason": "not_found",
+    "address": "Ellebæk Park",
+    "city": "Lystrup"
+  },
+  "Hanstholmsvej, Egå": {
+    "reason": "not_found",
+    "address": "Hanstholmsvej",
+    "city": "Egå"
+  },
+  "Der er det seneste døgn anmeldt fire indbrud, privat beboelse i politikredsen. På Rørsangervej i Odder": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt fire indbrud",
+    "city": "privat beboelse i politikredsen. På Rørsangervej i Odder"
+  },
+  "Lykkesholms Allé, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Lykkesholms Allé",
+    "city": "Ukendt"
+  },
+  "Saralyst Allé, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Saralyst Allé",
+    "city": "Ukendt"
+  },
+  "Skovgaardgade, Aarhus C": {
+    "reason": "not_found",
+    "address": "Skovgaardgade",
+    "city": "Aarhus C"
+  },
+  "Der er det seneste døgn anmeldt otte indbrud, privat beboelse i politikredsen: På Bugtrupvej i Kolind": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt otte indbrud",
+    "city": "privat beboelse i politikredsen: På Bugtrupvej i Kolind"
+  },
+  "Rådyrsstien, Fårup": {
+    "reason": "not_found",
+    "address": "Rådyrsstien",
+    "city": "Fårup"
+  },
+  "Der er det seneste døgn anmeldt fire indbrud, privat beboelse i politikredsen: På Egholmparken i Odder": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt fire indbrud",
+    "city": "privat beboelse i politikredsen: På Egholmparken i Odder"
+  },
+  "Chr. Richardts Vej, Aarhus C": {
+    "reason": "out_of_bounds",
+    "address": "Chr. Richardts Vej",
+    "city": "Aarhus C",
+    "found_lat": 55.565163,
+    "found_lon": 9.7250937,
+    "found_name": "Chr. Richardts Vej, Vasedal, Fredericia, Fredericia Kommune, 7000, Danmark"
+  },
+  "Hassellie, 8920 Randers NV": {
+    "reason": "not_found",
+    "address": "Hassellie",
+    "city": "8920 Randers NV"
+  },
+  "Carit Etlars Vej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Carit Etlars Vej",
+    "city": "Ukendt"
+  },
+  "Baskildevej, Ask ved Malling": {
+    "reason": "not_found",
+    "address": "Baskildevej",
+    "city": "Ask ved Malling"
+  },
+  "Adelgaden, Randers C": {
+    "reason": "not_found",
+    "address": "Adelgaden",
+    "city": "Randers C"
+  },
+  "Lyngklitten v. Bønnerup Strand, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Lyngklitten v. Bønnerup Strand",
+    "city": "Ukendt"
+  },
+  "Sommermindevej, Egå": {
+    "reason": "not_found",
+    "address": "Sommermindevej",
+    "city": "Egå"
+  },
+  "Mindesgade, Aarhus C": {
+    "reason": "not_found",
+    "address": "Mindesgade",
+    "city": "Aarhus C"
+  },
+  "Simonsens Have, Søften": {
+    "reason": "not_found",
+    "address": "Simonsens Have",
+    "city": "Søften"
+  },
+  "Tranekærsparken, Risskov": {
+    "reason": "not_found",
+    "address": "Tranekærsparken",
+    "city": "Risskov"
+  },
+  "Der er det seneste døgn anmeldt et enkelt indbrud, privat beboelse: På Axel Munchsvej i Ryomgård": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt et enkelt indbrud",
+    "city": "privat beboelse: På Axel Munchsvej i Ryomgård"
+  },
+  "Der er det seneste døgn anmeldt seks indbrud, privat beboelse: På Skovhegnet i Langå": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt seks indbrud",
+    "city": "privat beboelse: På Skovhegnet i Langå"
+  },
+  "Ballmansvej, 8920 Randers NV,": {
+    "reason": "not_found",
+    "address": "Ballmansvej",
+    "city": "8920 Randers NV,"
+  },
+  "Ødumsvej, 8370 Hadsten,": {
+    "reason": "not_found",
+    "address": "Ødumsvej",
+    "city": "8370 Hadsten,"
+  },
+  "Der er det seneste døgn anmeldt to indbrud, privat beboelse: På Vilhelm Becks Vej i Viby J": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt to indbrud",
+    "city": "privat beboelse: På Vilhelm Becks Vej i Viby J"
+  },
+  "Ludvig Feilbergs Vej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Ludvig Feilbergs Vej",
+    "city": "Ukendt"
+  },
+  "Ahornvej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Ahornvej",
+    "city": "Ukendt"
+  },
+  "Køsters Alle, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Køsters Alle",
+    "city": "Ukendt"
+  },
+  "Rønneparken, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Rønneparken",
+    "city": "Ukendt"
+  },
+  "M.C. Holst Vej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "M.C. Holst Vej",
+    "city": "Ukendt"
+  },
+  "Havnøholmvej, Havndal": {
+    "reason": "not_found",
+    "address": "Havnøholmvej",
+    "city": "Havndal"
+  },
+  "Egeskovbakken, Skødstrup": {
+    "reason": "not_found",
+    "address": "Egeskovbakken",
+    "city": "Skødstrup"
+  },
+  "Søren Quist Vej, Grenå": {
+    "reason": "not_found",
+    "address": "Søren Quist Vej",
+    "city": "Grenå"
+  },
+  "Baskildevej, Malling": {
+    "reason": "not_found",
+    "address": "Baskildevej",
+    "city": "Malling"
+  },
+  "Morten Børups Gade, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Morten Børups Gade",
+    "city": "Ukendt"
+  },
+  "Lily Brobergsgade, Brabrand": {
+    "reason": "not_found",
+    "address": "Lily Brobergsgade",
+    "city": "Brabrand"
+  },
+  "Vestre Standallé, Risskov": {
+    "reason": "not_found",
+    "address": "Vestre Standallé",
+    "city": "Risskov"
+  },
+  "Elbæksgårdsvej, Hadsten": {
+    "reason": "not_found",
+    "address": "Elbæksgårdsvej",
+    "city": "Hadsten"
+  },
+  "Bronzeraldervænget, Hasle": {
+    "reason": "not_found",
+    "address": "Bronzeraldervænget",
+    "city": "Hasle"
+  },
+  "Otto Ruds Gade 45, Aarhus N,": {
+    "reason": "not_found",
+    "address": "Otto Ruds Gade 45",
+    "city": "Aarhus N,"
+  },
+  "St.St. Blichers Gade 24, Aarhus C,": {
+    "reason": "not_found",
+    "address": "St.St. Blichers Gade 24",
+    "city": "Aarhus C,"
+  },
+  "Finervej, Auning": {
+    "reason": "out_of_bounds",
+    "address": "Finervej",
+    "city": "Auning",
+    "found_lat": 55.5784199,
+    "found_lon": 12.1039613,
+    "found_name": "Finervej, Skelbæk, Gadstrup, Roskilde Kommune, Region Sjælland, 4621, Danmark"
+  },
+  "Udbynedervej, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Udbynedervej",
+    "city": "Havndal",
+    "found_lat": 56.6528224,
+    "found_lon": 10.2335718,
+    "found_name": "Udbynedervej, Madsdige, Udbyneder, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Kamma Rahbecks Vej, Åbyhøj": {
+    "reason": "not_found",
+    "address": "Kamma Rahbecks Vej",
+    "city": "Åbyhøj"
+  },
+  "Andersmindevej, Randers SØ": {
+    "reason": "not_found",
+    "address": "Andersmindevej",
+    "city": "Randers SØ"
+  },
+  "Funch Thomsens Gade, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Funch Thomsens Gade",
+    "city": "Ukendt"
+  },
+  "Der er det seneste døgn anmeldt 14 indbrud, privat beboelse i Østjyllands politikreds. På Sydbakken i Harlev J": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt 14 indbrud",
+    "city": "privat beboelse i Østjyllands politikreds. På Sydbakken i Harlev J"
+  },
+  "Skovdalsvej Auning, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Skovdalsvej Auning",
+    "city": "Ukendt"
+  },
+  "Haslebangsvej, Hasle": {
+    "reason": "not_found",
+    "address": "Haslebangsvej",
+    "city": "Hasle"
+  },
+  "Bjerg-Thomsens Vej, Rønde": {
+    "reason": "out_of_bounds",
+    "address": "Bjerg-Thomsens Vej",
+    "city": "Rønde",
+    "found_lat": 56.1314313,
+    "found_lon": 8.2549912,
+    "found_name": "J. Bjerg-Thomsens Vej, Møllebakken, Ringkøbing-Skjern Kommune, Region Midtjylland, Danmark"
+  },
+  "Asavænger, Randers": {
+    "reason": "not_found",
+    "address": "Asavænger",
+    "city": "Randers"
+  },
+  "Merkurvej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Merkurvej",
+    "city": "Ukendt"
+  },
+  "Herman Stillingsvej, Randers NØ": {
+    "reason": "not_found",
+    "address": "Herman Stillingsvej",
+    "city": "Randers NØ"
+  },
+  "Falstergade, Aarhus C": {
+    "reason": "out_of_bounds",
+    "address": "Falstergade",
+    "city": "Aarhus C",
+    "found_lat": 54.7637749,
+    "found_lon": 11.8669179,
+    "found_name": "Falstergade, Nykøbing Falster, Guldborgsund Kommune, Region Sjælland, 4800, Danmark"
+  },
+  "Skejbyvænget., 8200 Aarhus N,": {
+    "reason": "not_found",
+    "address": "Skejbyvænget.",
+    "city": "8200 Aarhus N,"
+  },
+  "Torvald Køhls Vej, Odder": {
+    "reason": "not_found",
+    "address": "Torvald Køhls Vej",
+    "city": "Odder"
+  },
+  "Krekærslund Allé, Malling": {
+    "reason": "not_found",
+    "address": "Krekærslund Allé",
+    "city": "Malling"
+  },
+  "Vellinggårdsvej, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Vellinggårdsvej",
+    "city": "Havndal",
+    "found_lat": 56.6421703,
+    "found_lon": 10.1896528,
+    "found_name": "Vellinggårdsvej, Havndal, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Lerbærkvej, Risskov": {
+    "reason": "not_found",
+    "address": "Lerbærkvej",
+    "city": "Risskov"
+  },
+  "Holmgårdsvej, Randers": {
+    "reason": "out_of_bounds",
+    "address": "Holmgårdsvej",
+    "city": "Randers",
+    "found_lat": 56.9310643,
+    "found_lon": 9.8787777,
+    "found_name": "Holmgårdsvej, Aalborg Kommune, Region Nordjylland, 9230, Danmark"
+  },
+  "Ved Starnden, Egå": {
+    "reason": "not_found",
+    "address": "Ved Starnden",
+    "city": "Egå"
+  },
+  "Maarup Østerstrand på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Maarup Østerstrand på Samsø",
+    "city": "Ukendt"
+  },
+  "Karslbergvej, Randers": {
+    "reason": "not_found",
+    "address": "Karslbergvej",
+    "city": "Randers"
+  },
+  "Paludan-M llers Vej, Aarhus C": {
+    "reason": "not_found",
+    "address": "Paludan-M llers Vej",
+    "city": "Aarhus C"
+  },
+  "Rosensvangs Allé, 8270 Højbjerg sket mellem den 9/6 kl. 16:00 og 10/6 kl. 07:00.": {
+    "reason": "not_found",
+    "address": "Rosensvangs Allé",
+    "city": "8270 Højbjerg sket mellem den 9/6 kl. 16:00 og 10/6 kl. 07:00."
+  },
+  "Klejnesmedevej, 8920 Randers NV sket mellem den 28/5 kl. 19:45 og den 29/5 kl. 04:40.": {
+    "reason": "not_found",
+    "address": "Klejnesmedevej",
+    "city": "8920 Randers NV sket mellem den 28/5 kl. 19:45 og den 29/5 kl. 04:40."
+  },
+  "Vestergårdsvangen, Viby J,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Vestergårdsvangen, Viby J,",
+    "city": "Ukendt"
+  },
+  "Marskellet, Randers NV": {
+    "reason": "not_found",
+    "address": "Marskellet",
+    "city": "Randers NV"
+  },
+  "Drejersvej,, 8920 Randers Nv": {
+    "reason": "not_found",
+    "address": "Drejersvej,",
+    "city": "8920 Randers Nv"
+  },
+  "Volkmøllervej, 8960 Randers SØ": {
+    "reason": "not_found",
+    "address": "Volkmøllervej",
+    "city": "8960 Randers SØ"
+  },
+  "Chr. Wærums Gade, Aarhus": {
+    "reason": "not_found",
+    "address": "Chr. Wærums Gade",
+    "city": "Aarhus"
+  },
+  "Julievej, Aarhus V": {
+    "reason": "out_of_bounds",
+    "address": "Julievej",
+    "city": "Aarhus V",
+    "found_lat": 55.504073,
+    "found_lon": 9.7094692,
+    "found_name": "Julievej, Middelfart, Middelfart Kommune, Danmark"
+  },
+  "Egehavevej, Hammel": {
+    "reason": "out_of_bounds",
+    "address": "Egehavevej",
+    "city": "Hammel",
+    "found_lat": 55.6004654,
+    "found_lon": 9.7893915,
+    "found_name": "Egehavevej, Nørremark, Fredericia Kommune, Danmark"
+  },
+  "Geyservej, Aarhus N": {
+    "reason": "not_found",
+    "address": "Geyservej",
+    "city": "Aarhus N"
+  },
+  "Frijsendalsvej, Haurum ved Hammel": {
+    "reason": "not_found",
+    "address": "Frijsendalsvej",
+    "city": "Haurum ved Hammel"
+  },
+  "Fredenshøj, Randers NV": {
+    "reason": "out_of_bounds",
+    "address": "Fredenshøj",
+    "city": "Randers NV",
+    "found_lat": 55.0562289,
+    "found_lon": 9.3970154,
+    "found_name": "Fredenshøj, Høje Kolstrup, Aabenraa, Aabenraa Kommune, 6200, Danmark"
+  },
+  "Karemagervej, Randers NV": {
+    "reason": "out_of_bounds",
+    "address": "Karemagervej",
+    "city": "Randers NV",
+    "found_lat": 55.9520951,
+    "found_lon": 9.1570245,
+    "found_name": "Kåremagervej, Brande, Ikast-Brande Kommune, Region Midtjylland, 7330, Danmark"
+  },
+  "Ellehammersvej, Viby J": {
+    "reason": "out_of_bounds",
+    "address": "Ellehammersvej",
+    "city": "Viby J",
+    "found_lat": 55.7220624,
+    "found_lon": 9.5649095,
+    "found_name": "Ellehammersvej, Nørremarken, Vejle, Vejle Kommune, 7100, Danmark"
+  },
+  "F.G.E. Rostrup Vej, Aarhus C": {
+    "reason": "not_found",
+    "address": "F.G.E. Rostrup Vej",
+    "city": "Aarhus C"
+  },
+  "Benzonsvej, Randers NØ": {
+    "reason": "out_of_bounds",
+    "address": "Benzonsvej",
+    "city": "Randers NØ",
+    "found_lat": 55.7839442,
+    "found_lon": 11.4753277,
+    "found_name": "Benzonsvej, Fårevejle Stationsby, Odsherred Kommune, Region Sjælland, 4550, Danmark"
+  },
+  "Østjyllands Politi fremstiller søndag kl. 10.30 en 22-årig mand, grundlovsforhør i Retten i Aarhus. Han sigtes for vold og trusler mod en dørmand,": {
+    "reason": "not_found",
+    "address": "Østjyllands Politi fremstiller søndag kl. 10.30 en 22-årig mand",
+    "city": "grundlovsforhør i Retten i Aarhus. Han sigtes for vold og trusler mod en dørmand,"
+  },
+  "Lyshøj Møllevej, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Lyshøj Møllevej",
+    "city": "Havndal",
+    "found_lat": 56.6503412,
+    "found_lon": 10.2177509,
+    "found_name": "Lyshøj Møllevej, Udbyover, Havndal, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Stockholmgade, Aarhus N": {
+    "reason": "not_found",
+    "address": "Stockholmgade",
+    "city": "Aarhus N"
+  },
+  "Strand Bygade, Knebel": {
+    "reason": "not_found",
+    "address": "Strand Bygade",
+    "city": "Knebel"
+  },
+  "Mariane Thomsens Gade, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Mariane Thomsens Gade",
+    "city": "Ukendt"
+  },
+  "Henrik Hertz Vej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Henrik Hertz Vej",
+    "city": "Ukendt"
+  },
+  "Vestergade Ryomgård, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Vestergade Ryomgård",
+    "city": "Ukendt"
+  },
+  "Chr. Wærums Gade, 8000 Aarhus C": {
+    "reason": "not_found",
+    "address": "Chr. Wærums Gade",
+    "city": "8000 Aarhus C"
+  },
+  "Lykkeholms Allé, Viby J": {
+    "reason": "not_found",
+    "address": "Lykkeholms Allé",
+    "city": "Viby J"
+  },
+  "Hjelmensgade 5B,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Hjelmensgade 5B,",
+    "city": "Ukendt"
+  },
+  "Der er det seneste døgn anmeldt to indbrud, privat beboelse i Østjyllands politikreds. På Sletvej i Hasselager": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt to indbrud",
+    "city": "privat beboelse i Østjyllands politikreds. På Sletvej i Hasselager"
+  },
+  "Ranukelvej, Sabro": {
+    "reason": "not_found",
+    "address": "Ranukelvej",
+    "city": "Sabro"
+  },
+  "Tvæskiftet, Beder": {
+    "reason": "not_found",
+    "address": "Tvæskiftet",
+    "city": "Beder"
+  },
+  "Schleppegrelssgade, Aarhus C": {
+    "reason": "not_found",
+    "address": "Schleppegrelssgade",
+    "city": "Aarhus C"
+  },
+  "Terndrupvej, Hornslet": {
+    "reason": "out_of_bounds",
+    "address": "Terndrupvej",
+    "city": "Hornslet",
+    "found_lat": 56.7371159,
+    "found_lon": 10.0781975,
+    "found_name": "Terndrupvej, Hedeparken, Hadsund, Mariagerfjord Kommune, Region Nordjylland, Danmark"
+  },
+  "Sødring Bygade, Havndal er der": {
+    "reason": "out_of_bounds",
+    "address": "Sødring Bygade",
+    "city": "Havndal er der",
+    "found_lat": 56.6296542,
+    "found_lon": 10.3153506,
+    "found_name": "Sødring Bygade, Sødring, Randers Kommune, Region Midtjylland, Danmark"
+  },
+  "Fridjof Nansens Vej, Århus N,": {
+    "reason": "not_found",
+    "address": "Fridjof Nansens Vej",
+    "city": "Århus N,"
+  },
+  "Prins Christiansgade, Randers,": {
+    "reason": "not_found",
+    "address": "Prins Christiansgade",
+    "city": "Randers,"
+  },
+  "Svendgårdvej, Beder": {
+    "reason": "not_found",
+    "address": "Svendgårdvej",
+    "city": "Beder"
+  },
+  "Terndrup Møllevej, Hornslet": {
+    "reason": "not_found",
+    "address": "Terndrup Møllevej",
+    "city": "Hornslet"
+  },
+  "Borup Byvej Randers NV, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Borup Byvej Randers NV",
+    "city": "Ukendt"
+  },
+  "Semvej, Enslev ved Gjerlev": {
+    "reason": "out_of_bounds",
+    "address": "Semvej",
+    "city": "Enslev ved Gjerlev",
+    "found_lat": 56.6298844,
+    "found_lon": 10.1301291,
+    "found_name": "Semvej, Øster Kondrup, Randers Kommune, Region Midtjylland, 8983, Danmark"
+  },
+  "Vestvej Randers NV, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Vestvej Randers NV",
+    "city": "Ukendt"
+  },
+  "Brikhøjen,, 8382 Hinnerup": {
+    "reason": "not_found",
+    "address": "Brikhøjen,",
+    "city": "8382 Hinnerup"
+  },
+  "Kilevangen, Hinnerup": {
+    "reason": "out_of_bounds",
+    "address": "Kilevangen",
+    "city": "Hinnerup",
+    "found_lat": 55.5440257,
+    "found_lon": 12.1211503,
+    "found_name": "Kilevangen, Ulvemose, Havdrup, Solrød Kommune, Region Sjælland, 4622, Danmark"
+  },
+  "Besservej på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Besservej på Samsø",
+    "city": "Ukendt"
+  },
+  "Fredag den 9. juli kI. 1:14 på Søsterhøjvænget, 8270 Højbjerg": {
+    "reason": "not_found",
+    "address": "Fredag den 9. juli kI. 1:14 på Søsterhøjvænget",
+    "city": "8270 Højbjerg"
+  },
+  "Mellem tirsdag den 6. juli kl. 18:30 og fredag den 9. juli kl. 17:50 på Holme Møllevej, 8270 Højbjerg": {
+    "reason": "not_found",
+    "address": "Mellem tirsdag den 6. juli kl. 18:30 og fredag den 9. juli kl. 17:50 på Holme Møllevej",
+    "city": "8270 Højbjerg"
+  },
+  "Der er det seneste døgn anmeldt et indbrud, privat beboelse i Østjyllands Politikreds. På Midtagervej Viby Jylland,": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt et indbrud",
+    "city": "privat beboelse i Østjyllands Politikreds. På Midtagervej Viby Jylland,"
+  },
+  "Der er det seneste døgn anmeldt et indbrud, privat beboelse på Jyllands Allé i Aarhus C,": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt et indbrud",
+    "city": "privat beboelse på Jyllands Allé i Aarhus C,"
+  },
+  "Gotfred Hansens Vej, Aarhus N": {
+    "reason": "not_found",
+    "address": "Gotfred Hansens Vej",
+    "city": "Aarhus N"
+  },
+  "Storegade på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Storegade på Samsø",
+    "city": "Ukendt"
+  },
+  "Østendalsvej, Enslev ved Gjerlev": {
+    "reason": "out_of_bounds",
+    "address": "Østendalsvej",
+    "city": "Enslev ved Gjerlev",
+    "found_lat": 56.604097,
+    "found_lon": 10.0881414,
+    "found_name": "Østendalsvej, Østendal, Randers Kommune, Region Midtjylland, Danmark"
+  },
+  "Aldesrovej, Aarhus N": {
+    "reason": "not_found",
+    "address": "Aldesrovej",
+    "city": "Aarhus N"
+  },
+  "Gl Skanderborgvej, Sporup,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Gl Skanderborgvej, Sporup,",
+    "city": "Ukendt"
+  },
+  "Roald Amundsens Vej, Århus N,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Roald Amundsens Vej, Århus N,",
+    "city": "Ukendt"
+  },
+  "Gøteborg Allé, Århus N,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Gøteborg Allé, Århus N,",
+    "city": "Ukendt"
+  },
+  "Skægsbjergvej, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Skægsbjergvej",
+    "city": "Havndal",
+    "found_lat": 56.6027838,
+    "found_lon": 10.2414063,
+    "found_name": "Skægsbjergvej, Hvilhuse, Råby, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Fredensgårdsvej, Højbjerg, sket mellem mandag d. 29.03.21 kl. 12:00 og torsdag d. 1.04.21 kl. 12:00, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Fredensgårdsvej, Højbjerg, sket mellem mandag d. 29.03.21 kl. 12:00 og torsdag d. 1.04.21 kl. 12:00",
+    "city": "Ukendt"
+  },
+  "Fridtjof Nansens Vej, Århus N,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Fridtjof Nansens Vej, Århus N,",
+    "city": "Ukendt"
+  },
+  "Jernaldervej, Århus V,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Jernaldervej, Århus V,",
+    "city": "Ukendt"
+  },
+  "Skolebakken, Århus C,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Skolebakken, Århus C,",
+    "city": "Ukendt"
+  },
+  "Hovmarken, Lystrup sket mellem lørdag den 6/03/2021 17:30 og lørdag den 06/03/2021 23:30, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Hovmarken, Lystrup sket mellem lørdag den 6/03/2021 17:30 og lørdag den 06/03/2021 23:30",
+    "city": "Ukendt"
+  },
+  "Tilst Skolevej, Tilst,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Tilst Skolevej, Tilst,",
+    "city": "Ukendt"
+  },
+  "Kløvervangen, Mørke,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Kløvervangen, Mørke,",
+    "city": "Ukendt"
+  },
+  "Vibevej, Risskov,, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Vibevej, Risskov,",
+    "city": "Ukendt"
+  },
+  "Sandmarksvej, Mørke": {
+    "reason": "out_of_bounds",
+    "address": "Sandmarksvej",
+    "city": "Mørke",
+    "found_lat": 55.4094351,
+    "found_lon": 9.8669458,
+    "found_name": "Sandmarksvej, Boyes Banke, Middelfart Kommune, Region Syddanmark, 5580, Danmark"
+  },
+  "Tilst Østervænget, Tilst": {
+    "reason": "not_found",
+    "address": "Tilst Østervænget",
+    "city": "Tilst"
+  },
+  "baggrund af blandt andet overvågningsbilleder blev han også sigtet for et indbrud, Ukendt": {
+    "reason": "unknown_city",
+    "address": "baggrund af blandt andet overvågningsbilleder blev han også sigtet for et indbrud",
+    "city": "Ukendt"
+  },
+  "Højskolvej, Hasle, Aarhus V anmeldt onsdag den 3/2 kl. 18.53": {
+    "reason": "not_found",
+    "address": "Højskolvej",
+    "city": "Hasle, Aarhus V anmeldt onsdag den 3/2 kl. 18.53"
+  },
+  "Bøsbovej, Randers SV": {
+    "reason": "not_found",
+    "address": "Bøsbovej",
+    "city": "Randers SV"
+  },
+  "Der har været et enkelt indbrud, det forgangne døgn. Det er": {
+    "reason": "not_found",
+    "address": "Der har været et enkelt indbrud",
+    "city": "det forgangne døgn. Det er"
+  },
+  "Haugesundvej, Aarhus N": {
+    "reason": "out_of_bounds",
+    "address": "Haugesundvej",
+    "city": "Aarhus N",
+    "found_lat": 55.8127334,
+    "found_lon": 12.5260172,
+    "found_name": "Haugesundvej, Søllerød, Nærum, Rudersdal Kommune, Region Hovedstaden, 2850, Danmark"
+  },
+  "R. Hougaards Vej, Randers SØ": {
+    "reason": "not_found",
+    "address": "R. Hougaards Vej",
+    "city": "Randers SØ"
+  },
+  "J. I. Heibergs Vej,, 8230 Åbyhøj,": {
+    "reason": "not_found",
+    "address": "J. I. Heibergs Vej,",
+    "city": "8230 Åbyhøj,"
+  },
+  "Krekærunds Allé,, 8340 Malling, sket mellem 22/11/2020 03:05 Til 22/11/2020 03:05": {
+    "reason": "not_found",
+    "address": "Krekærunds Allé,",
+    "city": "8340 Malling, sket mellem 22/11/2020 03:05 Til 22/11/2020 03:05"
+  },
+  "Van Hattenstræde, Randers C": {
+    "reason": "not_found",
+    "address": "Van Hattenstræde",
+    "city": "Randers C"
+  },
+  "Guldregnsvej, Harlev": {
+    "reason": "out_of_bounds",
+    "address": "Guldregnsvej",
+    "city": "Harlev",
+    "found_lat": 57.131257,
+    "found_lon": 9.9596085,
+    "found_name": "Guldregnsvej, Melsted, Vestbjerg, Aalborg Kommune, Region Nordjylland, 9380, Danmark"
+  },
+  "Engeslundsvej, Viby": {
+    "reason": "not_found",
+    "address": "Engeslundsvej",
+    "city": "Viby"
+  },
+  "Ellermosevej, Hadsten": {
+    "reason": "not_found",
+    "address": "Ellermosevej",
+    "city": "Hadsten"
+  },
+  "Øster Boulevard, Randers NØ": {
+    "reason": "not_found",
+    "address": "Øster Boulevard",
+    "city": "Randers NØ"
+  },
+  "Alex Kiers Vej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Alex Kiers Vej",
+    "city": "Højbjerg"
+  },
+  "Paludan-M llers Vej, Aarhus V": {
+    "reason": "not_found",
+    "address": "Paludan-M llers Vej",
+    "city": "Aarhus V"
+  },
+  "Paludan-M llers Vej, 8210 Århus V 13/9, kl. 04.34. Her blev gerningsmanden anholdt på ferskgerning.": {
+    "reason": "not_found",
+    "address": "Paludan-M llers Vej",
+    "city": "8210 Århus V 13/9, kl. 04.34. Her blev gerningsmanden anholdt på ferskgerning."
+  },
+  "Klosterbakken, Aarhus V": {
+    "reason": "out_of_bounds",
+    "address": "Klosterbakken",
+    "city": "Aarhus V",
+    "found_lat": 55.6389839,
+    "found_lon": 9.5981847,
+    "found_name": "Klosterbakken, Skærup, Vejle Kommune, Danmark"
+  },
+  "B lowsgade, 8000 Århus C sket den 9/8 kl. 04:41.": {
+    "reason": "not_found",
+    "address": "B lowsgade",
+    "city": "8000 Århus C sket den 9/8 kl. 04:41."
+  },
+  "Skov gårdsvænget, Tranbjerg": {
+    "reason": "not_found",
+    "address": "Skov gårdsvænget",
+    "city": "Tranbjerg"
+  },
+  "B lowsgade, Aarhus": {
+    "reason": "not_found",
+    "address": "B lowsgade",
+    "city": "Aarhus"
+  },
+  "Kildebakken Øster Tørslev, Gjerlev, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Kildebakken Øster Tørslev, Gjerlev",
+    "city": "Ukendt"
+  },
+  "Chr. Hauns Alle, Randers C": {
+    "reason": "not_found",
+    "address": "Chr. Hauns Alle",
+    "city": "Randers C"
+  },
+  "Telefonsmøgen, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Telefonsmøgen",
+    "city": "Ukendt"
+  },
+  "Larsmindevej Århus N, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Larsmindevej Århus N",
+    "city": "Ukendt"
+  },
+  "Godtfred Hansens Vej,, 8200 Århus N, sket mellem d. 07/05, kl. 15.00 og d. 09/05 kl. 11.00": {
+    "reason": "not_found",
+    "address": "Godtfred Hansens Vej,",
+    "city": "8200 Århus N, sket mellem d. 07/05, kl. 15.00 og d. 09/05 kl. 11.00"
+  },
+  "Sødring Bygade, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Sødring Bygade",
+    "city": "Havndal",
+    "found_lat": 56.6296542,
+    "found_lon": 10.3153506,
+    "found_name": "Sødring Bygade, Sødring, Randers Kommune, Region Midtjylland, Danmark"
+  },
+  "Bredkær Parkvej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Bredkær Parkvej",
+    "city": "Ukendt"
+  },
+  "Skejbygårdsvej 8240 Risskov, sket mellem 13/03/2020 12:00 Til 27/03/2020 13:00. *** Østjyllands politi har ingen fremstillinger, Grundlovsforhør d.d. Med venlig hilsen Martin G. Christensen Politikommissær - Vagtchef Østjyllands Politi.": {
+    "reason": "not_found",
+    "address": "Skejbygårdsvej 8240 Risskov, sket mellem 13/03/2020 12:00 Til 27/03/2020 13:00. *** Østjyllands politi har ingen fremstillinger",
+    "city": "Grundlovsforhør d.d. Med venlig hilsen Martin G. Christensen Politikommissær - Vagtchef Østjyllands Politi."
+  },
+  "Slemmingvej på, 8500 Grenaa sket den 22/2 kl. 04:40.": {
+    "reason": "not_found",
+    "address": "Slemmingvej på",
+    "city": "8500 Grenaa sket den 22/2 kl. 04:40."
+  },
+  "Flintebakken 8240 Risskov, sket mellem 10/02/2020 8:00 og 14/02/2020 22:00 ** Østjyllands politi fremstiller d.d. kl. 10:30 en mand for forsætlig brandstiftelse, Grundlovsforhør i Retten i Aarhus.": {
+    "reason": "not_found",
+    "address": "Flintebakken 8240 Risskov, sket mellem 10/02/2020 8:00 og 14/02/2020 22:00 ** Østjyllands politi fremstiller d.d. kl. 10:30 en mand for forsætlig brandstiftelse",
+    "city": "Grundlovsforhør i Retten i Aarhus."
+  },
+  "Åbyhøjgårdvej, Åbyhøj": {
+    "reason": "not_found",
+    "address": "Åbyhøjgårdvej",
+    "city": "Åbyhøj"
+  },
+  "Buggesgårdsvej, Ormslev ved Viby": {
+    "reason": "not_found",
+    "address": "Buggesgårdsvej",
+    "city": "Ormslev ved Viby"
+  },
+  "Egebjergsvej, Brabrand": {
+    "reason": "not_found",
+    "address": "Egebjergsvej",
+    "city": "Brabrand"
+  },
+  "Otto Ruds Gade, Aarhus N": {
+    "reason": "not_found",
+    "address": "Otto Ruds Gade",
+    "city": "Aarhus N"
+  },
+  "Jydestien, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Jydestien",
+    "city": "Havndal",
+    "found_lat": 56.6531,
+    "found_lon": 10.1909233,
+    "found_name": "Jydestien, Havndal, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Besser Kirkevej på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Besser Kirkevej på Samsø",
+    "city": "Ukendt"
+  },
+  "H P Rosenvinges Plads, Ukendt": {
+    "reason": "unknown_city",
+    "address": "H P Rosenvinges Plads",
+    "city": "Ukendt"
+  },
+  "Møgelvangsvej, Dalbyover ved Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Møgelvangsvej",
+    "city": "Dalbyover ved Havndal",
+    "found_lat": 56.6268243,
+    "found_lon": 10.2069896,
+    "found_name": "Møgelvangsvej, Dalbyneder, Dalbyover, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Axel Kiers Vej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Axel Kiers Vej",
+    "city": "Ukendt"
+  },
+  "Hallsti, Aarhus C": {
+    "reason": "not_found",
+    "address": "Hallsti",
+    "city": "Aarhus C"
+  },
+  "Kolby Hovedgade på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Kolby Hovedgade på Samsø",
+    "city": "Ukendt"
+  },
+  "C. A. Thyregodsvej, Åbyhøj": {
+    "reason": "not_found",
+    "address": "C. A. Thyregodsvej",
+    "city": "Åbyhøj"
+  },
+  "Vilh. Bergsøes Vej, Århus V –": {
+    "reason": "not_found",
+    "address": "Vilh. Bergsøes Vej",
+    "city": "Århus V –"
+  },
+  "Nyvasen, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Nyvasen",
+    "city": "Havndal",
+    "found_lat": 56.6153099,
+    "found_lon": 10.2776626,
+    "found_name": "Nyvasen, Demstrup Vase, Udbyhøj Vasehuse, Randers Kommune, Region Midtjylland, Danmark"
+  },
+  "Mathildelundsvej, Viby": {
+    "reason": "not_found",
+    "address": "Mathildelundsvej",
+    "city": "Viby"
+  },
+  "Der er, det sidste døgn blevet anmeldt fire indbrud i privatbeboelse. På Holmevej i 8270 Højbjerg sket den 29/11 mellem kl. 08:00 og 17:05.": {
+    "reason": "out_of_bounds",
+    "address": "Der er",
+    "city": "det sidste døgn blevet anmeldt fire indbrud i privatbeboelse. På Holmevej i 8270 Højbjerg sket den 29/11 mellem kl. 08:00 og 17:05.",
+    "found_lat": 55.6680222,
+    "found_lon": 12.5907868,
+    "found_name": "Ko der er ved at rejse sig, Enveloppevejen, Islands Brygge, Christianshavn, København, Københavns Kommune, Region Hovedstaden, 1421, Danmark"
+  },
+  "Asmundgårdsvej, Lystrup": {
+    "reason": "not_found",
+    "address": "Asmundgårdsvej",
+    "city": "Lystrup"
+  },
+  "Nørreskovej, Hinnerup –": {
+    "reason": "not_found",
+    "address": "Nørreskovej",
+    "city": "Hinnerup –"
+  },
+  "Harald Kiddesvej, Åbyhøj –": {
+    "reason": "not_found",
+    "address": "Harald Kiddesvej",
+    "city": "Åbyhøj –"
+  },
+  "Østendalsvej, Gjerlev J": {
+    "reason": "out_of_bounds",
+    "address": "Østendalsvej",
+    "city": "Gjerlev J",
+    "found_lat": 56.604097,
+    "found_lon": 10.0881414,
+    "found_name": "Østendalsvej, Østendal, Randers Kommune, Region Midtjylland, Danmark"
+  },
+  "Ny Moesgårdsvej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Ny Moesgårdsvej",
+    "city": "Højbjerg"
+  },
+  "Myhøjbej, Hjortshøj": {
+    "reason": "not_found",
+    "address": "Myhøjbej",
+    "city": "Hjortshøj"
+  },
+  "Runghøj Allé, Højbjerg": {
+    "reason": "not_found",
+    "address": "Runghøj Allé",
+    "city": "Højbjerg"
+  },
+  "Sjørupgårdsvej, Tøstrup ved Nimtofte": {
+    "reason": "not_found",
+    "address": "Sjørupgårdsvej",
+    "city": "Tøstrup ved Nimtofte"
+  },
+  "Bugstrupvej, Bugstrup ved Kolind": {
+    "reason": "not_found",
+    "address": "Bugstrupvej",
+    "city": "Bugstrup ved Kolind"
+  },
+  "Åykkevej, Hadsten": {
+    "reason": "not_found",
+    "address": "Åykkevej",
+    "city": "Hadsten"
+  },
+  "Kalvevasen, Sødring ved Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Kalvevasen",
+    "city": "Sødring ved Havndal",
+    "found_lat": 56.623686,
+    "found_lon": 10.303441,
+    "found_name": "Kalvevasen, Demstrup Vase, Udbyhøj Vasehuse, Randers Kommune, Region Midtjylland, Danmark"
+  },
+  "Østervej på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Østervej på Samsø",
+    "city": "Ukendt"
+  },
+  "> På Haldumgårdsvej, 8382 Hinnerup sket den 6/9 kl. 02:21.": {
+    "reason": "not_found",
+    "address": "> På Haldumgårdsvej",
+    "city": "8382 Hinnerup sket den 6/9 kl. 02:21."
+  },
+  "Stafeldtsvej, Randers NØ": {
+    "reason": "not_found",
+    "address": "Stafeldtsvej",
+    "city": "Randers NØ"
+  },
+  "Ranvholtvej, Ravnholt ved Tranbjerg": {
+    "reason": "not_found",
+    "address": "Ranvholtvej",
+    "city": "Ravnholt ved Tranbjerg"
+  },
+  "Ketting Parkevej, Harlev": {
+    "reason": "not_found",
+    "address": "Ketting Parkevej",
+    "city": "Harlev"
+  },
+  "Max M llers Gade, Aarhus C": {
+    "reason": "not_found",
+    "address": "Max M llers Gade",
+    "city": "Aarhus C"
+  },
+  "Bugstrupvej, Kolind": {
+    "reason": "not_found",
+    "address": "Bugstrupvej",
+    "city": "Kolind"
+  },
+  "Havvejen på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Havvejen på Samsø",
+    "city": "Ukendt"
+  },
+  "Regnergade, Viby J": {
+    "reason": "not_found",
+    "address": "Regnergade",
+    "city": "Viby J"
+  },
+  "Mipelvej, Randers NV": {
+    "reason": "not_found",
+    "address": "Mipelvej",
+    "city": "Randers NV"
+  },
+  "Udbyhøjbvej, Havndal": {
+    "reason": "not_found",
+    "address": "Udbyhøjbvej",
+    "city": "Havndal"
+  },
+  "Krabbesholm Allé, Viby": {
+    "reason": "out_of_bounds",
+    "address": "Krabbesholm Allé",
+    "city": "Viby",
+    "found_lat": 56.5716709,
+    "found_lon": 9.0509967,
+    "found_name": "Krabbesholm Alle, Skive, Skive Kommune, Region Midtjylland, 7800, Danmark"
+  },
+  "Stilidsvej, Ebeltoft": {
+    "reason": "not_found",
+    "address": "Stilidsvej",
+    "city": "Ebeltoft"
+  },
+  "Dysselhøjvej, Jennum ved Spentrup": {
+    "reason": "not_found",
+    "address": "Dysselhøjvej",
+    "city": "Jennum ved Spentrup"
+  },
+  "Ystadsgade, Aarhus N": {
+    "reason": "not_found",
+    "address": "Ystadsgade",
+    "city": "Aarhus N"
+  },
+  "Thorpevænget, Aarhus V": {
+    "reason": "not_found",
+    "address": "Thorpevænget",
+    "city": "Aarhus V"
+  },
+  "Sket Fortunavej, 8960 Randers SØ, mellem 17/05/2019 15:00 og 18/05/2019 10:00": {
+    "reason": "not_found",
+    "address": "Sket Fortunavej",
+    "city": "8960 Randers SØ, mellem 17/05/2019 15:00 og 18/05/2019 10:00"
+  },
+  "Sket Jeppe Aakjærs Vej, 8230 Åbyhøj, mellem 16/05/2019 15:00 og 18/05/2019 09:00": {
+    "reason": "not_found",
+    "address": "Sket Jeppe Aakjærs Vej",
+    "city": "8230 Åbyhøj, mellem 16/05/2019 15:00 og 18/05/2019 09:00"
+  },
+  "Sket Græsvangen, 8381 Tilst, mellem 17/05/2019 11:30 og 18/05/2019 18:20": {
+    "reason": "not_found",
+    "address": "Sket Græsvangen",
+    "city": "8381 Tilst, mellem 17/05/2019 11:30 og 18/05/2019 18:20"
+  },
+  "Sket Århusvej, 8570 Trustrup, mellem 18/05/2019 08:00 og 18/05/2019 20:30": {
+    "reason": "not_found",
+    "address": "Sket Århusvej",
+    "city": "8570 Trustrup, mellem 18/05/2019 08:00 og 18/05/2019 20:30"
+  },
+  "Sket Solmarksvej, 8240 Risskov, mellem 15/05/2019 14:00 og 18/05/2019 18:00": {
+    "reason": "not_found",
+    "address": "Sket Solmarksvej",
+    "city": "8240 Risskov, mellem 15/05/2019 14:00 og 18/05/2019 18:00"
+  },
+  "Sket Ulvehaven, 8270 Højbjerg, mellem 19/05/2019 02:31 og 19/05/2019 02:31": {
+    "reason": "not_found",
+    "address": "Sket Ulvehaven",
+    "city": "8270 Højbjerg, mellem 19/05/2019 02:31 og 19/05/2019 02:31"
+  },
+  "Sket Møllevangs Allé, 8210 Århus V, mellem 18/05/2019 16:00 og 18/05/2019 16:30": {
+    "reason": "not_found",
+    "address": "Sket Møllevangs Allé",
+    "city": "8210 Århus V, mellem 18/05/2019 16:00 og 18/05/2019 16:30"
+  },
+  "Olof Rudes Vej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Olof Rudes Vej",
+    "city": "Højbjerg"
+  },
+  "Godfred Hansen Vej, Aarhus N": {
+    "reason": "not_found",
+    "address": "Godfred Hansen Vej",
+    "city": "Aarhus N"
+  },
+  "Torvald Køhlvej, Odder": {
+    "reason": "not_found",
+    "address": "Torvald Køhlvej",
+    "city": "Odder"
+  },
+  "Vikjærvej, Viby": {
+    "reason": "not_found",
+    "address": "Vikjærvej",
+    "city": "Viby"
+  },
+  "Fosevej, Enslev": {
+    "reason": "out_of_bounds",
+    "address": "Fosevej",
+    "city": "Enslev",
+    "found_lat": 56.6232523,
+    "found_lon": 10.1196791,
+    "found_name": "Fosevej, Østerhede, Enslev, Randers Kommune, Region Midtjylland, 8983, Danmark"
+  },
+  "Dråby Kirkevej, Ebeltoft fredag d. 29.03.19 ca. kl. 7:15, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Dråby Kirkevej, Ebeltoft fredag d. 29.03.19 ca. kl. 7:15",
+    "city": "Ukendt"
+  },
+  "Begået mellem fredag den 15/3 kl. 16.00 og søndag den 17/3 kl. 11.40, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Begået mellem fredag den 15/3 kl. 16.00 og søndag den 17/3 kl. 11.40",
+    "city": "Ukendt"
+  },
+  "Begået mellem søndag den 10/3 kl. 15.00 og søndag den 17/3 kl. 13.07, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Begået mellem søndag den 10/3 kl. 15.00 og søndag den 17/3 kl. 13.07",
+    "city": "Ukendt"
+  },
+  "Begået mellem torsdag den 14/3 kl. 17.00 og søndag den 17/3 kl. 12.00, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Begået mellem torsdag den 14/3 kl. 17.00 og søndag den 17/3 kl. 12.00",
+    "city": "Ukendt"
+  },
+  "Begået mellem søndag den 10/3 kl. 16.00 og søndag den 17/3 kl. 12.00, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Begået mellem søndag den 10/3 kl. 16.00 og søndag den 17/3 kl. 12.00",
+    "city": "Ukendt"
+  },
+  "Rydbjergsvej, Randers NV": {
+    "reason": "not_found",
+    "address": "Rydbjergsvej",
+    "city": "Randers NV"
+  },
+  "B lowsgade, 8000 Århus C": {
+    "reason": "not_found",
+    "address": "B lowsgade",
+    "city": "8000 Århus C"
+  },
+  "Thietsvej, Randers SØ": {
+    "reason": "not_found",
+    "address": "Thietsvej",
+    "city": "Randers SØ"
+  },
+  "Jens Baggesens Vej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Jens Baggesens Vej",
+    "city": "Ukendt"
+  },
+  "Kristrupvej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Kristrupvej",
+    "city": "Ukendt"
+  },
+  "Østerboulevarden, Aarhus": {
+    "reason": "not_found",
+    "address": "Østerboulevarden",
+    "city": "Aarhus"
+  },
+  "Anettevej, Brabrand": {
+    "reason": "not_found",
+    "address": "Anettevej",
+    "city": "Brabrand"
+  },
+  "Trillegrådsvej, Aarhus V": {
+    "reason": "not_found",
+    "address": "Trillegrådsvej",
+    "city": "Aarhus V"
+  },
+  "Der skete et færdselsuheld lørdag den 19/1 kl. 11:35 på Hadsundvej, 8930 Randers NØ, en 33-årig mandlig bilist var kørt ud for ubetinget vigepligt, hvor efter der skete sammenstød med en 48-årig mandlig bilist.": {
+    "reason": "not_found",
+    "address": "Der skete et færdselsuheld lørdag den 19/1 kl. 11:35 på Hadsundvej",
+    "city": "8930 Randers NØ, en 33-årig mandlig bilist var kørt ud for ubetinget vigepligt, hvor efter der skete sammenstød med en 48-årig mandlig bilist."
+  },
+  "Akaciecej, Randers NØ": {
+    "reason": "not_found",
+    "address": "Akaciecej",
+    "city": "Randers NØ"
+  },
+  "Ystedgade, Aarhus N": {
+    "reason": "not_found",
+    "address": "Ystedgade",
+    "city": "Aarhus N"
+  },
+  "Brendstrupvej Aarhus N, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Brendstrupvej Aarhus N",
+    "city": "Ukendt"
+  },
+  "Marselis Boulevard, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Marselis Boulevard",
+    "city": "Ukendt"
+  },
+  "Bøgeskov Høvej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Bøgeskov Høvej",
+    "city": "Ukendt"
+  },
+  "Lørdag kl. ca., 1730 blev der": {
+    "reason": "not_found",
+    "address": "Lørdag kl. ca.",
+    "city": "1730 blev der"
+  },
+  "Chr. Hauns Alle, Randers": {
+    "reason": "not_found",
+    "address": "Chr. Hauns Alle",
+    "city": "Randers"
+  },
+  "Paludan-M llers Vej, Århus N": {
+    "reason": "not_found",
+    "address": "Paludan-M llers Vej",
+    "city": "Århus N"
+  },
+  "Gransvingt, Ebeltoft": {
+    "reason": "not_found",
+    "address": "Gransvingt",
+    "city": "Ebeltoft"
+  },
+  "H.C. Ørstedsvej, Viby": {
+    "reason": "out_of_bounds",
+    "address": "H.C. Ørstedsvej",
+    "city": "Viby",
+    "found_lat": 56.7818198,
+    "found_lon": 8.8341393,
+    "found_name": "H C Ørstedsvej, Ole Rømersvej, Fårup, Nykøbing Mors, Morsø Kommune, Region Nordjylland, 7900, Danmark"
+  },
+  "Viby Ringvej 8260 Viby J. Den 21/12 kl. 13:30. En 54-årig kvinde holdt for rødt, krydset, og blev påkørt bagfra. Den 54-årige kvinde og føreren af det andet køretøj talte kort sammen og aftalte, at køre længere frem for at udveksle generalier. Føreren var efterfølgende kørt fra stedet uden at give sig til kende.": {
+    "reason": "not_found",
+    "address": "Viby Ringvej 8260 Viby J. Den 21/12 kl. 13:30. En 54-årig kvinde holdt for rødt",
+    "city": "krydset, og blev påkørt bagfra. Den 54-årige kvinde og føreren af det andet køretøj talte kort sammen og aftalte, at køre længere frem for at udveksle generalier. Føreren var efterfølgende kørt fra stedet uden at give sig til kende."
+  },
+  "Djurslandsmotorvejen, 8200 Århus N. sket den 21/12 kl. 22:28. Flere anmeldelser om, at der på stedet var blevet observeret flere får, der løb på motorvejen, hvorefter en lastbil havde ramt flere af dem. Lastbilen havde fået mindre skader på fronten umiddelbart ingen personskade. Flere får var afgået ved døden.": {
+    "reason": "not_found",
+    "address": "Djurslandsmotorvejen",
+    "city": "8200 Århus N. sket den 21/12 kl. 22:28. Flere anmeldelser om, at der på stedet var blevet observeret flere får, der løb på motorvejen, hvorefter en lastbil havde ramt flere af dem. Lastbilen havde fået mindre skader på fronten umiddelbart ingen personskade. Flere får var afgået ved døden."
+  },
+  "Dalsagervej Egå, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Dalsagervej Egå",
+    "city": "Ukendt"
+  },
+  "Erik Klippingvej, Randers SØ": {
+    "reason": "not_found",
+    "address": "Erik Klippingvej",
+    "city": "Randers SØ"
   }
 }
