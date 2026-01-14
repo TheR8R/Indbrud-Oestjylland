@@ -1,5 +1,5 @@
 const INPUT_FILE = "../data/indbrud_data.json";
-const OUTPUT_FILE = "../docs/data.json";
+const OUTPUT_FILE = "../data/data.json";
 const CACHE_FILE = "../data/geocode_cache.json";
 const FAILURES_FILE = "../data/geocode_failures.json";
 
