@@ -103259,5 +103259,43 @@
         }
       ]
     }
+  },
+  "2026-01-15": {
+    "Østjyllands Politi": {
+      "Tilst": [
+        {
+          "address": "Græsvangen",
+          "time": "tirsdag d. 13/1 kl. 20.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
+          "lat": 56.1923825,
+          "lon": 10.1032749
+        }
+      ],
+      "Harlev": [
+        {
+          "address": "Kornelvej",
+          "time": "onsdag d. 14/1 mellem kl. 16.00 og kl. 18.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
+          "lat": 56.1475394,
+          "lon": 9.9994774
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Søskrænten",
+          "time": "onsdag d. 14/1 mellem kl. 06.15 og kl. 20.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
+          "lat": 56.1338572,
+          "lon": 10.1285105
+        },
+        {
+          "address": "Tornhøjvej",
+          "time": "onsdag d. 14/1 mellem kl. 18.15 og kl. 21.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
+          "lat": 56.1362376,
+          "lon": 10.1219102
+        }
+      ]
+    }
   }
 }

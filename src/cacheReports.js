@@ -1,23 +1,14 @@
 import { parse } from "node-html-parser";
-
-const LINKS_FILE = "../data/report_links.json";
-const CACHE_FILE = "../data/reports_cache.json";
-const BASE_URL = "https://politi.dk";
-const BATCH_SIZE = 10;
-
-async function loadJson(path) {
-  const f = Bun.file(path);
-  if (await f.exists()) return f.json();
-  return null;
-}
+import { loadJson, saveJson } from "./util/saveFile.js";
+import { paths, api, scraping } from "./util/config.js";
 
 async function saveCache(cache) {
   cache.lastUpdated = new Date().toISOString();
-  await Bun.write(CACHE_FILE, JSON.stringify(cache, null, 2));
+  await saveJson(paths.reportsCache, cache, { log: false });
 }
 
 async function fetchReportContent(link) {
-  const url = link.startsWith("http") ? link : `${BASE_URL}${link}`;
+  const url = link.startsWith("http") ? link : `${api.politiBase}${link}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`${res.status}`);
   
@@ -54,20 +45,20 @@ async function fetchBatch(links, cache) {
 }
 
 async function main() {
-  // Load existing links
-  const linksData = await loadJson(LINKS_FILE);
+  const args = process.argv.slice(2);
+  const recentMode = args.includes("--recent");
+  
+  const linksData = await loadJson(paths.reportLinks);
   if (!linksData?.links?.length) {
-    console.error("No links found in", LINKS_FILE);
+    console.error("No links found in", paths.reportLinks);
     return;
   }
-  console.log(`Loaded ${linksData.links.length} links from ${LINKS_FILE}`);
+  console.log(`Loaded ${linksData.links.length} links from ${paths.reportLinks}`);
 
-  // Load or create cache
-  const cache = await loadJson(CACHE_FILE) || { reports: {} };
+  const cache = await loadJson(paths.reportsCache, { reports: {} });
   if (!cache.reports) cache.reports = {};
   console.log(`Cache has ${Object.keys(cache.reports).length} reports`);
 
-  // Find links not yet cached
   const uncached = linksData.links.filter(link => !cache.reports[link]);
   console.log(`\n${uncached.length} reports to fetch\n`);
 
@@ -76,13 +67,12 @@ async function main() {
     return;
   }
 
-  // Fetch in batches
-  const totalBatches = Math.ceil(uncached.length / BATCH_SIZE);
+  const totalBatches = Math.ceil(uncached.length / scraping.batchSize);
   let totalFetched = 0;
 
-  for (let i = 0; i < uncached.length; i += BATCH_SIZE) {
-    const batch = uncached.slice(i, i + BATCH_SIZE);
-    const batchNum = Math.floor(i / BATCH_SIZE) + 1;
+  for (let i = 0; i < uncached.length; i += scraping.batchSize) {
+    const batch = uncached.slice(i, i + scraping.batchSize);
+    const batchNum = Math.floor(i / scraping.batchSize) + 1;
     
     console.log(`Batch ${batchNum}/${totalBatches}...`);
     
@@ -92,7 +82,7 @@ async function main() {
     await saveCache(cache);
     console.log(`  ✓ ${fetched}/${batch.length} fetched (total: ${Object.keys(cache.reports).length})\n`);
     
-    if (i + BATCH_SIZE < uncached.length) await Bun.sleep(500);
+    if (i + scraping.batchSize < uncached.length) await Bun.sleep(scraping.sleepMs);
   }
 
   console.log(`Done! Fetched ${totalFetched} new reports.`);

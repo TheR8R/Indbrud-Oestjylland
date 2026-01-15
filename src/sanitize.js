@@ -1,5 +1,6 @@
-// Broad pattern that captures time info starting from common Danish time indicators
-// Matches: sket, mellem, weekday + d./den, or date patterns following location
+import { loadJson, saveJson } from "./util/saveFile.js";
+import { paths } from "./util/config.js";
+
 const timePattern = /,?\s*((?:sket|mellem|blev der[^,]*mellem|i tidsrummet|forsøgt indbrud|anmeldt)\s.+|(?:mandag|tirsdag|onsdag|torsdag|fredag|lørdag|søndag)\s+d\.?\s*\d.+|\d{1,2}[.\/]\d{1,2}[.\/]\d{2,4}.*)$/i;
 
 function extractTimeFromLocation(location) {
@@ -13,14 +14,24 @@ function extractTimeFromLocation(location) {
 }
 
 function cleanAddress(address) {
-  // Remove "Sket" prefix from addresses
   return address.replace(/^sket\s+/i, "").trim();
 }
 
-function sanitizeData(data) {
-  const sanitized = {};
+function sanitizeEntry(incident, extractedTime) {
+  return {
+    ...incident,
+    address: cleanAddress(incident.address),
+    time: incident.time || extractedTime,
+  };
+}
+
+function sanitizeData(data, existingSanitized = null, recentMode = false) {
+  const sanitized = recentMode && existingSanitized ? { ...existingSanitized } : {};
 
   for (const [date, policeDistricts] of Object.entries(data)) {
+    // Skip dates already processed in recent mode
+    if (recentMode && sanitized[date]) continue;
+    
     sanitized[date] = {};
 
     for (const [district, locations] of Object.entries(policeDistricts)) {
@@ -28,12 +39,9 @@ function sanitizeData(data) {
 
       for (const [location, incidents] of Object.entries(locations)) {
         const { cleanLocation, extractedTime } = extractTimeFromLocation(location);
-
-        sanitized[date][district][cleanLocation] = incidents.map((incident) => ({
-          ...incident,
-          address: cleanAddress(incident.address),
-          time: incident.time || extractedTime,
-        }));
+        sanitized[date][district][cleanLocation] = incidents.map(
+          incident => sanitizeEntry(incident, extractedTime)
+        );
       }
     }
   }
@@ -42,19 +50,33 @@ function sanitizeData(data) {
 }
 
 async function main() {
-const inputPath = process.argv[2] || "../data/data.json"; 
-const outputPath = process.argv[3] || "../docs/data_sanitized.json";
+  const args = process.argv.slice(2);
+  const recentMode = args.includes("--recent");
+  const inputPath = args.find(a => !a.startsWith("--")) || paths.output;
+  const outputPath = args.find((a, i) => i > 0 && !a.startsWith("--")) || paths.sanitized;
 
-  try {
-    const rawData = await Bun.file(inputPath).json();
-    const sanitized = sanitizeData(rawData);
-
-    await Bun.write(outputPath, JSON.stringify(sanitized, null, 2));
-    console.log(`✓ Sanitized data written to ${outputPath}`);
-  } catch (err) {
-    console.error("Error:", err);
+  const rawData = await loadJson(inputPath);
+  if (!rawData) {
+    console.error(`Error: Could not read ${inputPath}`);
     process.exit(1);
   }
+
+  let existingSanitized = null;
+  if (recentMode) {
+    existingSanitized = await loadJson(outputPath, {});
+    const existingDates = Object.keys(existingSanitized).length;
+    const newDates = Object.keys(rawData).filter(d => !existingSanitized[d]).length;
+    console.log(`Processing ${newDates} new dates (${existingDates} already sanitized)...`);
+    
+    if (newDates === 0) {
+      console.log("✓ No new data to sanitize");
+      return;
+    }
+  }
+
+  const sanitized = sanitizeData(rawData, existingSanitized, recentMode);
+  await saveJson(outputPath, sanitized, { log: false });
+  console.log(`✓ Sanitized data written to ${outputPath}`);
 }
 
 main();

@@ -1,29 +1,6 @@
-const INPUT_FILE = "../data/indbrud_data.json";
-const OUTPUT_FILE = "../data/data.json";
-const CACHE_FILE = "../data/geocode_cache.json";
-const FAILURES_FILE = "../data/geocode_failures.json";
+import { loadJson, saveJson } from "./util/saveFile.js";
+import { paths, api, geo, isInBounds, getViewbox } from "./util/config.js";
 
-const OSTJYLLAND_BOUNDS = { latMin: 55.8, latMax: 56.6, lonMin: 9.5, lonMax: 11.0 };
-
-const AARHUS_SUBURBS = [
-  "risskov", "åbyhøj", "brabrand", "viby", "højbjerg", "hasle", "tilst",
-  "skejby", "lisbjerg", "tranbjerg", "mårslet", "beder", "malling", "egå",
-  "lystrup", "hjortshøj", "sabro", "gellerup", "hasselager", "skødstrup"
-];
-
-async function loadJson(filename) {
-  const file = Bun.file(filename);
-  try {
-    if (await file.exists()) return await file.json();
-  } catch (e) {}
-  return null;
-}
-
-async function saveJson(filename, data) {
-  await Bun.write(filename, JSON.stringify(data, null, 2));
-}
-
-// Parse "På [Address] i [City] begået..." into address and city
 function parseEntry(entry) {
   let text = entry.replace(/^(Forsøg på indbrud på|På)\s+/i, "");
   const begåetIdx = text.search(/\s+begået/i);
@@ -63,7 +40,7 @@ function getCityVariations(city) {
   
   const cityLower = city.toLowerCase();
   const baseLower = base.toLowerCase();
-  if (AARHUS_SUBURBS.some(s => cityLower.includes(s) || baseLower.includes(s))) {
+  if (geo.aarhusSuburbs.some(s => cityLower.includes(s) || baseLower.includes(s))) {
     variations.push(`${base}, Aarhus`);
     variations.push("Aarhus");
   }
@@ -106,29 +83,22 @@ function getAddressVariations(address) {
   return variations;
 }
 
-function isInBounds(lat, lon) {
-  return lat >= OSTJYLLAND_BOUNDS.latMin && lat <= OSTJYLLAND_BOUNDS.latMax &&
-         lon >= OSTJYLLAND_BOUNDS.lonMin && lon <= OSTJYLLAND_BOUNDS.lonMax;
-}
-
 async function geocode(address, city, cache, failures) {
   address = sanitizeAddress(address);
   const cacheKey = `${address}, ${city}`;
   
-  if (cache[cacheKey]) {
-    return cache[cacheKey];
-  }
+  if (cache[cacheKey]) return cache[cacheKey];
   
   if (city.toLowerCase() === "ukendt") {
     failures[cacheKey] = { reason: "unknown_city", address, city };
     return null;
   }
   
-  const viewbox = `${OSTJYLLAND_BOUNDS.lonMin},${OSTJYLLAND_BOUNDS.latMin},${OSTJYLLAND_BOUNDS.lonMax},${OSTJYLLAND_BOUNDS.latMax}`;
+  const viewbox = getViewbox();
   const addressVariations = getAddressVariations(address);
   const cityVariations = getCityVariations(city);
   
-  let bestOutOfBounds = null; // Track best out-of-bounds result for failure logging
+  let bestOutOfBounds = null;
   
   for (const addrVariant of addressVariations) {
     for (const cityVariant of cityVariations) {
@@ -140,7 +110,7 @@ async function geocode(address, city, cache, failures) {
       }
       
       try {
-        await Bun.sleep(1000);
+        await Bun.sleep(geo.rateLimitMs);
         
         const params = new URLSearchParams({
           format: "json",
@@ -150,8 +120,8 @@ async function geocode(address, city, cache, failures) {
           bounded: "0"
         });
         
-        const res = await fetch(`https://nominatim.openstreetmap.org/search?${params}`, {
-          headers: { "User-Agent": "IndbrudScraper/1.0" }
+        const res = await fetch(`${api.nominatim}?${params}`, {
+          headers: { "User-Agent": geo.userAgent }
         });
         
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -159,7 +129,6 @@ async function geocode(address, city, cache, failures) {
         const data = await res.json();
         
         if (data.length > 0) {
-          // Only accept results within bounds
           for (const result of data) {
             const lat = parseFloat(result.lat);
             const lon = parseFloat(result.lon);
@@ -172,7 +141,6 @@ async function geocode(address, city, cache, failures) {
             }
           }
           
-          // Track out-of-bounds result for failure logging
           if (!bestOutOfBounds) {
             const lat = parseFloat(data[0].lat);
             const lon = parseFloat(data[0].lon);
@@ -185,7 +153,6 @@ async function geocode(address, city, cache, failures) {
     }
   }
   
-  // Log failure with details
   if (bestOutOfBounds) {
     failures[cacheKey] = { 
       reason: "out_of_bounds", 
@@ -204,14 +171,33 @@ async function geocode(address, city, cache, failures) {
   return null;
 }
 
+async function saveAll(cache, failures, output) {
+  await saveJson(paths.geocodeCache, cache, { log: false });
+  await saveJson(paths.geocodeFailures, failures, { log: false });
+  await saveJson(paths.output, output, { log: false });
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const limit = args.includes("--limit") ? parseInt(args[args.indexOf("--limit") + 1]) : Infinity;
   const retryFailures = args.includes("--retry");
+  const recentMode = args.includes("--recent");
   
-  const cache = await loadJson(CACHE_FILE) || {};
-  const failures = await loadJson(FAILURES_FILE) || {};
-  const output = await loadJson(OUTPUT_FILE) || {};
+  const cache = await loadJson(paths.geocodeCache, {});
+  const failures = await loadJson(paths.geocodeFailures, {});
+  const output = await loadJson(paths.output, {});
+  
+  // Build set of already processed entries (date + address)
+  const processedEntries = new Set();
+  for (const date of Object.keys(output)) {
+    for (const region of Object.keys(output[date])) {
+      for (const city of Object.keys(output[date][region])) {
+        for (const entry of output[date][region][city]) {
+          processedEntries.add(`${date}|${entry.address}`);
+        }
+      }
+    }
+  }
   
   let processed = 0, geocoded = 0, cached = 0, failed = 0, outOfBounds = 0;
 
@@ -254,16 +240,10 @@ async function main() {
         failed++;
       }
       
-      if (processed % 10 === 0) {
-        await saveJson(CACHE_FILE, cache);
-        await saveJson(FAILURES_FILE, failures);
-        await saveJson(OUTPUT_FILE, output);
-      }
+      if (processed % 10 === 0) await saveAll(cache, failures, output);
     }
     
-    await saveJson(CACHE_FILE, cache);
-    await saveJson(FAILURES_FILE, failures);
-    await saveJson(OUTPUT_FILE, output);
+    await saveAll(cache, failures, output);
     
     console.log(`\n${"=".repeat(40)}`);
     console.log(`Retry complete!`);
@@ -272,13 +252,34 @@ async function main() {
     return;
   }
   
-  const inputData = await loadJson(INPUT_FILE);
+  const inputData = await loadJson(paths.indbudData);
   if (!inputData) {
-    console.error("No input data found. Run scraper.js first.");
+    console.error("No input data found. Run Scraper.js first.");
     process.exit(1);
   }
   
-  console.log(`Processing ${inputData.length} reports...`);
+  // Count entries to process
+  let totalEntries = 0;
+  let newEntries = 0;
+  for (const report of inputData) {
+    if (!report.entries?.length) continue;
+    for (const entry of report.entries) {
+      totalEntries++;
+      const { address } = parseEntry(entry);
+      const key = `${report.date}|${address}`;
+      if (!processedEntries.has(key)) newEntries++;
+    }
+  }
+  
+  if (recentMode) {
+    console.log(`Processing ${newEntries} new entries (${totalEntries - newEntries} already processed)...`);
+    if (newEntries === 0) {
+      console.log("No new entries to geocode!");
+      return;
+    }
+  } else {
+    console.log(`Processing ${inputData.length} reports...`);
+  }
   console.log(`Cache has ${Object.keys(cache).length} entries\n`);
   
   for (const report of inputData) {
@@ -286,10 +287,15 @@ async function main() {
     
     for (const entry of report.entries) {
       if (processed >= limit) break;
-      processed++;
       
       const { address, city, time } = parseEntry(entry);
       const date = report.date;
+      const entryKey = `${date}|${address}`;
+      
+      // Skip already processed entries in recent mode
+      if (recentMode && processedEntries.has(entryKey)) continue;
+      
+      processed++;
       const cacheKey = `${sanitizeAddress(address)}, ${city}`;
       
       console.log(`[${processed}] ${address} i ${city}`);
@@ -323,11 +329,7 @@ async function main() {
         output[date][region][city].push(entryData);
       }
       
-      if (processed % 10 === 0) {
-        await saveJson(CACHE_FILE, cache);
-        await saveJson(FAILURES_FILE, failures);
-        await saveJson(OUTPUT_FILE, output);
-      }
+      if (processed % 10 === 0) await saveAll(cache, failures, output);
     }
     if (processed >= limit) break;
   }
@@ -336,17 +338,17 @@ async function main() {
     Object.entries(output).sort((a, b) => b[0].localeCompare(a[0]))
   );
   
-  await saveJson(CACHE_FILE, cache);
-  await saveJson(FAILURES_FILE, failures);
-  await saveJson(OUTPUT_FILE, sortedOutput);
+  await saveJson(paths.geocodeCache, cache, { log: false });
+  await saveJson(paths.geocodeFailures, failures, { log: false });
+  await saveJson(paths.output, sortedOutput, { log: false });
   
   console.log(`\n${"=".repeat(40)}`);
   console.log(`Done! Processed: ${processed}`);
   console.log(`  Cached: ${cached}`);
   console.log(`  Geocoded: ${geocoded}`);
   console.log(`  Failed: ${failed} (${outOfBounds} out of bounds)`);
-  console.log(`Output: ${OUTPUT_FILE}`);
-  console.log(`Failures: ${FAILURES_FILE}`);
+  console.log(`Output: ${paths.output}`);
+  console.log(`Failures: ${paths.geocodeFailures}`);
 }
 
 main().catch(e => console.error("Error:", e.message));

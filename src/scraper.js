@@ -1,7 +1,5 @@
-const INPUT_FILE = "../data/reports_cache.json";
-const OUTPUT_FILE = "../data/indbrud_data.json";
-const FAILURES_FILE = "../data/indbrud_failures.json";
-const SKIP_FILE = "../data/notUsefulReports.json";
+import { loadJson, saveJson } from "./util/saveFile.js";
+import { paths } from "./util/config.js";
 
 const HTML_ENTITIES = {
   "&nbsp;": " ", "&amp;": "&", "&oslash;": "ø", "&Oslash;": "Ø",
@@ -9,8 +7,6 @@ const HTML_ENTITIES = {
   "&eacute;": "é", "&Eacute;": "É", "&ndash;": "–", "&mdash;": "—",
   "&quot;": '"', "&lt;": "<", "&gt;": ">", "&rsquo;": "'", "&lsquo;": "'",
 };
-
-const DANISH_NUMBERS = /(?:\d+|et|en|to|tre|fire|fem|seks|syv|otte|ni|ti|elleve|tolv|tretten|fjorten|femten)/i;
 
 function decode(text) {
   let r = text;
@@ -38,10 +34,9 @@ function extractBreakIns(html) {
   let indbudHeader = null;
   let fallbackHeader = null;
   
-  // Try h2/h3 first
   const headerRe = /<h[23][^>]*>([\s\S]*?)<\/h[23]>/gi;
   let headerMatch;
-  let fallbackHeaders = []; // Collect all fallback "Indbrud" headers
+  let fallbackHeaders = [];
   while ((headerMatch = headerRe.exec(html)) !== null) {
     const innerText = strip(headerMatch[1]);
     if (/ingen\s+(?:anmeldte\s+)?indbrud/i.test(innerText) ||
@@ -59,7 +54,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // If we have fallback headers, prefer the one followed by a count summary
   if (!indbudHeader && fallbackHeaders.length > 0) {
     for (const fh of fallbackHeaders) {
       const afterHeader = html.substring(fh.index + fh.match.length, fh.index + fh.match.length + 500);
@@ -68,11 +62,9 @@ function extractBreakIns(html) {
         break;
       }
     }
-    // If no count summary found, use the first fallback
     if (!fallbackHeader) fallbackHeader = fallbackHeaders[0];
   }
   
-  // Fallback: try <p><strong> headers (with optional span wrappers)
   if (!indbudHeader) {
     const pStrongRe = /<p[^>]*>(?:\s*<span[^>]*>)?\s*<strong[^>]*>([\s\S]*?)<\/strong>(?:\s*<\/span>)?\s*<\/p>/gi;
     while ((headerMatch = pStrongRe.exec(html)) !== null) {
@@ -91,10 +83,8 @@ function extractBreakIns(html) {
     }
   }
   
-  // Use fallback if no specific header found
   if (!indbudHeader) indbudHeader = fallbackHeader;
   
-  // Last resort: look for count summary as plain text (no header)
   if (!indbudHeader) {
     const countSummaryRe = /(?:Der (?:er|var)|Det seneste?)[^<]*?anmeldt\s+(?:\d+|et|ét|én|en|to|tre|fire|fem|seks|syv|otte|ni|ti|elleve|tolv|tretten|fjorten|femten|følgende)?(?:\s+antal)?\s*indbrud[^<]*?(?:politikreds|beboelse)/gi;
     const match = countSummaryRe.exec(html);
@@ -103,7 +93,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Final fallback: plain text "Indbrud" followed by <br>
   if (!indbudHeader) {
     const plainIndbudRe = /(?:^|>)\s*Indbrud(?:\s+i\s+privat\s?beboelse)?[:.]?\s*<br/gi;
     const match = plainIndbudRe.exec(html);
@@ -112,7 +101,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Another fallback: <strong>Indbrud...</strong> directly (with optional <br> before/after and spans)
   if (!indbudHeader) {
     const strongIndbudRe = /<strong[^>]*>(?:\s*<br\s*\/?>)*\s*Indbrud(?:\s+i\s+privat\s?beboelse)?[^<]*?(?:<span[^>]*>\s*<\/span>)?\s*<\/strong>/gi;
     const match = strongIndbudRe.exec(html);
@@ -121,7 +109,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Another fallback: count summary inside <strong> tag
   if (!indbudHeader) {
     const strongCountRe = /<strong[^>]*>(?:Der (?:er|var)|Det seneste?)[^<]*?anmeldt\s+(?:\d+|et|ét|én|en|to|tre|fire|fem|seks|syv|otte|ni|ti|elleve|tolv|tretten|fjorten|femten|følgende)(?:\s+antal)?\s+indbrud[\s\S]*?<\/strong>/gi;
     const match = strongCountRe.exec(html);
@@ -130,7 +117,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Another fallback: <strong><span>Indbrud...</span></strong> where Indbrud is at the START of span content (with optional <br> before/after)
   if (!indbudHeader) {
     const strongSpanStartRe = /<strong[^>]*>\s*<span[^>]*>(?:\s*<br\s*\/?>)*\s*Indbrud(?:\s+i\s+privat\s?beboelse)?[:.]?\s*(?:<br\s*\/?>)?\s*<\/span>\s*<\/strong>/gi;
     const match = strongSpanStartRe.exec(html);
@@ -139,7 +125,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Another fallback: count summary inside <strong><span> (e.g., "Det seneste døgn er der anmeldt...")
   if (!indbudHeader) {
     const strongSpanCountRe = /<strong[^>]*>\s*<span[^>]*>(?:\s*<br\s*\/?>)*\s*(?:Der (?:er|var)|Det seneste?)[^<]*?anmeldt\s+(?:\d+|et|ét|én|en|to|tre|fire|fem|seks|syv|otte|ni|ti|elleve|tolv|tretten|fjorten|femten|følgende)(?:\s+antal)?\s+indbrud[\s\S]*?<\/span>\s*<\/strong>/gi;
     const match = strongSpanCountRe.exec(html);
@@ -148,7 +133,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Another fallback: <strong><span>Indbrud...</span></strong> with inner formatting (including <br>)
   if (!indbudHeader) {
     const strongSpanIndbudRe = /<strong[^>]*>\s*<span[^>]*>[\s\S]*?Indbrud(?:\s+i\s+privat\s?beboelse)?[:.]?[\s\S]*?<\/span>\s*<\/strong>/gi;
     let match;
@@ -163,26 +147,21 @@ function extractBreakIns(html) {
   
   if (!indbudHeader) return { entries: [], status: "no_section" };
   
-  // Get content after header until next section
   const start = indbudHeader.index + indbudHeader.match.length;
   
-  // Find next header (h2, h3, or <p><strong>)
   let nextHeader = -1;
   const nextH2 = html.indexOf("<h2", start);
   const nextH3 = html.indexOf("<h3", start);
   
-  // Find next <p><strong> that looks like a section header
   let nextPStrong = -1;
   const pStrongRe2 = /<p[^>]*>\s*<strong[^>]*>[\s\S]*?<\/strong>\s*<\/p>/gi;
   pStrongRe2.lastIndex = start;
   const pMatch = pStrongRe2.exec(html);
   if (pMatch) nextPStrong = pMatch.index;
   
-  // Get earliest header
   const candidates = [nextH2, nextH3, nextPStrong].filter(x => x > 0);
   nextHeader = candidates.length > 0 ? Math.min(...candidates) : -1;
   
-  // Skip count summary and empty headers
   while (nextHeader > 0) {
     let headerEnd = -1;
     let headerContent = "";
@@ -224,7 +203,6 @@ function extractBreakIns(html) {
   
   const section = html.substring(start, nextHeader > 0 ? nextHeader : undefined);
   
-  // If section is very short and we matched a count summary, the actual entries might be under the next header
   let effectiveSection = section;
   let effectiveStart = start;
   if (section.length < 20 && nextHeader > 0) {
@@ -233,7 +211,6 @@ function extractBreakIns(html) {
     const nm = nextHeaderMatch.exec(html);
     if (nm && /^Indbrud/i.test(strip(nm[1]))) {
       effectiveStart = nm.index + nm[0].length;
-      // Find the header after this one
       let newNextHeader = -1;
       const newNextH2 = html.indexOf("<h2", effectiveStart);
       const newNextH3 = html.indexOf("<h3", effectiveStart);
@@ -244,8 +221,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // If section is too short, the Indbrud content might be INSIDE the matched header (e.g., giant h3 tag)
-  // In this case, look for "Indbrud" within the header itself and extract from there
   if (effectiveSection.length < 50 && indbudHeader.match.length > 100) {
     const indbudInHeader = indbudHeader.match.search(/Indbrud[:.]?\s*<br/i);
     if (indbudInHeader >= 0) {
@@ -258,14 +233,12 @@ function extractBreakIns(html) {
   const entries = [];
   let m;
   
-  // Try <li> tags first
   const liRe = /<li[^>]*>([\s\S]*?)<\/li>/gi;
   while ((m = liRe.exec(effectiveSection)) !== null) {
     const entry = strip(m[1]);
     if (entry.length > 10) entries.push(entry);
   }
   
-  // Fallback: <p> tags with break-in patterns (handle <br> splits within)
   if (entries.length === 0) {
     const pRe = /<p[^>]*>([\s\S]*?)<\/p>/gi;
     while ((m = pRe.exec(effectiveSection)) !== null) {
@@ -295,7 +268,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Fallback: entries separated by <br>
   if (entries.length === 0) {
     const brLines = effectiveSection.split(/<br\s*\/?>/i).map(s => strip(s));
     for (const line of brLines) {
@@ -310,7 +282,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Last fallback: extract "På ... begået" from anywhere
   if (entries.length === 0) {
     const plainText = strip(effectiveSection);
     const paaRe = /På\s+[A-ZÆØÅa-zæøå][^.]*?begået[^.]*?(?:kl\.\s*\d[\d.:]+|d\.\s*\d+\/\d+)[^.]*/gi;
@@ -319,7 +290,6 @@ function extractBreakIns(html) {
     }
   }
   
-  // Final fallback: split by <br> for more patterns
   if (entries.length === 0) {
     const lines = effectiveSection.split(/<br\s*\/?>/i).map(s => strip(s)).filter(s => s.length > 10);
     for (const line of lines) {
@@ -335,7 +305,6 @@ function extractBreakIns(html) {
   }
   
   if (entries.length === 0) {
-    // Check for "no break-ins" only if we didn't find any entries
     if (/ikke\s+anmeldt\s+indbrud/i.test(text) ||
         (text.includes("ikke") && text.includes("meldt") && text.includes("indbrud")) ||
         (text.includes("ikke") && text.includes("modtaget") && text.includes("anmeldelse")) ||
@@ -346,11 +315,6 @@ function extractBreakIns(html) {
     return { entries: [], status: "no_entries" };
   }
   return { entries, status: "found" };
-}
-
-async function loadJson(path) {
-  const f = Bun.file(path);
-  return await f.exists() ? await f.json() : null;
 }
 
 function debugReport(html) {
@@ -382,7 +346,6 @@ function debugReport(html) {
     }
   }
   
-  // If we have fallback headers, prefer the one followed by a count summary
   if (!found && fallbackHeaders.length > 0) {
     console.log(`  DEBUG found ${fallbackHeaders.length} fallback Indbrud headers, checking for count summary...`);
     for (const fh of fallbackHeaders) {
@@ -449,7 +412,6 @@ function debugReport(html) {
     }
   }
   
-  // Try count summary inside <strong> tag
   if (!found) {
     console.log(`  DEBUG trying strong count summary pattern...`);
     const strongCountRe = /<strong[^>]*>(?:Der (?:er|var)|Det seneste?)[^<]*?anmeldt\s+(?:\d+|et|ét|én|en|to|tre|fire|fem|seks|syv|otte|ni|ti|elleve|tolv|tretten|fjorten|femten|følgende)(?:\s+antal)?\s+indbrud[\s\S]*?<\/strong>/gi;
@@ -460,7 +422,6 @@ function debugReport(html) {
     }
   }
   
-  // NEW: Try <strong><span>Indbrud...</span></strong> where Indbrud is at the START (with optional <br> before/after)
   if (!found) {
     console.log(`  DEBUG trying strong/span with Indbrud at START pattern...`);
     const strongSpanStartRe = /<strong[^>]*>\s*<span[^>]*>(?:\s*<br\s*\/?>)*\s*Indbrud(?:\s+i\s+privat\s?beboelse)?[:.]?\s*(?:<br\s*\/?>)?\s*<\/span>\s*<\/strong>/gi;
@@ -471,7 +432,6 @@ function debugReport(html) {
     }
   }
   
-  // Try count summary inside <strong><span>
   if (!found) {
     console.log(`  DEBUG trying strong/span count summary pattern...`);
     const strongSpanCountRe = /<strong[^>]*>\s*<span[^>]*>(?:\s*<br\s*\/?>)*\s*(?:Der (?:er|var)|Det seneste?)[^<]*?anmeldt\s+(?:\d+|et|ét|én|en|to|tre|fire|fem|seks|syv|otte|ni|ti|elleve|tolv|tretten|fjorten|femten|følgende)(?:\s+antal)?\s+indbrud[\s\S]*?<\/span>\s*<\/strong>/gi;
@@ -550,19 +510,26 @@ function debugReport(html) {
 async function main() {
   const args = process.argv.slice(2);
   const retryMode = args.includes("--retry");
+  const recentMode = args.includes("--recent");
   const debug = args.includes("--debug");
   const limitIdx = args.indexOf("--limit");
   const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1]) : Infinity;
   
-  const cache = await loadJson(INPUT_FILE);
+  const cache = await loadJson(paths.reportsCache);
   if (!cache?.reports) {
-    console.error(`No reports found in ${INPUT_FILE}`);
+    console.error(`No reports found in ${paths.reportsCache}`);
     process.exit(1);
   }
   
-  const existingResults = await loadJson(OUTPUT_FILE) || [];
-  const existingFailures = await loadJson(FAILURES_FILE) || [];
-  const skipList = new Set((await loadJson(SKIP_FILE) || []).filter(u => u && u.length > 0));
+  const existingResults = await loadJson(paths.indbudData, []);
+  const existingFailures = await loadJson(paths.indbudFailures, []);
+  const skipList = new Set((await loadJson(paths.skipList, [])).filter(u => u && u.length > 0));
+  
+  // Track already processed URLs
+  const processedUrls = new Set([
+    ...existingResults.map(r => r.url),
+    ...existingFailures.map(f => f.url)
+  ]);
   
   let urlsToProcess;
   if (retryMode) {
@@ -573,9 +540,17 @@ async function main() {
     console.log(`Retrying ${urlsToProcess.length} of ${existingFailures.length} failed reports (${skipList.size} in skip list)...`);
   } else {
     const allUrls = Object.keys(cache.reports);
-    urlsToProcess = allUrls.filter(url => !skipList.has(url)).slice(0, limit);
-    const skippedCount = allUrls.length - urlsToProcess.length;
-    console.log(`Processing ${urlsToProcess.length} of ${allUrls.length} reports (${skippedCount} skipped)...`);
+    let eligibleUrls = allUrls.filter(url => !skipList.has(url));
+    
+    if (recentMode) {
+      eligibleUrls = eligibleUrls.filter(url => !processedUrls.has(url));
+      console.log(`Processing ${eligibleUrls.length} new reports (${processedUrls.size} already processed)...`);
+    } else {
+      const skippedCount = allUrls.length - eligibleUrls.length;
+      console.log(`Processing ${eligibleUrls.length} of ${allUrls.length} reports (${skippedCount} skipped)...`);
+    }
+    
+    urlsToProcess = eligibleUrls.slice(0, limit);
   }
   
   const results = [];
@@ -612,9 +587,9 @@ async function main() {
   }
   
   let finalResults, finalFailures;
-  if (retryMode) {
+  if (retryMode || recentMode) {
     const fixedUrls = new Set(results.map(r => r.url));
-    finalResults = [...existingResults, ...results];
+    finalResults = [...existingResults.filter(r => !fixedUrls.has(r.url)), ...results];
     finalFailures = [...existingFailures.filter(f => !fixedUrls.has(f.url) && !skipList.has(f.url)), ...failures];
   } else {
     finalResults = results;
@@ -623,15 +598,15 @@ async function main() {
   
   finalResults.sort((a, b) => b.date.localeCompare(a.date));
   
-  await Bun.write(OUTPUT_FILE, JSON.stringify(finalResults, null, 2));
-  await Bun.write(FAILURES_FILE, JSON.stringify(finalFailures, null, 2));
+  await saveJson(paths.indbudData, finalResults, { log: false });
+  await saveJson(paths.indbudFailures, finalFailures, { log: false });
   
   console.log(`\n--- Summary ---`);
   console.log(`Found: ${stats.found} | No break-ins: ${stats.no_breakins} | No section: ${stats.no_section} | No entries: ${stats.no_entries}`);
   const totalEntries = finalResults.reduce((sum, r) => sum + r.entries.length, 0);
   console.log(`Total entries: ${totalEntries}`);
-  console.log(`\nOutput: ${OUTPUT_FILE} (${finalResults.length} reports)`);
-  console.log(`Failures: ${FAILURES_FILE} (${finalFailures.length} reports)`);
+  console.log(`\nOutput: ${paths.indbudData} (${finalResults.length} reports)`);
+  console.log(`Failures: ${paths.indbudFailures} (${finalFailures.length} reports)`);
 }
 
 main();
