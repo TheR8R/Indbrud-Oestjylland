@@ -26,7 +26,8 @@ This project scrapes daily police reports, extracts break-in information, geocod
 │   ├── sanitize.js       # Cleans and formats data for frontend
 │   └── util/
 |       ├── config.js     # Centralized configuration (paths, API URLs, settings)
-│       └── saveFile.js   # Shared saving and loading file utilities
+│       ├── saveFile.js   # Shared JSON file utilities
+│       └── patterns.js   # Regex patterns for HTML parsing
 ├── data/
 │   ├── report_links.json     # Stored report links
 │   ├── reports_cache.json    # Cached report HTML content
