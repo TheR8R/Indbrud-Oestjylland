@@ -2,8 +2,8 @@
 export const paths = {
   reportLinks: "./data/report_links.json",
   reportsCache: "./data/reports_cache.json",
-  indbudData: "./data/indbrud_data.json",
-  indbudFailures: "./data/indbrud_failures.json",
+  indbrudData: "./data/indbrud_data.json",
+  indbrudFailures: "./data/indbrud_failures.json",
   skipList: "./data/notUsefulReports.json",
   geocodeCache: "./data/geocode_cache.json",
   geocodeFailures: "./data/geocode_failures.json",

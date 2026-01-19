@@ -1,6 +1,6 @@
-# Østjyllands Politi Indbrud Scraper
+# Daily Police Report Visualization
 
-Scraper and visualization tool for break-in (indbrud) reports from Østjyllands Politi's daily reports (døgnrapporter).
+Scraper and visualization tool for break-ins (indbrud) reports from Østjyllands Politi's daily reports (døgnrapporter).
 
 ## Overview
 

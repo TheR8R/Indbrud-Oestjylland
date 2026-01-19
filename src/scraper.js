@@ -334,8 +334,8 @@ async function main() {
     process.exit(1);
   }
   
-  const existingResults = await loadJson(paths.indbudData, []);
-  const existingFailures = await loadJson(paths.indbudFailures, []);
+  const existingResults = await loadJson(paths.indbrudData, []);
+  const existingFailures = await loadJson(paths.indbrudFailures, []);
   const skipList = new Set((await loadJson(paths.skipList, [])).filter(u => u && u.length > 0));
   
   const processedUrls = new Set([
@@ -409,15 +409,15 @@ async function main() {
   
   finalResults.sort((a, b) => b.date.localeCompare(a.date));
   
-  await saveJson(paths.indbudData, finalResults, { log: false });
-  await saveJson(paths.indbudFailures, finalFailures, { log: false });
+  await saveJson(paths.indbrudData, finalResults, { log: false });
+  await saveJson(paths.indbrudFailures, finalFailures, { log: false });
   
   console.log(`\n--- Summary ---`);
   console.log(`Found: ${stats.found} | No break-ins: ${stats.no_breakins} | No section: ${stats.no_section} | No entries: ${stats.no_entries}`);
   const totalEntries = finalResults.reduce((sum, r) => sum + r.entries.length, 0);
   console.log(`Total entries: ${totalEntries}`);
-  console.log(`\nOutput: ${paths.indbudData} (${finalResults.length} reports)`);
-  console.log(`Failures: ${paths.indbudFailures} (${finalFailures.length} reports)`);
+  console.log(`\nOutput: ${paths.indbrudData} (${finalResults.length} reports)`);
+  console.log(`Failures: ${paths.indbrudFailures} (${finalFailures.length} reports)`);
 }
 
 main();

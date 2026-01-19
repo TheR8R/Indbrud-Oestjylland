@@ -12,31 +12,50 @@
 <body>
   <div id="map"></div>
   
-  <div class="info-panel">
-    <h1>🔓 Indbrud i Østjylland</h1>
-    <p>Data fra Østjyllands Politis døgnrapporter</p>
-    <div class="stats">
-      <div>Viste indbrud: <span id="count">0</span></div>
-      <div>Total i datasæt: <span id="total">0</span></div>
+  <div class="info-panel" id="infoPanel">
+    <div class="info-header">
+      <h1>🔓 Indbrud i Østjylland</h1>
+      <button class="toggle-btn" id="toggleInfo">▲</button>
+    </div>
+    <div class="info-content">
+      <p>Data fra Østjyllands Politis døgnrapporter</p>
+      <div class="stats">
+        <div>Viste indbrud: <span id="count">0</span></div>
+        <div>Total i datasæt: <span id="total">0</span></div>
+      </div>
     </div>
   </div>
   
-  <div class="timeline-panel">
+  <div class="timeline-panel" id="timelinePanel">
     <div class="timeline-header">
-      <h2>Tidsperiode</h2>
-      <div class="date-range">
-        <span id="startLabel">-</span> → <span id="endLabel">-</span>
+      <span class="selection-range">
+        📅 <span id="startLabel">-</span> → <span id="endLabel">-</span>
+      </span>
+      <button class="toggle-btn" id="togglePanel">▼</button>
+    </div>
+    
+    <div class="timeline-content" id="timelineContent">
+      <!-- Quick presets -->
+      <div class="presets">
+        <button class="preset-btn" data-days="7">7 dage</button>
+        <button class="preset-btn" data-days="30">30 dage</button>
+        <button class="preset-btn" data-days="90">3 mdr</button>
+        <button class="preset-btn" data-days="365">1 år</button>
+        <button class="preset-btn active" data-days="0">Alt</button>
       </div>
-    </div>
-    <div class="slider-container">
-      <div class="slider-track"></div>
-      <div class="slider-range" id="sliderRange"></div>
-      <input type="range" id="startSlider" min="0" max="100" value="0" />
-      <input type="range" id="endSlider" min="0" max="100" value="100" />
-    </div>
-    <div class="timeline-labels">
-      <span id="minDate">-</span>
-      <span id="maxDate">-</span>
+      
+      <!-- Date pickers -->
+      <div class="date-pickers">
+        <div class="date-input-group">
+          <label>Fra</label>
+          <input type="date" id="startDate">
+        </div>
+        <span class="date-arrow">→</span>
+        <div class="date-input-group">
+          <label>Til</label>
+          <input type="date" id="endDate">
+        </div>
+      </div>
     </div>
   </div>
   

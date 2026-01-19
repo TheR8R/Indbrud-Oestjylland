@@ -12,24 +12,34 @@ map.addLayer(markers);
 // Data storage
 let allEntries = [];
 let allDates = [];
+let currentStartDate = null;
+let currentEndDate = null;
 
 // DOM elements
-const startSlider = document.getElementById('startSlider');
-const endSlider = document.getElementById('endSlider');
-const sliderRange = document.getElementById('sliderRange');
+const startDateEl = document.getElementById('startDate');
+const endDateEl = document.getElementById('endDate');
 const startLabel = document.getElementById('startLabel');
 const endLabel = document.getElementById('endLabel');
-const minDateLabel = document.getElementById('minDate');
-const maxDateLabel = document.getElementById('maxDate');
 const countEl = document.getElementById('count');
 const totalEl = document.getElementById('total');
 const loadingEl = document.getElementById('loading');
+const presetBtns = document.querySelectorAll('.preset-btn');
+const timelinePanel = document.getElementById('timelinePanel');
+const timelineHeader = document.querySelector('.timeline-header');
+const infoPanel = document.getElementById('infoPanel');
+const infoHeader = document.querySelector('.info-header');
 
-// Format date as DD/MM
-function formatDate(dateStr) {
-  const [year, month, day] = dateStr.split('-');
-  return `${day}/${month}`;
+// Toggle panel collapse
+function toggleTimeline() {
+  timelinePanel.classList.toggle('collapsed');
 }
+
+function toggleInfo() {
+  infoPanel.classList.toggle('collapsed');
+}
+
+timelineHeader.addEventListener('click', toggleTimeline);
+infoHeader.addEventListener('click', toggleInfo);
 
 // Format date as DD/MM/YY
 function formatDateLong(dateStr) {
@@ -37,37 +47,56 @@ function formatDateLong(dateStr) {
   return `${day}/${month}/${year.slice(2)}`;
 }
 
-// Update the visual slider range bar
-function updateSliderRange() {
-  const minVal = Math.min(parseInt(startSlider.value), parseInt(endSlider.value));
-  const maxVal = Math.max(parseInt(startSlider.value), parseInt(endSlider.value));
-  sliderRange.style.left = minVal + '%';
-  sliderRange.style.width = (maxVal - minVal) + '%';
+// Clear preset button selection
+function clearPresetSelection() {
+  presetBtns.forEach(btn => btn.classList.remove('active'));
 }
 
-// Filter markers based on slider values
-function filterAndDisplayMarkers() {
-  if (allDates.length === 0) return;
+// Set preset time range
+function setPreset(days) {
+  if (days === 0) {
+    // Show all data
+    currentStartDate = allDates[0];
+    currentEndDate = allDates[allDates.length - 1];
+  } else {
+    // Calculate date X days ago
+    const end = new Date(allDates[allDates.length - 1]);
+    const start = new Date(end);
+    start.setDate(start.getDate() - days);
+    
+    currentStartDate = start.toISOString().split('T')[0];
+    currentEndDate = allDates[allDates.length - 1];
+    
+    // Clamp to available data
+    if (currentStartDate < allDates[0]) {
+      currentStartDate = allDates[0];
+    }
+  }
+  
+  updateDatePickers();
+  filterAndDisplayMarkers();
+}
 
-  const startVal = parseInt(startSlider.value);
-  const endVal = parseInt(endSlider.value);
-  
-  const startIdx = Math.floor((Math.min(startVal, endVal) / 100) * (allDates.length - 1));
-  const endIdx = Math.floor((Math.max(startVal, endVal) / 100) * (allDates.length - 1));
-  
-  const startDate = allDates[startIdx];
-  const endDate = allDates[endIdx];
+// Update date picker values
+function updateDatePickers() {
+  if (currentStartDate) startDateEl.value = currentStartDate;
+  if (currentEndDate) endDateEl.value = currentEndDate;
+}
+
+// Filter markers based on current date range
+function filterAndDisplayMarkers() {
+  if (allDates.length === 0 || !currentStartDate || !currentEndDate) return;
   
   // Update labels
-  startLabel.textContent = formatDateLong(startDate);
-  endLabel.textContent = formatDateLong(endDate);
+  startLabel.textContent = formatDateLong(currentStartDate);
+  endLabel.textContent = formatDateLong(currentEndDate);
   
   // Clear and re-add markers
   markers.clearLayers();
   
   let count = 0;
   for (const entry of allEntries) {
-    if (entry.date >= startDate && entry.date <= endDate && entry.lat && entry.lon) {
+    if (entry.date >= currentStartDate && entry.date <= currentEndDate && entry.lat && entry.lon) {
       const marker = L.marker([entry.lat, entry.lon]);
       marker.bindPopup(`
         <div class="popup-title">${entry.address}</div>
@@ -80,13 +109,31 @@ function filterAndDisplayMarkers() {
     }
   }
   
-  countEl.textContent = count;
-  updateSliderRange();
+  countEl.textContent = count.toLocaleString('da-DK');
 }
 
-// Event listeners for sliders
-startSlider.addEventListener('input', filterAndDisplayMarkers);
-endSlider.addEventListener('input', filterAndDisplayMarkers);
+// Event listeners for presets
+presetBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    presetBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const days = parseInt(btn.dataset.days);
+    setPreset(days);
+  });
+});
+
+// Event listeners for date pickers
+startDateEl.addEventListener('change', () => {
+  currentStartDate = startDateEl.value;
+  clearPresetSelection();
+  filterAndDisplayMarkers();
+});
+
+endDateEl.addEventListener('change', () => {
+  currentEndDate = endDateEl.value;
+  clearPresetSelection();
+  filterAndDisplayMarkers();
+});
 
 // Load and process data
 async function loadData() {
@@ -109,12 +156,20 @@ async function loadData() {
     }
 
     // Update total count
-    totalEl.textContent = allEntries.length;
+    totalEl.textContent = allEntries.length.toLocaleString('da-DK');
     
-    // Set date range labels
+    // Set initial date range (all data)
     if (allDates.length > 0) {
-      minDateLabel.textContent = formatDateLong(allDates[0]);
-      maxDateLabel.textContent = formatDateLong(allDates[allDates.length - 1]);
+      currentStartDate = allDates[0];
+      currentEndDate = allDates[allDates.length - 1];
+      
+      // Set date picker min/max
+      startDateEl.min = allDates[0];
+      startDateEl.max = allDates[allDates.length - 1];
+      endDateEl.min = allDates[0];
+      endDateEl.max = allDates[allDates.length - 1];
+      
+      updateDatePickers();
     }
 
     // Initial display with all data
