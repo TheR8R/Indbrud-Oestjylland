@@ -159,9 +159,6 @@ The frontend is an interactive map visualization located in the `docs/` folder.
 ### Running Locally
 
 ```bash
-# Using Python
-cd docs && python -m http.server 8000
-
 # Using Bun
 cd docs && bunx serve .
 

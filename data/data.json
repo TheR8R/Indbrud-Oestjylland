@@ -1,4 +1,176 @@
 {
+  "2026-01-18": {
+    "Østjyllands Politi": {
+      "Tilst": [
+        {
+          "address": "Tilst Bypark",
+          "time": "mellem torsdag den 15/01 kl. 12.00 og lørdag den 17/01 kl. 12.30.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-soendag-d-18-januar-2025/2026/01/18",
+          "lat": 56.1880298,
+          "lon": 10.0965562
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Tornhøjvej",
+          "time": "mellem fredag den 16/01 kl. 13.00 og lørdag den 17/01 kl. 19.10.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-soendag-d-18-januar-2025/2026/01/18",
+          "lat": 56.1362376,
+          "lon": 10.1219102
+        }
+      ],
+      "Brabrand": [
+        {
+          "address": "Langdalsvej",
+          "time": "lørdag den 17/01 kl. 21.01.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-soendag-d-18-januar-2025/2026/01/18",
+          "lat": 56.1590164,
+          "lon": 10.1007168
+        },
+        {
+          "address": "Helenelyst",
+          "time": "lørdag den 17/01 mellem kl. 12.30 og kl. 22.00.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-soendag-d-18-januar-2025/2026/01/18",
+          "lat": 56.1616548,
+          "lon": 10.097358
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Stationsgade",
+          "time": "mellem lørdag den 10/01 kl. 06.00 og søndag den 18/01 kl. 00.30.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-soendag-d-18-januar-2025/2026/01/18",
+          "lat": 56.182417,
+          "lon": 10.2350019
+        }
+      ],
+      "Tranbjerg": [
+        {
+          "address": "Sønderbro",
+          "time": "søndag den 11/01 kl. 12.44.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-soendag-d-18-januar-2025/2026/01/18",
+          "lat": 56.0826593,
+          "lon": 10.1213801
+        }
+      ],
+      "Harlev J lørdag den 17/01 mellem kl. 14.00 og kl. 23.00.": [
+        {
+          "address": "Kornelvej",
+          "time": "",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-soendag-d-18-januar-2025/2026/01/18",
+          "lat": 56.1475394,
+          "lon": 9.9994774
+        }
+      ]
+    }
+  },
+  "2026-01-17": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Holme Byvej",
+          "time": "fredag den 16/01 mellem kl. 01.00 og kl. 05.00.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-d-17-januar-2025/2026/01/17",
+          "lat": 56.1161938,
+          "lon": 10.1738622
+        },
+        {
+          "address": "Merkurvej",
+          "time": "fredag den 16/01 mellem kl. 11.15 og kl. 13.35.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-d-17-januar-2025/2026/01/17",
+          "lat": 56.1295281,
+          "lon": 10.1896615
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "blåmunkevej",
+          "time": "mellem søndag den 11/01 kl. 08.00 og fredag den 16/01 kl. 19.45.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-d-17-januar-2025/2026/01/17",
+          "lat": 56.1966844,
+          "lon": 10.2459668
+        }
+      ],
+      "Hinnerup": [
+        {
+          "address": "Nørreskovvej",
+          "time": "lørdag den 20/12 mellem kl. 10.00 og kl. 16.00.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-d-17-januar-2025/2026/01/17",
+          "lat": 56.262386,
+          "lon": 10.0718866
+        }
+      ],
+      "Aarhus": [
+        {
+          "address": "Banegårdsgade",
+          "time": "fredag den 16/01 mellem kl. 08.10 og kl. 16.35.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-fra-oestjyllands-politi-loerdag-d-17-januar-2025/2026/01/17",
+          "lat": 56.1504447,
+          "lon": 10.2012907
+        }
+      ]
+    }
+  },
+  "2026-01-16": {
+    "Østjyllands Politi": {
+      "Harlev": [
+        {
+          "address": "Frøkjærvænget",
+          "time": "torsdag d. 15/1 mellem kl. 07.30 og kl. 13.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport16012026/2026/01/16",
+          "lat": 56.1491321,
+          "lon": 9.9791552
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Hasselvej",
+          "time": "torsdag d. 15/1 kl. 13.48",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport16012026/2026/01/16",
+          "lat": 56.1356596,
+          "lon": 10.1856924
+        }
+      ]
+    }
+  },
+  "2026-01-15": {
+    "Østjyllands Politi": {
+      "Tilst": [
+        {
+          "address": "Græsvangen",
+          "time": "tirsdag d. 13/1 kl. 20.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
+          "lat": 56.1923825,
+          "lon": 10.1032749
+        }
+      ],
+      "Harlev": [
+        {
+          "address": "Kornelvej",
+          "time": "onsdag d. 14/1 mellem kl. 16.00 og kl. 18.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
+          "lat": 56.1475394,
+          "lon": 9.9994774
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Søskrænten",
+          "time": "onsdag d. 14/1 mellem kl. 06.15 og kl. 20.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
+          "lat": 56.1338572,
+          "lon": 10.1285105
+        },
+        {
+          "address": "Tornhøjvej",
+          "time": "onsdag d. 14/1 mellem kl. 18.15 og kl. 21.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
+          "lat": 56.1362376,
+          "lon": 10.1219102
+        }
+      ]
+    }
+  },
   "2026-01-13": {
     "Østjyllands Politi": {
       "Aarhus C": [
@@ -103256,44 +103428,6 @@
           "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport-14122018/2018/12/14",
           "lat": 56.1992051,
           "lon": 10.1842395
-        }
-      ]
-    }
-  },
-  "2026-01-15": {
-    "Østjyllands Politi": {
-      "Tilst": [
-        {
-          "address": "Græsvangen",
-          "time": "tirsdag d. 13/1 kl. 20.00",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
-          "lat": 56.1923825,
-          "lon": 10.1032749
-        }
-      ],
-      "Harlev": [
-        {
-          "address": "Kornelvej",
-          "time": "onsdag d. 14/1 mellem kl. 16.00 og kl. 18.45",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
-          "lat": 56.1475394,
-          "lon": 9.9994774
-        }
-      ],
-      "Viby J": [
-        {
-          "address": "Søskrænten",
-          "time": "onsdag d. 14/1 mellem kl. 06.15 og kl. 20.15",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
-          "lat": 56.1338572,
-          "lon": 10.1285105
-        },
-        {
-          "address": "Tornhøjvej",
-          "time": "onsdag d. 14/1 mellem kl. 18.15 og kl. 21.20",
-          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport15012026/2026/01/15",
-          "lat": 56.1362376,
-          "lon": 10.1219102
         }
       ]
     }

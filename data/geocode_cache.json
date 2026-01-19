@@ -42998,5 +42998,41 @@
   "Tousparken, 8230 Åbyhøj, Denmark": {
     "lat": 56.1503114,
     "lon": 10.1539649
+  },
+  "Sønderbro, Tranbjerg": {
+    "lat": 56.0826593,
+    "lon": 10.1213801
+  },
+  "Sønderbro, Tranbjerg, Denmark": {
+    "lat": 56.0826593,
+    "lon": 10.1213801
+  },
+  "Kornelvej, Harlev J lørdag den 17/01 mellem kl. 14.00 og kl. 23.00.": {
+    "lat": 56.1475394,
+    "lon": 9.9994774
+  },
+  "blåmunkevej, Risskov": {
+    "lat": 56.1966844,
+    "lon": 10.2459668
+  },
+  "blåmunkevej, Risskov, Denmark": {
+    "lat": 56.1966844,
+    "lon": 10.2459668
+  },
+  "Banegårdsgade, Aarhus": {
+    "lat": 56.1504447,
+    "lon": 10.2012907
+  },
+  "Banegårdsgade, Aarhus, Denmark": {
+    "lat": 56.1504447,
+    "lon": 10.2012907
+  },
+  "Frøkjærvænget, Harlev": {
+    "lat": 56.1491321,
+    "lon": 9.9791552
+  },
+  "Frøkjærvænget, Harlev, Denmark": {
+    "lat": 56.1491321,
+    "lon": 9.9791552
   }
 }
