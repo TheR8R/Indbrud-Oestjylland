@@ -171,21 +171,29 @@ The frontend consumes `docs/data_sanitized.json`:
 
 ```json
 {
-  "2026-01-09": {
-    "Østjyllands Politi": {
-      "Skødstrup": [
-        {
-          "address": "Hjelmagerparken",
-          "time": "torsdag d. 8/1 mellem kl. 04.55 og kl. 05.05",
-          "lat": 56.2787882,
-          "lon": 10.3205657,
-          "source_url": "https://politi.dk/..."
-        }
-      ]
+  "lastUpdated": "2026-01-20T08:34:40.886Z",
+  "data": {
+    "2026-01-09": {
+      "Østjyllands Politi": {
+        "Skødstrup": [
+          {
+            "address": "Hjelmagerparken",
+            "time": "torsdag d. 8/1 mellem kl. 04.55 og kl. 05.05",
+            "lat": 56.2787882,
+            "lon": 10.3205657,
+            "source_url": "https://politi.dk/..."
+          }
+        ]
+      }
     }
   }
 }
 ```
+
+| Field | Description |
+|-------|-------------|
+| `lastUpdated` | ISO timestamp of when the data was last sanitized |
+| `data` | Object containing all incident data, keyed by date |
 
 ## Configuration
 
