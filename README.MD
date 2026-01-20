@@ -208,6 +208,7 @@ All paths and settings are centralized in `src/config.js`:
 
 - Only scrapes Østjyllands Politi (other districts don't have standardized "Indbrud" sections)
 - Geocoding uses OpenStreetMap Nominatim with 1 second rate limiting
+- A lot of adresses are geocoded wrong, and therefore some pins location may not be accurate (work in progress)
 - All results are cached to avoid duplicate API calls and downloads
 - The scraper includes a 500ms delay between requests to be respectful to the server
 - Reports that fall outside Østjylland's geographic bounds are logged as failures
