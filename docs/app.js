@@ -41,10 +41,16 @@ function toggleInfo() {
 timelineHeader.addEventListener('click', toggleTimeline);
 infoHeader.addEventListener('click', toggleInfo);
 
-// Format date as DD/MM/YY
-function formatDateLong(dateStr) {
-  const [year, month, day] = dateStr.split('-');
-  return `${day}/${month}/${year.slice(2)}`;
+// Format date to Danish locale
+function formatDate(dateStr, includeTime = false) {
+  const date = new Date(dateStr);
+  const options = {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    ...(includeTime && { hour: '2-digit', minute: '2-digit' })
+  };
+  return date.toLocaleDateString('da-DK', options);
 }
 
 // Clear preset button selection
@@ -55,11 +61,9 @@ function clearPresetSelection() {
 // Set preset time range
 function setPreset(days) {
   if (days === 0) {
-    // Show all data
     currentStartDate = allDates[0];
     currentEndDate = allDates[allDates.length - 1];
   } else {
-    // Calculate date X days ago
     const end = new Date(allDates[allDates.length - 1]);
     const start = new Date(end);
     start.setDate(start.getDate() - days);
@@ -67,7 +71,6 @@ function setPreset(days) {
     currentStartDate = start.toISOString().split('T')[0];
     currentEndDate = allDates[allDates.length - 1];
     
-    // Clamp to available data
     if (currentStartDate < allDates[0]) {
       currentStartDate = allDates[0];
     }
@@ -87,18 +90,16 @@ function updateDatePickers() {
 function filterAndDisplayMarkers() {
   if (allDates.length === 0 || !currentStartDate || !currentEndDate) return;
   
-  // Update labels
-  startLabel.textContent = formatDateLong(currentStartDate);
-  endLabel.textContent = formatDateLong(currentEndDate);
+  startLabel.textContent = formatDate(currentStartDate);
+  endLabel.textContent = formatDate(currentEndDate);
   
-  // Clear and re-add markers
   markers.clearLayers();
   
   let count = 0;
   for (const entry of allEntries) {
     if (entry.date >= currentStartDate && entry.date <= currentEndDate && entry.lat && entry.lon) {
       const marker = L.marker([entry.lat, entry.lon]);
-     marker.bindPopup(`
+      marker.bindPopup(`
         <div class="popup-title">${entry.address}</div>
         <div class="popup-city">${entry.city}</div>
         <div class="popup-date">${entry.date}</div>
@@ -140,12 +141,16 @@ endDateEl.addEventListener('change', () => {
 async function loadData() {
   try {
     const res = await fetch('./data_sanitized.json');
-    const data = await res.json();
+    const json = await res.json();
     
-    // Get sorted dates
+    // Handle new format with metadata
+    const data = json.data || json;
+    if (json.lastUpdated) {
+      document.getElementById('lastUpdated').textContent = formatDate(json.lastUpdated, true);
+    }
+    
     allDates = Object.keys(data).sort();
     
-    // Flatten the nested structure
     for (const [date, regions] of Object.entries(data)) {
       for (const [region, cities] of Object.entries(regions)) {
         for (const [city, addresses] of Object.entries(cities)) {
@@ -156,15 +161,12 @@ async function loadData() {
       }
     }
 
-    // Update total count
     totalEl.textContent = allEntries.length.toLocaleString('da-DK');
     
-    // Set initial date range (all data)
     if (allDates.length > 0) {
       currentStartDate = allDates[0];
       currentEndDate = allDates[allDates.length - 1];
       
-      // Set date picker min/max
       startDateEl.min = allDates[0];
       startDateEl.max = allDates[allDates.length - 1];
       endDateEl.min = allDates[0];
@@ -173,10 +175,7 @@ async function loadData() {
       updateDatePickers();
     }
 
-    // Initial display with all data
     filterAndDisplayMarkers();
-    
-    // Hide loading
     loadingEl.style.display = 'none';
 
     console.log(`Loaded ${allEntries.length} entries across ${allDates.length} dates`);

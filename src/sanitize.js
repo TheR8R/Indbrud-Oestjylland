@@ -26,12 +26,16 @@ function sanitizeEntry(incident, extractedTime) {
 }
 
 function sanitizeData(data, existingSanitized = null, recentMode = false) {
-  const sanitized = recentMode && existingSanitized ? { ...existingSanitized } : {};
+  const sanitized = {};
+  const existingData = recentMode && existingSanitized ? existingSanitized.data || existingSanitized : {};
 
   for (const [date, policeDistricts] of Object.entries(data)) {
     // Skip dates already processed in recent mode
-    if (recentMode && sanitized[date]) continue;
-    
+    if (recentMode && existingData[date]) {
+      sanitized[date] = existingData[date];
+      continue;
+    }
+
     sanitized[date] = {};
 
     for (const [district, locations] of Object.entries(policeDistricts)) {
@@ -64,8 +68,9 @@ async function main() {
   let existingSanitized = null;
   if (recentMode) {
     existingSanitized = await loadJson(outputPath, {});
-    const existingDates = Object.keys(existingSanitized).length;
-    const newDates = Object.keys(rawData).filter(d => !existingSanitized[d]).length;
+    const existingData = existingSanitized.data || existingSanitized;
+    const existingDates = Object.keys(existingData).length;
+    const newDates = Object.keys(rawData).filter(d => !existingData[d]).length;
     console.log(`Processing ${newDates} new dates (${existingDates} already sanitized)...`);
     
     if (newDates === 0) {
@@ -74,8 +79,15 @@ async function main() {
     }
   }
 
-  const sanitized = sanitizeData(rawData, existingSanitized, recentMode);
-  await saveJson(outputPath, sanitized, { log: false });
+  const sanitizedData = sanitizeData(rawData, existingSanitized, recentMode);
+  
+  // Wrap with metadata
+  const output = {
+    lastUpdated: new Date().toISOString(),
+    data: sanitizedData
+  };
+  
+  await saveJson(outputPath, output, { log: false });
   console.log(`✓ Sanitized data written to ${outputPath}`);
 }
 
