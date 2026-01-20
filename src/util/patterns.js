@@ -82,7 +82,7 @@ export const html = {
   tags: /<[^>]+>/g,
   whitespace: /\s+/g,
   bulletPrefix: /^["•\-\*\t]\s*/,
-  indbudInHeader: /Indbrud[:.]?\s*<br/i,
+  indbrudInHeader: /Indbrud[:.]?\s*<br/i,
 };
 
 // URL patterns
@@ -110,13 +110,13 @@ export function isNoBreakInsHeader(text) {
   return noBreakIns.header.test(text) || noBreakIns.notReported.test(text);
 }
 
-export function isIndbudHeader(text) {
+export function isIndbrudHeader(text) {
   return headers.privateResidence.test(text) ||
          headers.countSummary.test(text) ||
          headers.recentReports.test(text);
 }
 
-export function isSimpleIndbudHeader(text) {
+export function isSimpleIndbrudHeader(text) {
   return headers.simpleIndbrud.test(text);
 }
 

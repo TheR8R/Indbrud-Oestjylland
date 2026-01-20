@@ -98,11 +98,12 @@ function filterAndDisplayMarkers() {
   for (const entry of allEntries) {
     if (entry.date >= currentStartDate && entry.date <= currentEndDate && entry.lat && entry.lon) {
       const marker = L.marker([entry.lat, entry.lon]);
-      marker.bindPopup(`
+     marker.bindPopup(`
         <div class="popup-title">${entry.address}</div>
         <div class="popup-city">${entry.city}</div>
         <div class="popup-date">${entry.date}</div>
         <div class="popup-time">Tidspunkt: ${entry.time}</div>
+        ${entry.source_url ? `<a href="${entry.source_url}" target="_blank" rel="noopener" class="popup-link">Se døgnrapport</a>` : ''}
       `);
       markers.addLayer(marker);
       count++;

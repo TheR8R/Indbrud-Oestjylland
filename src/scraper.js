@@ -15,10 +15,10 @@ function findH2H3Header(html) {
     if (p.isNoBreakInsHeader(text)) {
       return { type: "no_breakins" };
     }
-    if (p.isIndbudHeader(text)) {
+    if (p.isIndbrudHeader(text)) {
       return { match: match[0], index: match.index };
     }
-    if (p.isSimpleIndbudHeader(text)) {
+    if (p.isSimpleIndbrudHeader(text)) {
       fallbacks.push({ match: match[0], index: match.index });
     }
   }
@@ -48,7 +48,7 @@ function findPStrongHeader(html) {
     if (p.headers.privateResidence.test(text)) {
       return { match: match[0], index: match.index };
     }
-    if (!fallback && p.isSimpleIndbudHeader(text)) {
+    if (!fallback && p.isSimpleIndbrudHeader(text)) {
       fallback = { match: match[0], index: match.index };
     }
   }
@@ -87,7 +87,7 @@ function findFallbackHeader(html) {
   return null;
 }
 
-function findIndbudHeader(html) {
+function findIndbrudHeader(html) {
   // Try structured headers first
   const h2h3 = findH2H3Header(html);
   if (h2h3?.type === "no_breakins") return h2h3;
@@ -185,9 +185,9 @@ function extractSection(html, header) {
   
   // Handle content inside header tag
   if (section.length < 50 && header.match.length > 100) {
-    const indbudPos = header.match.search(p.html.indbudInHeader);
-    if (indbudPos >= 0) {
-      section = header.match.substring(indbudPos);
+    const indbrudPos = header.match.search(p.html.indbrudInHeader);
+    if (indbrudPos >= 0) {
+      section = header.match.substring(indbrudPos);
     }
   }
   
@@ -294,7 +294,7 @@ function extractEntries(section) {
 function extractBreakIns(html) {
   html = p.decode(html);
   
-  const header = findIndbudHeader(html);
+  const header = findIndbrudHeader(html);
   
   if (!header) return { entries: [], status: "no_section" };
   if (header.type === "no_breakins") return { entries: [], status: "no_breakins" };

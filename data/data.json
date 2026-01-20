@@ -1,4 +1,42 @@
 {
+  "2026-01-19": {
+    "Østjyllands Politi": {
+      "Aarhus C": [
+        {
+          "address": "Sejrøgade",
+          "time": "mellem lørdag d. 17/1 kl. 21.00 og søndag d. 18/1 05.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-19-januar-2026/2026/01/19",
+          "lat": 56.1599781,
+          "lon": 10.1986003
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Magnoliavej",
+          "time": "søndag d. 18/1 kl. 08.41",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-19-januar-2026/2026/01/19",
+          "lat": 56.1344525,
+          "lon": 10.1871732
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Themsvej",
+          "time": "søndag d. 18/1 mellem kl. 13.40 og kl. 18.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-19-januar-2026/2026/01/19",
+          "lat": 56.1939469,
+          "lon": 10.2499693
+        },
+        {
+          "address": "Valmuevej",
+          "time": "mellem fredag d. 16/1 kl. 15.00 og søndag d. 18/1 kl. 20.13",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-19-januar-2026/2026/01/19",
+          "lat": 56.1990125,
+          "lon": 10.2419283
+        }
+      ]
+    }
+  },
   "2026-01-18": {
     "Østjyllands Politi": {
       "Tilst": [

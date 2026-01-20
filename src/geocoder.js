@@ -252,7 +252,7 @@ async function main() {
     return;
   }
   
-  const inputData = await loadJson(paths.indbudData);
+  const inputData = await loadJson(paths.indbrudData);
   if (!inputData) {
     console.error("No input data found. Run Scraper.js first.");
     process.exit(1);
