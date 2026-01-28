@@ -1,4 +1,348 @@
 {
+  "2026-01-27": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Emiliedalen",
+          "time": "mandag d. 26/1 kl. 10.55",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27012026/2026/01/27",
+          "lat": 56.1066182,
+          "lon": 10.210704
+        },
+        {
+          "address": "Hørhavevej",
+          "time": "mandag d. 26/1 mellem kl. 11.00 og kl. 13.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27012026/2026/01/27",
+          "lat": 56.1106742,
+          "lon": 10.2122122
+        },
+        {
+          "address": "P.S. Krøyers Vej",
+          "time": "mellem fredag d. 23/1 kl. 12.00 og mandag d. 26/1 kl. 14.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27012026/2026/01/27",
+          "lat": 56.1238341,
+          "lon": 10.1965573
+        }
+      ],
+      "Aarhus": [
+        {
+          "address": "Ladefogedvej",
+          "time": "mandag d. 26/1 kl. 15.03",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27012026/2026/01/27",
+          "lat": 56.1992051,
+          "lon": 10.1842395
+        }
+      ],
+      "Tranbjerg": [
+        {
+          "address": "Sletvej",
+          "time": "mandag d. 26/1 mellem kl. 12.00 og kl. 18.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27012026/2026/01/27",
+          "lat": 56.107262,
+          "lon": 10.1316253
+        }
+      ],
+      "Randers C": [
+        {
+          "address": "Markedspladsen",
+          "time": "tirsdag d. 27/1 kl. 02.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport27012026/2026/01/27",
+          "lat": 56.3086323,
+          "lon": 9.5887138
+        }
+      ]
+    }
+  },
+  "2026-01-26": {
+    "Østjyllands Politi": {
+      "Aarhus V": [
+        {
+          "address": "Ryhavevej",
+          "time": "mellem lørdag d. 24/1 kl. 18.30 og søndag d. 25/1 kl. 04.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-januar-2026/2026/01/26",
+          "lat": 56.164305,
+          "lon": 10.1515881
+        }
+      ],
+      "Hasselager": [
+        {
+          "address": "Kildeagervej",
+          "time": "mellem fredag d. 23/1 kl. 15.00 og søndag d. 25/1 kl. 13.40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-januar-2026/2026/01/26",
+          "lat": 56.112905,
+          "lon": 10.0913841
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Stenhøjsvej",
+          "time": "mellem onsdag d. 21/1 kl. 15.00 og søndag d. 25/1 kl 14.30",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-januar-2026/2026/01/26",
+          "lat": 56.1253246,
+          "lon": 10.1801629
+        },
+        {
+          "address": "Balagervej",
+          "time": "mellem fredag d. 23/1 kl. 14.40 og søndag d. 25/1 kl. 19.25",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-januar-2026/2026/01/26",
+          "lat": 56.1264861,
+          "lon": 10.1759506
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Havrebakken",
+          "time": "mellem lørdag d. 24/1 kl. 15.30 og søndag d. 25/1 kl. 17.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-26-januar-2026/2026/01/26",
+          "lat": 56.1822613,
+          "lon": 10.2034631
+        }
+      ]
+    }
+  },
+  "2026-01-25": {
+    "Østjyllands Politi": {
+      "Rønde": [
+        {
+          "address": "Løvsangervej",
+          "time": "mellem søndag den 18/01 kl. 16:00 og lørdag den 24/01 kl. 09:00.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-januar-2026/2026/01/25",
+          "lat": 56.234454,
+          "lon": 10.333567
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Montanagade",
+          "time": "lørdag den 24/01 kl. 00:00.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-januar-2026/2026/01/25",
+          "lat": 56.1475969,
+          "lon": 10.1999231
+        },
+        {
+          "address": "Grønnegade",
+          "time": "lørdag den 24/01 kl. 18:40",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-januar-2026/2026/01/25",
+          "lat": 56.1608228,
+          "lon": 10.1997618
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Byvej",
+          "time": "mellem lørdag den 24/01 kl. 12:30 og kl. 19:20.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-januar-2026/2026/01/25",
+          "lat": 56.0575597,
+          "lon": 10.2055045
+        }
+      ],
+      "Højbjerg": [
+        {
+          "address": "Atlasvej",
+          "time": "lørdag den 24/01 kl. 19:27.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-januar-2026/2026/01/25",
+          "lat": 56.1285311,
+          "lon": 10.190239
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Råhøjparken",
+          "time": "mellem lørdag den 24/01 kl. 16:00 og kl. 19:20.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-januar-2026/2026/01/25",
+          "lat": 56.1293127,
+          "lon": 10.1100919
+        }
+      ],
+      "Odder": [
+        {
+          "address": "Lundeparken",
+          "time": "mellem lørdag den 24/01 kl. 14:00 og kl. 20:00.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-25-januar-2026/2026/01/25",
+          "lat": 55.9695154,
+          "lon": 10.1572881
+        }
+      ]
+    }
+  },
+  "2026-01-24": {
+    "Østjyllands Politi": {
+      "Hasselager": [
+        {
+          "address": "Hasselbakken",
+          "time": "lørdag den 24/01 kl. 00.50.",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-januar-2026/2026/01/24",
+          "lat": 56.108897,
+          "lon": 10.1003553
+        }
+      ],
+      "Aarhus N": [
+        {
+          "address": "Rødbedevej",
+          "time": "mellem torsdag den 22/01 kl. 03.15 og fredag den 23/01 kl. 0349",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-24-januar-2026/2026/01/24",
+          "lat": 56.2324368,
+          "lon": 10.2055913
+        }
+      ]
+    }
+  },
+  "2026-01-23": {
+    "Østjyllands Politi": {
+      "Højbjerg": [
+        {
+          "address": "Højbovej",
+          "time": "torsdag d. 22/1 kl. 06.36",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-januar-2026/2026/01/23",
+          "lat": 56.1142457,
+          "lon": 10.1695331
+        }
+      ],
+      "Beder": [
+        {
+          "address": "Engdalgårdsvej",
+          "time": "onsdag d. 21/1 mellem kl. 16.50 og kl. 22.15",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-januar-2026/2026/01/23",
+          "lat": 56.0611678,
+          "lon": 10.20605
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Klokkeskovvej",
+          "time": "mellem tirsdag d. 20/1 kl. 15.30 og onsdag d. 21/1 kl. 07.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-januar-2026/2026/01/23",
+          "lat": 56.1360089,
+          "lon": 10.1163992
+        },
+        {
+          "address": "Højvangsvej",
+          "time": "mellem lørdag d. 1/11 kl. 00.00 og torsdag d. 22/1 kl. 22.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-januar-2026/2026/01/23",
+          "lat": 56.1293795,
+          "lon": 10.1204391
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Thit Jensens Gade",
+          "time": "mellem fredag d. 9/1 kl. 00.00 og onsdag d. 14/1 kl. 00.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-januar-2026/2026/01/23",
+          "lat": 56.1644101,
+          "lon": 10.2278358
+        }
+      ],
+      "Tilst": [
+        {
+          "address": "Søhøjen",
+          "time": "torsdag d. 22/1 mellem kl. 17.00 og kl. 22.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-23-januar-2026/2026/01/23",
+          "lat": 56.1936648,
+          "lon": 10.1004642
+        }
+      ]
+    }
+  },
+  "2026-01-22": {
+    "Østjyllands Politi": {
+      "Aarhus C": [
+        {
+          "address": "Kirkegårdsvej",
+          "time": "onsdag d. 21/1 kl. 12.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport22012026/2026/01/22",
+          "lat": 56.1673498,
+          "lon": 10.2141707
+        }
+      ],
+      "Risskov": [
+        {
+          "address": "Strandvænget",
+          "time": "onsdag d. 21/1 kl. 17.29",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport22012026/2026/01/22",
+          "lat": 56.1875059,
+          "lon": 10.2386543
+        },
+        {
+          "address": "Badevej",
+          "time": "onsdag d. 21/1 mellem kl. 16.59 og kl. 17.07",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport22012026/2026/01/22",
+          "lat": 56.1831017,
+          "lon": 10.2370903
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Søskrænten",
+          "time": "tirsdag d. 4/11 mellem kl. 07.00 og kl. 21.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport22012026/2026/01/22",
+          "lat": 56.1338572,
+          "lon": 10.1285105
+        }
+      ]
+    }
+  },
+  "2026-01-21": {
+    "Østjyllands Politi": {
+      "Åbyhøj": [
+        {
+          "address": "Silkeborgvej",
+          "time": "mellem mandag d. 19/1 kl. 20.00 og tirsdag d. 20/1 kl. 08.45",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport21012026/2026/01/21",
+          "lat": 56.1561872,
+          "lon": 10.1794238
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Guldsmedgade",
+          "time": "tirsdag d. 20/1 kl. 18.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport21012026/2026/01/21",
+          "lat": 56.1584596,
+          "lon": 10.2073547
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Råhøjvænget",
+          "time": "tirsdag d. 20/1 mellem kl. 06.55 og kl. 19.20",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport21012026/2026/01/21",
+          "lat": 56.1325609,
+          "lon": 10.11125
+        }
+      ]
+    }
+  },
+  "2026-01-20": {
+    "Østjyllands Politi": {
+      "Hasselager": [
+        {
+          "address": "Sletvej",
+          "time": "lørdag d. 17/1 mellem kl. 01.00 og kl. 04.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-januar-2026/2026/01/20",
+          "lat": 56.107262,
+          "lon": 10.1316253
+        }
+      ],
+      "Aarhus C": [
+        {
+          "address": "Sølystgade",
+          "time": "mandag d. 19/1 mellem kl. 07.00 og kl. 16.00",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-januar-2026/2026/01/20",
+          "lat": 56.1619771,
+          "lon": 10.2047964
+        }
+      ],
+      "Viby J": [
+        {
+          "address": "Søskrænten",
+          "time": "mandag d. 19/1 kl. 18.25",
+          "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-20-januar-2026/2026/01/20",
+          "lat": 56.1338572,
+          "lon": 10.1285105
+        }
+      ]
+    }
+  },
   "2026-01-19": {
     "Østjyllands Politi": {
       "Aarhus C": [

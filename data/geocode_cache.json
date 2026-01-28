@@ -43034,5 +43034,61 @@
   "Frøkjærvænget, Harlev, Denmark": {
     "lat": 56.1491321,
     "lon": 9.9791552
+  },
+  "Ladefogedvej, Aarhus": {
+    "lat": 56.1992051,
+    "lon": 10.1842395
+  },
+  "Sletvej, Tranbjerg": {
+    "lat": 56.107262,
+    "lon": 10.1316253
+  },
+  "Sletvej, Tranbjerg, Denmark": {
+    "lat": 56.107262,
+    "lon": 10.1316253
+  },
+  "Stenhøjsvej, Viby J": {
+    "lat": 56.1253246,
+    "lon": 10.1801629
+  },
+  "Stenhøjsvej, Viby J, Denmark": {
+    "lat": 56.1253246,
+    "lon": 10.1801629
+  },
+  "Løvsangervej, Rønde": {
+    "lat": 56.234454,
+    "lon": 10.333567
+  },
+  "Løvsangervej, Denmark": {
+    "lat": 56.234454,
+    "lon": 10.333567
+  },
+  "Byvej, Beder": {
+    "lat": 56.0575597,
+    "lon": 10.2055045
+  },
+  "Byvej, Beder, Denmark": {
+    "lat": 56.0575597,
+    "lon": 10.2055045
+  },
+  "Lundeparken, Odder": {
+    "lat": 55.9695154,
+    "lon": 10.1572881
+  },
+  "Lundeparken, Odder, Denmark": {
+    "lat": 55.9695154,
+    "lon": 10.1572881
+  },
+  "Højbovej, Højbjerg": {
+    "lat": 56.1142457,
+    "lon": 10.1695331
+  },
+  "Højbovej, Aarhus, Denmark": {
+    "lat": 56.1142457,
+    "lon": 10.1695331
+  },
+  "Råhøjvænget, Viby J": {
+    "lat": 56.1325609,
+    "lon": 10.11125
   }
 }
