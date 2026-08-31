@@ -1,0 +1,17 @@
+{
+  "name": "indbrud-oestjylland",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "node-html-parser": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.4.1"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
