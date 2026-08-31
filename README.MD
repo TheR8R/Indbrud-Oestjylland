@@ -10,9 +10,10 @@ This project scrapes daily police reports, extracts break-in information, geocod
 
 - **[Bun](https://bun.sh/)** — JavaScript runtime
 - **[OpenStreetMap Nominatim](https://nominatim.openstreetmap.org/)** — Geocoding API
-- **[Leaflet.js](https://leafletjs.com/)** — Interactive map library
-- **[Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)** — Marker clustering plugin
+- **[Leaflet.js](https://leafletjs.com/)** — Interactive map library - only needed for local development
+- **[Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)** — Marker clustering plugin, only needed for local development
 - **[node-html-parser](https://www.npmjs.com/package/node-html-parser)** — HTML parsing
+
 
 ## Project Structure
 

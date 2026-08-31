@@ -1914,5 +1914,182 @@
     "reason": "not_found",
     "address": "Erik Klippingvej",
     "city": "Randers SØ"
+  },
+  "Der er det seneste døgn anmeldt 11 indbrud, privat beboelse i Østjyllands politikreds.På Klokkeskovvej, 8260 Viby J,": {
+    "reason": "not_found",
+    "address": "Der er det seneste døgn anmeldt 11 indbrud",
+    "city": "privat beboelse i Østjyllands politikreds.På Klokkeskovvej, 8260 Viby J,"
+  },
+  "Grejsvang, Havndal": {
+    "reason": "out_of_bounds",
+    "address": "Grejsvang",
+    "city": "Havndal",
+    "found_lat": 56.6126419,
+    "found_lon": 10.2163062,
+    "found_name": "Grejsvang, Råby, Randers Kommune, Region Midtjylland, 8970, Danmark"
+  },
+  "Fældevænget, Århus V": {
+    "reason": "not_found",
+    "address": "Fældevænget",
+    "city": "Århus V"
+  },
+  "Grumstolvej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Grumstolvej",
+    "city": "Højbjerg"
+  },
+  "Tuestenvej, Tilst": {
+    "reason": "not_found",
+    "address": "Tuestenvej",
+    "city": "Tilst"
+  },
+  "Torstilsgårdsvej, Tilst": {
+    "reason": "not_found",
+    "address": "Torstilsgårdsvej",
+    "city": "Tilst"
+  },
+  "Østervangsvej Allé, Auning": {
+    "reason": "not_found",
+    "address": "Østervangsvej Allé",
+    "city": "Auning"
+  },
+  "Carstenschioldsvej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Carstenschioldsvej",
+    "city": "Højbjerg"
+  },
+  "Harrestien, Højbjerg": {
+    "reason": "not_found",
+    "address": "Harrestien",
+    "city": "Højbjerg"
+  },
+  "Clausholmsvej, Randers SØ": {
+    "reason": "not_found",
+    "address": "Clausholmsvej",
+    "city": "Randers SØ"
+  },
+  "Røjhøjs Ager, Odder": {
+    "reason": "not_found",
+    "address": "Røjhøjs Ager",
+    "city": "Odder"
+  },
+  "Hornslets Allé, Grenaa": {
+    "reason": "not_found",
+    "address": "Hornslets Allé",
+    "city": "Grenaa"
+  },
+  "Vesborgvej på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Vesborgvej på Samsø",
+    "city": "Ukendt"
+  },
+  "Kløvervanggen, Randers NV": {
+    "reason": "not_found",
+    "address": "Kløvervanggen",
+    "city": "Randers NV"
+  },
+  "Tingskovs Allé, Tranbjerg J": {
+    "reason": "not_found",
+    "address": "Tingskovs Allé",
+    "city": "Tranbjerg J"
+  },
+  "Theisvej, Randers SØ": {
+    "reason": "out_of_bounds",
+    "address": "Theisvej",
+    "city": "Randers SØ",
+    "found_lat": 55.6403467,
+    "found_lon": 12.6210245,
+    "found_name": "Theisvej, Sundbyøster, Sundbyerne, Københavns Kommune, Region Hovedstaden, 2300, Danmark"
+  },
+  "Vangevej på Samsø, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Vangevej på Samsø",
+    "city": "Ukendt"
+  },
+  "Eskerodsvej, Hornslet": {
+    "reason": "not_found",
+    "address": "Eskerodsvej",
+    "city": "Hornslet"
+  },
+  "Kirstrupvej, Randers SØ": {
+    "reason": "not_found",
+    "address": "Kirstrupvej",
+    "city": "Randers SØ"
+  },
+  "Kalkkjærvej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Kalkkjærvej",
+    "city": "Højbjerg"
+  },
+  "Stenshøjsvej, Viby J": {
+    "reason": "not_found",
+    "address": "Stenshøjsvej",
+    "city": "Viby J"
+  },
+  "Killevangs Allé, Viby J": {
+    "reason": "not_found",
+    "address": "Killevangs Allé",
+    "city": "Viby J"
+  },
+  "Obstrupegnen, Mårslet": {
+    "reason": "not_found",
+    "address": "Obstrupegnen",
+    "city": "Mårslet"
+  },
+  "Stevnsvej, Odder": {
+    "reason": "out_of_bounds",
+    "address": "Stevnsvej",
+    "city": "Odder",
+    "found_lat": 55.7284882,
+    "found_lon": 9.8414931,
+    "found_name": "Stevnsvej, Vrigsted, Hedensted Kommune, Region Midtjylland, 8783, Danmark"
+  },
+  "Mustrupsvej, Solbjerg": {
+    "reason": "not_found",
+    "address": "Mustrupsvej",
+    "city": "Solbjerg"
+  },
+  "Bastrup Alle, Randers SV": {
+    "reason": "not_found",
+    "address": "Bastrup Alle",
+    "city": "Randers SV"
+  },
+  "Poul M. Møllers Vej, Aarhus C": {
+    "reason": "not_found",
+    "address": "Poul M. Møllers Vej",
+    "city": "Aarhus C"
+  },
+  "Vester Alle 29 2. TV., Aarhus C": {
+    "reason": "not_found",
+    "address": "Vester Alle 29 2. TV.",
+    "city": "Aarhus C"
+  },
+  "Hejredalsvej, Ukendt": {
+    "reason": "unknown_city",
+    "address": "Hejredalsvej",
+    "city": "Ukendt"
+  },
+  "H.P. Rosenvinges Pl., Grenaa": {
+    "reason": "not_found",
+    "address": "H.P. Rosenvinges Pl.",
+    "city": "Grenaa"
+  },
+  "Vilhelm Bechs Vej, Viby": {
+    "reason": "not_found",
+    "address": "Vilhelm Bechs Vej",
+    "city": "Viby"
+  },
+  "C. A. Tyregods Vej, Åbyhøj": {
+    "reason": "not_found",
+    "address": "C. A. Tyregods Vej",
+    "city": "Åbyhøj"
+  },
+  "Højgårdvej, Gjerlev J": {
+    "reason": "out_of_bounds",
+    "address": "Højgårdvej",
+    "city": "Gjerlev J",
+    "found_lat": 56.1664079,
+    "found_lon": 8.9242527,
+    "found_name": "Højgårdvej, Tjørring, Herning, Herning Kommune, Region Midtjylland, 7400, Danmark"
   }
 }
