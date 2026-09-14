@@ -1,6 +1,598 @@
 {
-  "lastUpdated": "2026-08-31T06:31:21.073Z",
+  "lastUpdated": "2026-09-14T10:13:16.640Z",
   "data": {
+    "2026-09-14": {
+      "Østjyllands Politi": {
+        "Egå": [
+          {
+            "address": "Bredkær Vænge",
+            "time": "mellem fredag d. 11/9 kl. 14.00 og søndag d. 13/9 kl. 12.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-september-2026/2026/09/14",
+            "lat": 56.2168416,
+            "lon": 10.2833396
+          },
+          {
+            "address": "Toftesvinget",
+            "time": "mellem fredag d. 11/9 kl. 17.00 og søndag d. 13/9 kl. 16.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-september-2026/2026/09/14",
+            "lat": 56.2234911,
+            "lon": 10.2958323
+          },
+          {
+            "address": "Kystparkvej",
+            "time": "mellem fredag d. 11/9 kl. 07.00 og søndag d. 13/9 kl. 17.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-september-2026/2026/09/14",
+            "lat": 56.2185912,
+            "lon": 10.2928387
+          },
+          {
+            "address": "Bredkær Parkvej",
+            "time": "mellem fredag d. 11/9 kl. 14.0 og søndag d. 13/9 kl. 17.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-september-2026/2026/09/14",
+            "lat": 56.2164841,
+            "lon": 10.2884072
+          },
+          {
+            "address": "Bredkær parkvej",
+            "time": "mellem fredag d. 11/9 kl. 20.00 og søndag d. 13/9 kl. 18.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-september-2026/2026/09/14",
+            "lat": 56.2164841,
+            "lon": 10.2884072
+          }
+        ],
+        "Højbjerg": [
+          {
+            "address": "Grumstolsvej",
+            "time": "mellem torsdag d. 10/9 kl. 19.00 og søndag d. 13/9 kl. 20.10",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-september-2026/2026/09/14",
+            "lat": 56.1149044,
+            "lon": 10.2165969
+          },
+          {
+            "address": "P.S. Krøyers Vej",
+            "time": "mellem søndag d. 6/9 kl. 07.00 og søndag d. 13/9 kl. 21.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-september-2026/2026/09/14",
+            "lat": 56.1238341,
+            "lon": 10.1965573
+          },
+          {
+            "address": "Orionsvej",
+            "time": "mellem lørdag d. 5/9 kl. 12.00 og søndag d. 13/9 kl. 22.20",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-14-september-2026/2026/09/14",
+            "lat": 56.1241464,
+            "lon": 10.1907822
+          }
+        ]
+      }
+    },
+    "2026-09-13": {
+      "Østjyllands Politi": {
+        "Ørum Djurs,": [
+          {
+            "address": "Laenvej",
+            "time": "d. 29/8.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-september-2026/2026/09/13",
+            "lat": 56.4481358,
+            "lon": 10.7113241
+          }
+        ],
+        "Viby,": [
+          {
+            "address": "Kongsgårdsvej",
+            "time": "mellem lørdag d. 12/9 kl. 1430 og d. 13/9 kl. 0135.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-september-2026/2026/09/13",
+            "lat": 56.1259618,
+            "lon": 10.1635657
+          }
+        ],
+        "Højbjerg,": [
+          {
+            "address": "Oddervej",
+            "time": "d. 12/9.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-13-september-2026/2026/09/13",
+            "lat": 56.125401,
+            "lon": 10.2089064
+          }
+        ]
+      }
+    },
+    "2026-09-12": {
+      "Østjyllands Politi": {
+        "Hasselager": [
+          {
+            "address": "Skovhøj",
+            "time": "mellem d. 11/9 kl. 11.00 og kl. 20.45.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-september-2026/2026/09/12",
+            "lat": 56.1117242,
+            "lon": 10.0994951
+          }
+        ],
+        "Randers": [
+          {
+            "address": "Vestergade",
+            "time": "omkring d. 10/9 kl. 07.15",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-september-2026/2026/09/12",
+            "lat": 56.5455263,
+            "lon": 9.9100346
+          }
+        ],
+        "Hjortshøj": [
+          {
+            "address": "Virupvej",
+            "time": "mellem d. 9/9 kl. 10.00 og d, 11/9 kl. 1510.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-12-september-2026/2026/09/12",
+            "lat": 56.2396657,
+            "lon": 10.2756985
+          }
+        ]
+      }
+    },
+    "2026-09-11": {
+      "Østjyllands Politi": {
+        "Egå": [
+          {
+            "address": "Hjortshøjvej",
+            "time": "torsdag d. 10/9 mellem kl. 10.30 og kl. 12.10",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-september-2026/2026/09/11",
+            "lat": 56.2309572,
+            "lon": 10.2904619
+          },
+          {
+            "address": "Havagervej",
+            "time": "torsdag d. 10/9 mellem kl. 13.30 og kl. 21.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-september-2026/2026/09/11",
+            "lat": 56.2322978,
+            "lon": 10.3218356
+          }
+        ],
+        "Aarhus C": [
+          {
+            "address": "Studsgade",
+            "time": "søndag d. 6/9 mellem kl. 00.00 og kl. 17.10",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-september-2026/2026/09/11",
+            "lat": 56.1603405,
+            "lon": 10.2117398
+          }
+        ],
+        "Grenaa": [
+          {
+            "address": "Vinkelvej",
+            "time": "torsdag d. 10/9 mellem kl. 11.15 og kl. 12.20",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-11-september-2026/2026/09/11",
+            "lat": 56.4154693,
+            "lon": 10.8912016
+          }
+        ]
+      }
+    },
+    "2026-09-10": {
+      "Østjyllands Politi": {
+        "Aarhus N": [
+          {
+            "address": "Dybkjærvej",
+            "time": "tirsdag d. 8/9 mellem kl. 08.15 og kl. 16.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport10092026/2026/09/10",
+            "lat": 56.1761671,
+            "lon": 10.1817979
+          }
+        ],
+        "Højbjerg": [
+          {
+            "address": "Oddervej",
+            "time": "mellem torsdag d. 3/9 kl. 16.00 og onsdag d. 9/9 kl. 15.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport10092026/2026/09/10",
+            "lat": 56.1110251,
+            "lon": 10.2087235
+          }
+        ]
+      }
+    },
+    "2026-09-09": {
+      "Østjyllands Politi": {
+        "Aarhus C": [
+          {
+            "address": "De Mezas Vej",
+            "time": "tirsdag d. 8/9 mellem kl. 12.00 og kl. 12.50.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-9-september-2026/2026/09/09",
+            "lat": 56.144844,
+            "lon": 10.1910883
+          }
+        ]
+      }
+    },
+    "2026-09-08": {
+      "Østjyllands Politi": {
+        "Solbjerg": [
+          {
+            "address": "Solbjerg Hovedgade",
+            "time": "mandag d. 7/9 kl. 08.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport08092026/2026/09/08",
+            "lat": 56.0399261,
+            "lon": 10.0831089
+          }
+        ],
+        "Hammel": [
+          {
+            "address": "Jægervej",
+            "time": "mellem søndag d. 6/9 kl. 12.00 og mandag d. 7/9 kl. 07.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport08092026/2026/09/08",
+            "lat": 56.2498276,
+            "lon": 9.8716475
+          }
+        ],
+        "Højbjerg": [
+          {
+            "address": "Elverdalsvej",
+            "time": "mandag d. 7/9 mellem kl. 08.00 og kl. 11.35",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport08092026/2026/09/08",
+            "lat": 56.1120835,
+            "lon": 10.2016417
+          }
+        ],
+        "Aarhus C": [
+          {
+            "address": "Montanagade",
+            "time": "mandag d. 7/9 mellem kl. 07.40 og kl. 15.45",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport08092026/2026/09/08",
+            "lat": 56.1475969,
+            "lon": 10.1999231
+          },
+          {
+            "address": "Skovvejen",
+            "time": "mandag d. 7/9 kl. 18.25",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport08092026/2026/09/08",
+            "lat": 56.1673641,
+            "lon": 10.2183082
+          }
+        ],
+        "Skødstrup": [
+          {
+            "address": "Grenåvej",
+            "time": "mandag d. 7/9 mellem kl. 08.00 og kl. 16.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport08092026/2026/09/08",
+            "lat": 56.2577942,
+            "lon": 10.3041594
+          }
+        ],
+        "Grenaa": [
+          {
+            "address": "Sønder Allé",
+            "time": "mellem torsdag d. 3/9 kl. 12.00 og søndag d. 6/9 kl. 17.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport08092026/2026/09/08",
+            "lat": 56.4108566,
+            "lon": 10.8804628
+          }
+        ]
+      }
+    },
+    "2026-09-07": {
+      "Østjyllands Politi": {
+        "Åbyhøj": [
+          {
+            "address": "Søren Frichs Vej",
+            "time": "søndag d. 6/9 mellem kl. 02.00 og kl. 10.45",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport07092026/2026/09/07",
+            "lat": 56.1527667,
+            "lon": 10.1785277
+          }
+        ],
+        "Randers C": [
+          {
+            "address": "Nattergalvej",
+            "time": "mellem torsdag d. 3/9 kl. 12.00 og søndag d. 6/9 kl. 12.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport07092026/2026/09/07",
+            "lat": 56.4692696,
+            "lon": 10.0397365
+          }
+        ],
+        "Hammel": [
+          {
+            "address": "Skovbrynet",
+            "time": "mellem fredag d. 4/9 kl. 13.52 og søndag d. 6/9 kl. 13.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport07092026/2026/09/07",
+            "lat": 56.2638334,
+            "lon": 9.8570155
+          }
+        ],
+        "Sabro": [
+          {
+            "address": "Sydmarken",
+            "time": "mellem fredag d. 4/9 kl. 18.00 og søndag d. 6/9 kl. 20.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/doegnrapport07092026/2026/09/07",
+            "lat": 56.2228297,
+            "lon": 9.9738059
+          }
+        ]
+      }
+    },
+    "2026-09-06": {
+      "Østjyllands Politi": {
+        "Lystrup": [
+          {
+            "address": "Stokbrovej",
+            "time": "mellem d. 04/09 kl. 15:30 og lørdag d. 05/09 kl. 11:10.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-soendag-d-6-september-2026/2026/09/06",
+            "lat": 56.237564,
+            "lon": 10.2005521
+          }
+        ],
+        "Aarhus": [
+          {
+            "address": "Vejlby Ringvej",
+            "time": "lørdag d. 05/09 kl. 14:16.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-soendag-d-6-september-2026/2026/09/06",
+            "lat": 56.1831462,
+            "lon": 10.2007453
+          },
+          {
+            "address": "Risvang Allé",
+            "time": "søndag d. 06/09 kl. 00:17.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-soendag-d-6-september-2026/2026/09/06",
+            "lat": 56.18227,
+            "lon": 10.2133624
+          }
+        ],
+        "Risskov": [
+          {
+            "address": "Agerbæksvej",
+            "time": "d. 05/09 kl. 16:30 og søndag d. 06/09 kl. 01:23.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-soendag-d-6-september-2026/2026/09/06",
+            "lat": 56.1875599,
+            "lon": 10.2200732
+          }
+        ]
+      }
+    },
+    "2026-09-05": {
+      "Østjyllands Politi": {
+        "Risskov": [
+          {
+            "address": "Ternevej",
+            "time": "torsdag d.03/09 mellem kl.14:10 og kl.22:30.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-loerdag-d-5-september-2026/2026/09/05",
+            "lat": 56.1985812,
+            "lon": 10.2618554
+          }
+        ],
+        "Tilst": [
+          {
+            "address": "Halmøvænget",
+            "time": "mellem fredag d.04/09 kl. 17:40 og kl. 22:50.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-loerdag-d-5-september-2026/2026/09/05",
+            "lat": 56.178167,
+            "lon": 10.105819
+          }
+        ]
+      }
+    },
+    "2026-09-04": {
+      "Østjyllands Politi": {
+        "Hinnerup": [
+          {
+            "address": "Højager",
+            "time": "mellem torsdag d. 27/8 kl. 00.00 og onsdag d. 2/9 kl. 18.00.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-september-2026/2026/09/04",
+            "lat": 56.2614699,
+            "lon": 10.083374
+          }
+        ],
+        "Grenå": [
+          {
+            "address": "Fredensgade",
+            "time": "mellem onsdag d. 2/9 kl. 23.59 og torsdag d. 3/9 kl. 06.30.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-september-2026/2026/09/04",
+            "lat": 56.4154763,
+            "lon": 10.8834101
+          }
+        ],
+        "Lystrup": [
+          {
+            "address": "Rugmarken",
+            "time": "torsdag d. 3/9 mellem kl. 07.45 og kl. 16.20.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-september-2026/2026/09/04",
+            "lat": 56.2364931,
+            "lon": 10.24813
+          }
+        ],
+        "Aarhus V": [
+          {
+            "address": "Holmstrupgårdvej",
+            "time": "mellem torsdag d. 30/7 kl. 12.00 og torsdag d. 3/9 kl. 16.50.",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-4-september-2026/2026/09/04",
+            "lat": 56.172024,
+            "lon": 10.1178324
+          }
+        ]
+      }
+    },
+    "2026-09-03": {
+      "Østjyllands Politi": {
+        "Brabrand": [
+          {
+            "address": "Voldbækvej",
+            "time": "fredag d. 28/8 mellem kl. 12.00 og kl. 15.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-september-2026/2026/09/03",
+            "lat": 56.1521586,
+            "lon": 10.0970456
+          }
+        ],
+        "Aarhus C": [
+          {
+            "address": "Knudrisgade",
+            "time": "mellem lørdag d. 25/4 kl. 11.00 og mandag d. 27/4 kl. 11.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-3-september-2026/2026/09/03",
+            "lat": 56.1628813,
+            "lon": 10.2133732
+          }
+        ]
+      }
+    },
+    "2026-09-02": {
+      "Østjyllands Politi": {
+        "Ørsted": [
+          {
+            "address": "Møllevej",
+            "time": "mellem søndag d. 30/8 kl. 15.00 og tirsdag d. 1/9 kl. 13.15",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-2-september-2026/2026/09/02",
+            "lat": 56.5031882,
+            "lon": 10.3351577
+          }
+        ],
+        "Højbjerg": [
+          {
+            "address": "Emiliehøj",
+            "time": "tirsdag d. 1/9 mellem kl. 11.15 og kl. 12.55",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-2-september-2026/2026/09/02",
+            "lat": 56.1103887,
+            "lon": 10.2098261
+          }
+        ],
+        "Grenaa": [
+          {
+            "address": "Solvangs Allé",
+            "time": "mellem søndag d. 1/9 kl. 12.00 og tirsdag d. 1/9 kl. 16.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-2-september-2026/2026/09/02",
+            "lat": 56.4173688,
+            "lon": 10.8827198
+          }
+        ],
+        "Beder": [
+          {
+            "address": "Engdalgårdsvej",
+            "time": "mellem lørdag d. 22/8 kl. 11.00 og tirsdag d. 1/9 kl. 16.08",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-2-september-2026/2026/09/02",
+            "lat": 56.0611678,
+            "lon": 10.20605
+          }
+        ],
+        "Sabro": [
+          {
+            "address": "Multebærvej",
+            "time": "tirsdag d. 1/9 mellem kl. 08.30 og kl. 16.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-2-september-2026/2026/09/02",
+            "lat": 56.2137529,
+            "lon": 10.0281765
+          }
+        ]
+      }
+    },
+    "2026-09-01": {
+      "Østjyllands Politi": {
+        "Grenaa": [
+          {
+            "address": "Storegade",
+            "time": "torsdag d. 27/8 kl. 15.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-september-2026/2026/09/01",
+            "lat": 56.4152049,
+            "lon": 10.869738
+          }
+        ],
+        "Tilst": [
+          {
+            "address": "Langkærvej",
+            "time": "mandag d. 10/8 mellem kl. 10.00 og kl. 15.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-1-september-2026/2026/09/01",
+            "lat": 56.1874978,
+            "lon": 10.1049065
+          }
+        ]
+      }
+    },
+    "2026-08-31": {
+      "Østjyllands Politi": {
+        "Viby J": [
+          {
+            "address": "Risdalsvej",
+            "time": "mellem lørdag d. 29/8 kl. 07.30 og søndag d. 30/8 kl. 10.40",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.1211166,
+            "lon": 10.1547551
+          }
+        ],
+        "Højbjerg": [
+          {
+            "address": "Ildervej",
+            "time": "mellem lørdag d. 29/8 kl. 00.00 og søndag d. 30/8 kl. 11.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.1103797,
+            "lon": 10.222203
+          },
+          {
+            "address": "Holmevej",
+            "time": "mellem fredag d. 28/8 kl. 03.00 og søndag d. 30/08 kl. 04.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.1202281,
+            "lon": 10.1851285
+          },
+          {
+            "address": "Filippavej",
+            "time": "søndag d. 30/8 mellem kl. 00.00 og kl. 00.30",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.1164675,
+            "lon": 10.183867
+          }
+        ],
+        "Aarhus V": [
+          {
+            "address": "Runestenen",
+            "time": "mellem søndag d. 30/8 kl. 12.30 og søndag d. 30/8 kl. 12.31",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.1758214,
+            "lon": 10.135325
+          }
+        ],
+        "Beder": [
+          {
+            "address": "Svendgårdsvej",
+            "time": "mellem lørdag d. 29/8 kl. 11.00 og søndag d. 30/8 kl. 13.12",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.0582266,
+            "lon": 10.2136188
+          },
+          {
+            "address": "Præstetoften",
+            "time": "mellem lørdag d. 29/8 kl. 11.00 og søndag d. 30/8 kl. 19.05",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.0610578,
+            "lon": 10.2185658
+          }
+        ],
+        "Harlev": [
+          {
+            "address": "Kornelvej",
+            "time": "mellem tirsdag d. 25/8 kl. 12.00 og søndag d. 30/8 kl. 12.45",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.1475394,
+            "lon": 9.9994774
+          }
+        ],
+        "Grenaa": [
+          {
+            "address": "Skovkanten",
+            "time": "mellem fredag d. 28/8 kl. 13.00 og søndag d. 30/8 kl. 14.00",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.4028808,
+            "lon": 10.8784036
+          }
+        ],
+        "Aarhus N": [
+          {
+            "address": "Nordøgade",
+            "time": "mellem torsdag d. 27/8 kl. 04.00 og søndag d. 30/8 kl. 15.08",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.1759765,
+            "lon": 10.1887245
+          },
+          {
+            "address": "Ladefogedvej",
+            "time": "mellem lørdag d. 29/8 kl. 08.00 og søndag d. 30/8 kl. 15.15",
+            "source_url": "https://politi.dk/oestjyllands-politi/doegnrapporter/oestjyllands-politi-uddrag-af-doegnrapporten-31-august-2026/2026/08/31",
+            "lat": 56.1992051,
+            "lon": 10.1842395
+          }
+        ]
+      }
+    },
     "2026-08-30": {
       "Østjyllands Politi": {
         "privat beboelse i Østjyllands politikreds.På Klokkeskovvej, 8260 Viby J,": [

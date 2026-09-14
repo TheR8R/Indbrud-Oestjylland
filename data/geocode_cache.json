@@ -45066,5 +45066,81 @@
   "Frøkærparken, Mårslet, Denmark": {
     "lat": 56.0746563,
     "lon": 10.1523448
+  },
+  "Bredkær parkvej, Egå": {
+    "lat": 56.2164841,
+    "lon": 10.2884072
+  },
+  "Bredkær parkvej, Egå, Denmark": {
+    "lat": 56.2164841,
+    "lon": 10.2884072
+  },
+  "Laenvej, Ørum Djurs,": {
+    "lat": 56.4481358,
+    "lon": 10.7113241
+  },
+  "Kongsgårdsvej, Viby,": {
+    "lat": 56.1259618,
+    "lon": 10.1635657
+  },
+  "Kongsgårdsvej, Viby,, Denmark": {
+    "lat": 56.1259618,
+    "lon": 10.1635657
+  },
+  "Oddervej, Højbjerg,": {
+    "lat": 56.125401,
+    "lon": 10.2089064
+  },
+  "Oddervej, Højbjerg,, Denmark": {
+    "lat": 56.125401,
+    "lon": 10.2089064
+  },
+  "Vinkelvej, Grenaa": {
+    "lat": 56.4154693,
+    "lon": 10.8912016
+  },
+  "Vinkelvej, Grenaa, Denmark": {
+    "lat": 56.4154693,
+    "lon": 10.8912016
+  },
+  "De Mezas Vej, Aarhus C": {
+    "lat": 56.144844,
+    "lon": 10.1910883
+  },
+  "De Mezas Vej, Denmark": {
+    "lat": 56.144844,
+    "lon": 10.1910883
+  },
+  "Vejlby Ringvej, Aarhus": {
+    "lat": 56.1831462,
+    "lon": 10.2007453
+  },
+  "Risvang Allé, Aarhus": {
+    "lat": 56.18227,
+    "lon": 10.2133624
+  },
+  "Emiliehøj, Højbjerg": {
+    "lat": 56.1103887,
+    "lon": 10.2098261
+  },
+  "Emiliehøj, Højbjerg, Denmark": {
+    "lat": 56.1103887,
+    "lon": 10.2098261
+  },
+  "Runestenen, Aarhus V": {
+    "lat": 56.1758214,
+    "lon": 10.135325
+  },
+  "Runestenen, Aarhus, Denmark": {
+    "lat": 56.1758214,
+    "lon": 10.135325
+  },
+  "Skovkanten, Grenaa": {
+    "lat": 56.4028808,
+    "lon": 10.8784036
+  },
+  "Skovkanten, Grenaa, Denmark": {
+    "lat": 56.4028808,
+    "lon": 10.8784036
   }
 }
