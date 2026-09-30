@@ -45142,5 +45142,161 @@
   "Skovkanten, Grenaa, Denmark": {
     "lat": 56.4028808,
     "lon": 10.8784036
+  },
+  "Hesselbjergbakken, Bjerringbro": {
+    "lat": 56.369541,
+    "lon": 9.6979642
+  },
+  "Hesselbjergbakken, Bjerringbro, Denmark": {
+    "lat": 56.369541,
+    "lon": 9.6979642
+  },
+  "Bavnehøjvej, Thorsø": {
+    "lat": 56.3165386,
+    "lon": 9.8145125
+  },
+  "Bavnehøjvej, Thorsø, Denmark": {
+    "lat": 56.3165386,
+    "lon": 9.8145125
+  },
+  "Bredstrupsgade, Randers C": {
+    "lat": 56.4645,
+    "lon": 10.030357
+  },
+  "Bredstrupsgade, Denmark": {
+    "lat": 56.4645,
+    "lon": 10.030357
+  },
+  "Vestergade, Gjerlev": {
+    "lat": 56.5868043,
+    "lon": 10.1279505
+  },
+  "Vestergade, Gjerlev, Denmark": {
+    "lat": 56.5868043,
+    "lon": 10.1279505
+  },
+  "Tvedvej, Risskov": {
+    "lat": 56.1943435,
+    "lon": 10.2323678
+  },
+  "Tvedvej, Risskov, Denmark": {
+    "lat": 56.1943435,
+    "lon": 10.2323678
+  },
+  "Skyttevej, Hammel": {
+    "lat": 56.252459,
+    "lon": 9.8696067
+  },
+  "Skyttevej, Hammel, Denmark": {
+    "lat": 56.252459,
+    "lon": 9.8696067
+  },
+  "Herosvej, Randers Sø": {
+    "lat": 56.4285598,
+    "lon": 10.0738226
+  },
+  "Fuglsøvej, Ørum Djurs": {
+    "lat": 56.2021427,
+    "lon": 10.2402613
+  },
+  "Askøvænget, Tilst": {
+    "lat": 56.1801757,
+    "lon": 10.1001503
+  },
+  "Askøvænget, Tilst, Denmark": {
+    "lat": 56.1801757,
+    "lon": 10.1001503
+  },
+  "Regenburgsgade, Aarhus C": {
+    "lat": 56.1570843,
+    "lon": 10.1852649
+  },
+  "Regenburgsgade, Denmark": {
+    "lat": 56.1570843,
+    "lon": 10.1852649
+  },
+  "Møllevangen, Hammelegået mellem fredag d. 19/9 og søndag d. 20/9": {
+    "lat": 56.1855866,
+    "lon": 10.212842
+  },
+  "Voldgårdsvej, Højberg": {
+    "lat": 56.1150927,
+    "lon": 10.1669718
+  },
+  "Voldgårdsvej, Denmark": {
+    "lat": 56.1150927,
+    "lon": 10.1669718
+  },
+  "Haarbakken, Hinnerup": {
+    "lat": 56.2786374,
+    "lon": 10.075173
+  },
+  "Haarbakken, Hinnerup, Denmark": {
+    "lat": 56.2786374,
+    "lon": 10.075173
+  },
+  "Skovsangervej, Hinnerup": {
+    "lat": 56.2774657,
+    "lon": 10.0602653
+  },
+  "Skovsangervej, Hinnerup, Denmark": {
+    "lat": 56.2774657,
+    "lon": 10.0602653
+  },
+  "Langørvej, Tilst": {
+    "lat": 56.1838203,
+    "lon": 10.1127882
+  },
+  "Langørvej, Tilst, Denmark": {
+    "lat": 56.1838203,
+    "lon": 10.1127882
+  },
+  "Holme Parkvej, Højbjerg,": {
+    "lat": 56.1054848,
+    "lon": 10.1753233
+  },
+  "Bøgehaven, Lystrup,": {
+    "lat": 56.2396331,
+    "lon": 10.2474677
+  },
+  "Bøgehaven, Lystrup,, Denmark": {
+    "lat": 56.2396331,
+    "lon": 10.2474677
+  },
+  "Snebærvej, Højbjerg,": {
+    "lat": 56.1165058,
+    "lon": 10.1820572
+  },
+  "Blåmunkevej, Hammel": {
+    "lat": 56.2617946,
+    "lon": 9.8573809
+  },
+  "Blåmunkevej, Hammel, Denmark": {
+    "lat": 56.2617946,
+    "lon": 9.8573809
+  },
+  "Bilsbækvej, Odder": {
+    "lat": 55.9329015,
+    "lon": 10.0903917
+  },
+  "Bilsbækvej, Odder, Denmark": {
+    "lat": 55.9329015,
+    "lon": 10.0903917
+  },
+  "Elmevej, Hinnerup": {
+    "lat": 56.2570314,
+    "lon": 10.0681956
+  },
+  "Elmevej, Hinnerup, Denmark": {
+    "lat": 56.2570314,
+    "lon": 10.0681956
+  },
+  "Bregnevej, Randers NV": {
+    "lat": 56.4572723,
+    "lon": 9.9652667
+  },
+  "Bregnevej, Randers, Denmark": {
+    "lat": 56.4572723,
+    "lon": 9.9652667
   }
 }

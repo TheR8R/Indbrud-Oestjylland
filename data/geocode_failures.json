@@ -2091,5 +2091,20 @@
     "found_lat": 56.1664079,
     "found_lon": 8.9242527,
     "found_name": "Højgårdvej, Tjørring, Herning, Herning Kommune, Region Midtjylland, 7400, Danmark"
+  },
+  "Emiliehøjvej, Højbjerg": {
+    "reason": "not_found",
+    "address": "Emiliehøjvej",
+    "city": "Højbjerg"
+  },
+  "Mineravej, Hammel": {
+    "reason": "not_found",
+    "address": "Mineravej",
+    "city": "Hammel"
+  },
+  "Spurevej, Hammel": {
+    "reason": "not_found",
+    "address": "Spurevej",
+    "city": "Hammel"
   }
 }
